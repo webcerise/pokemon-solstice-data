@@ -5,6 +5,46 @@
     "passives": 95,
     "moves": 227
   },
+  "locationCoverage": {
+    "pokemonWithLocations": 141,
+    "pokemonWithoutLocations": [
+      "Amonita",
+      "Amonistar",
+      "Kabuto",
+      "Kabutops",
+      "Ptéra",
+      "Artikodin",
+      "Électhor",
+      "Sulfura",
+      "Mewtwo",
+      "Mew"
+    ],
+    "uniqueLocations": [
+      "Bourg-Racine",
+      "Braisemer",
+      "Caldeira Ardente",
+      "Caverne de Basalte",
+      "Cendrées",
+      "Complexe de l’Acier",
+      "Désert des Monolithes",
+      "Étang Miroir",
+      "Frimas",
+      "Jungle Suspendue",
+      "Lac de l'Azur Clair",
+      "Lande des Moulins",
+      "Marais des Souches",
+      "Montcime",
+      "Pic des Nuées",
+      "Plaine du Levant",
+      "Portécume",
+      "Récif des Voiles",
+      "Rives des Roches",
+      "Rivière des Épreuves",
+      "Route Victoire",
+      "Vallon Moussu",
+      "Vieillecour"
+    ]
+  },
   "unresolvedMoveTranslations": [],
   "moveMatchSuggestions": [],
   "unresolvedReferences": {

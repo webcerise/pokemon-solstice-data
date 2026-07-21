@@ -5,7 +5,7 @@ Déposer ce dossier dans un dépôt GitHub public, par exemple sous `data/pokede
 ## Fichiers utilisés par la page
 
 - `index.json` : manifeste et nombre d'entrées.
-- `pokemon.json` : Pokémon, statistiques et références vers les autres fichiers.
+- `pokemon.json` : Pokémon, statistiques, zones de capture et références vers les autres fichiers. Les lieux sont fournis dans le tableau `locations`.
 - `moves.json` : capacités avec noms anglais et français.
 - `skills.json` : compétences avec noms et descriptions bilingues.
 - `passives.json` : passifs avec noms et descriptions bilingues.

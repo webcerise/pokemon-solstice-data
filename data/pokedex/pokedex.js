@@ -22,7 +22,11 @@
     grid: $("#solstice-pokedex-grid"), status: $("#solstice-pokedex-status"), moveType: $("#solstice-pokedex-move-type"),
     modal: $("#solstice-pokedex-modal"), detail: $("#solstice-pokedex-detail"), close: $("#solstice-pokedex-close")
   };
-  const state = { pokemon: [], byId: new Map(), skills: [], passives: [], moves: [], maps: {}, users: {} };
+  const state = {
+    pokemon: [], byId: new Map(), skills: [], passives: [], moves: [], maps: {}, users: {},
+    pages: { pokemon: 1, skills: 1, passives: 1, moves: 1 },
+    perPage: { pokemon: 12, skills: 10, passives: 10, moves: 10 }
+  };
 
   function option(select, value) {
     const item = el("option", "", value); item.value = value; select.appendChild(item);
@@ -64,7 +68,7 @@
 
   function pokemonMatches(pokemon) {
     const query = normalize(ui.search.value);
-    return (!query || normalize(`${pokemon.id} ${pokemon.name.fr} ${pokemon.name.en}`).includes(query)) &&
+    return (!query || normalize(`${pokemon.id} ${pokemon.name.fr} ${pokemon.name.en} ${(pokemon.locations || []).join(" ")}`).includes(query)) &&
       (!ui.type.value || pokemon.types.includes(ui.type.value)) && (!ui.rarity.value || pokemon.rarity === ui.rarity.value) &&
       (!ui.size.value || pokemon.size === ui.size.value) && (ui.disabled.checked || pokemon.enabled);
   }
@@ -79,12 +83,43 @@
     card.append(visual, copy); card.addEventListener("click", () => openPokemon(pokemon)); return card;
   }
 
+  function renderPagination(kind, total, callback) {
+    const container = $(`[data-pagination="${kind}"]`, root);
+    const pageCount = Math.max(1, Math.ceil(total / state.perPage[kind]));
+    state.pages[kind] = Math.min(Math.max(1, state.pages[kind]), pageCount);
+    container.innerHTML = "";
+    if (pageCount <= 1) { container.hidden = true; return; }
+    container.hidden = false;
+
+    const changePage = (page) => {
+      state.pages[kind] = page; callback();
+      const panel = $(`[data-pokedex-panel="${kind === "pokemon" ? "pokemon" : kind}"]`, root);
+      const top = panel.getBoundingClientRect().top + window.scrollY;
+      window.scrollTo({ top, behavior: "smooth" });
+    };
+    const button = (content, page, label, active, disabled) => {
+      const item = el("button", active ? "active" : ""); item.type = "button"; item.disabled = Boolean(disabled); item.setAttribute("aria-label", label); item.setAttribute("aria-current", active ? "page" : "false");
+      if (content.startsWith("ph ")) item.appendChild(el("i", content)); else item.textContent = content;
+      item.addEventListener("click", () => changePage(page)); container.appendChild(item);
+    };
+    const current = state.pages[kind];
+    button("ph ph-caret-left", current - 1, "Page précédente", false, current === 1);
+    let start = Math.max(1, current - 2); let end = Math.min(pageCount, start + 4); start = Math.max(1, end - 4);
+    if (start > 1) { button("1", 1, "Page 1", current === 1); if (start > 2) container.appendChild(el("span", "", "…")); }
+    for (let page = start; page <= end; page += 1) button(String(page), page, `Page ${page}`, page === current);
+    if (end < pageCount) { if (end < pageCount - 1) container.appendChild(el("span", "", "…")); button(String(pageCount), pageCount, `Page ${pageCount}`, current === pageCount); }
+    button("ph ph-caret-right", current + 1, "Page suivante", false, current === pageCount);
+  }
+
   function renderPokemon() {
     const result = state.pokemon.filter(pokemonMatches).sort((a, b) => a.id - b.id);
-    ui.grid.innerHTML = ""; ui.count.textContent = `${result.length} Pokémon`;
-    if (!result.length) { showStatus("Aucun Pokémon ne correspond à ces filtres."); return; }
+    const pageCount = Math.max(1, Math.ceil(result.length / state.perPage.pokemon)); state.pages.pokemon = Math.min(state.pages.pokemon, pageCount);
+    const start = (state.pages.pokemon - 1) * state.perPage.pokemon; const visible = result.slice(start, start + state.perPage.pokemon);
+    ui.grid.innerHTML = ""; ui.count.textContent = `${result.length} Pokémon — page ${state.pages.pokemon} sur ${pageCount}`;
+    if (!result.length) { showStatus("Aucun Pokémon ne correspond à ces filtres."); renderPagination("pokemon", 0, renderPokemon); return; }
     ui.status.hidden = true;
-    const fragment = document.createDocumentFragment(); result.forEach((pokemon) => fragment.appendChild(pokemonCard(pokemon))); ui.grid.appendChild(fragment);
+    const fragment = document.createDocumentFragment(); visible.forEach((pokemon) => fragment.appendChild(pokemonCard(pokemon))); ui.grid.appendChild(fragment);
+    renderPagination("pokemon", result.length, renderPokemon);
   }
 
   function buildUsage(kind, key) {
@@ -133,9 +168,12 @@
       const haystack = normalize(`${entry.name.fr} ${entry.name.en} ${entry.description?.fr || entry.effect?.fr || ""} ${users.map((pokemon) => pokemon.name.fr).join(" ")}`);
       return (!query || haystack.includes(query)) && (!type || entry.type.fr === type);
     }).sort((a, b) => a.name.fr.localeCompare(b.name.fr, "fr"));
-    container.innerHTML = ""; $(`[data-directory-count="${kind}"]`, root).textContent = `${entries.length} entrées`;
-    if (!entries.length) { container.appendChild(el("div", "solstice-pokedex-empty", "Aucun résultat.")); return; }
-    const fragment = document.createDocumentFragment(); entries.forEach((entry) => fragment.appendChild(directoryCard(entry, kind))); container.appendChild(fragment);
+    const pageCount = Math.max(1, Math.ceil(entries.length / state.perPage[kind])); state.pages[kind] = Math.min(state.pages[kind], pageCount);
+    const start = (state.pages[kind] - 1) * state.perPage[kind]; const visible = entries.slice(start, start + state.perPage[kind]);
+    container.innerHTML = ""; $(`[data-directory-count="${kind}"]`, root).textContent = `${entries.length} entrées — page ${state.pages[kind]} sur ${pageCount}`;
+    if (!entries.length) { container.appendChild(el("div", "solstice-pokedex-empty", "Aucun résultat.")); renderPagination(kind, 0, () => renderDirectory(kind)); return; }
+    const fragment = document.createDocumentFragment(); visible.forEach((entry) => fragment.appendChild(directoryCard(entry, kind))); container.appendChild(fragment);
+    renderPagination(kind, entries.length, () => renderDirectory(kind));
   }
 
   function statName(key) {
@@ -170,6 +208,7 @@
     const facts = el("div", "solstice-pokedex-facts"); [["Rareté", pokemon.rarity], ["Taille", pokemon.size], ["Poids", pokemon.weight], ["Groupe", pokemon.eggGroups.join(", ")]].forEach(([label, value]) => { const item = el("div"); item.append(el("span", "", label), el("strong", "", value || "Non renseigné")); facts.appendChild(item); }); ui.detail.appendChild(facts);
     const stats = el("section", "solstice-pokedex-detail-section"); stats.appendChild(el("h3", "", "Statistiques")); const statGrid = el("div", "solstice-pokedex-stats"); Object.entries(pokemon.stats).forEach(([key, value]) => { if (value === null) return; const item = el("div"); item.append(el("span", "", statName(key)), el("strong", "", value)); statGrid.appendChild(item); }); stats.appendChild(statGrid); ui.detail.appendChild(stats);
     const evolution = el("section", "solstice-pokedex-detail-section"); evolution.appendChild(el("h3", "", "Évolution et reproduction")); const trainerLevel = pokemon.evolution?.trainerLevel; const evolutionText = trainerLevel ? `Niveau de dresseur requis : ${trainerLevel}.` : "Aucun niveau de dresseur particulier n’est requis."; evolution.appendChild(el("p", "", evolutionText)); evolution.appendChild(el("p", "", pokemon.gender.genderless ? "Asexué" : pokemon.gender.femaleRate === null ? "Répartition inconnue" : `${pokemon.gender.femaleRate} % de femelles`)); ui.detail.appendChild(evolution);
+    const locations = el("section", "solstice-pokedex-detail-section solstice-pokedex-locations"); locations.appendChild(el("h3", "", "Où le trouver ?")); const locationList = el("div"); (pokemon.locations || []).forEach((location) => { const tag = el("span"); tag.append(el("i", "ph-fill ph-map-pin"), document.createTextNode(location)); locationList.appendChild(tag); }); if (!locationList.children.length) locationList.appendChild(el("p", "solstice-pokedex-muted", "Aucune zone de capture renseignée.")); locations.appendChild(locationList); ui.detail.appendChild(locations);
     ui.detail.append(linkedDetail("Compétences", pokemon.skillIds, state.maps.skills, "skills"), linkedDetail("Talents", pokemon.passiveIds, state.maps.passives, "passives"), linkedDetail("Capacités", pokemon.moveIds, state.maps.moves, "moves"));
     ui.modal.classList.add("is-open"); ui.modal.setAttribute("aria-hidden", "false"); document.body.classList.add("solstice-pokedex-lock"); ui.close.focus();
   }
@@ -178,11 +217,11 @@
 
   function bind() {
     ui.tabs.forEach((tab) => tab.addEventListener("click", () => activateTab(tab.dataset.pokedexTab)));
-    let timer; ui.search.addEventListener("input", () => { clearTimeout(timer); timer = setTimeout(renderPokemon, 100); });
-    [ui.type, ui.rarity, ui.size, ui.disabled].forEach((input) => input.addEventListener("change", renderPokemon));
-    ui.reset.addEventListener("click", () => { ui.search.value = ""; ui.type.value = ""; ui.rarity.value = ""; ui.size.value = ""; ui.disabled.checked = false; renderPokemon(); });
-    $$("[data-directory-search]", root).forEach((input) => input.addEventListener("input", () => renderDirectory(input.dataset.directorySearch)));
-    ui.moveType.addEventListener("change", () => renderDirectory("moves"));
+    let timer; ui.search.addEventListener("input", () => { clearTimeout(timer); state.pages.pokemon = 1; timer = setTimeout(renderPokemon, 100); });
+    [ui.type, ui.rarity, ui.size, ui.disabled].forEach((input) => input.addEventListener("change", () => { state.pages.pokemon = 1; renderPokemon(); }));
+    ui.reset.addEventListener("click", () => { ui.search.value = ""; ui.type.value = ""; ui.rarity.value = ""; ui.size.value = ""; ui.disabled.checked = false; state.pages.pokemon = 1; renderPokemon(); });
+    $$("[data-directory-search]", root).forEach((input) => input.addEventListener("input", () => { const kind = input.dataset.directorySearch; state.pages[kind] = 1; renderDirectory(kind); }));
+    ui.moveType.addEventListener("change", () => { state.pages.moves = 1; renderDirectory("moves"); });
     ui.close.addEventListener("click", closePokemon); $(".solstice-pokedex-backdrop", root).addEventListener("click", closePokemon); document.addEventListener("keydown", (event) => { if (event.key === "Escape") closePokemon(); });
   }
 
