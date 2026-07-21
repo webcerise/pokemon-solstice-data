@@ -4,7 +4,8 @@
     "pokemon": "pokemon.json",
     "skills": "skills.json",
     "passives": "passives.json",
-    "moves": "moves.json"
+    "moves": "moves.json",
+    "script": "pokedex.js"
   },
   "counts": {
     "pokemon": 151,
