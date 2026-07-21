@@ -4,7 +4,7 @@
 .island-pag-1 .mainContent .solstice-pokedex-panel,.island-pag-1 .mainContent .solstice-pokedex-panel>.content{display:none}
 .island-pag-1 .mainContent .solstice-pokedex-panel.active,.island-pag-1 .mainContent .solstice-pokedex-panel.active>.content{display:block;color:var(--prisld-txt-1)!important}
 .solstice-pokedex .guidebook-hero-art img,.solstice-pokedex img{image-rendering:pixelated}
-.solstice-pokedex .guidebook-hero-art img{height:96px!important;object-fit:contain!important;width:96px!important}
+.solstice-pokedex .guidebook-hero-art img{object-fit: contain !important; image-rendering: auto;}
 .solstice-pokedex-tools{background:var(--prisld-2);border:var(--prisld-border-1);border-radius:15px;display:grid;gap:10px;grid-template-columns:minmax(220px,1.6fr) repeat(3,minmax(120px,.7fr));margin:20px 0 0;padding:14px}
 .solstice-pokedex-tools input,.solstice-pokedex-tools select,.solstice-pokedex-directory-tools select,.solstice-pokedex-directory-search input{background:var(--prisld-1);border:var(--prisld-border-1);border-radius:9px;color:var(--prisld-txt-1);height:41px;outline:0;padding:0 11px;width:100%}
 .solstice-pokedex-tools input:focus,.solstice-pokedex-tools select:focus,.solstice-pokedex-directory-search input:focus{border-color:var(--prisld-color-1)}
