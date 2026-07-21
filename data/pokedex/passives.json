@@ -1,0 +1,1144 @@
+[
+  {
+    "id": "adaptability",
+    "rank": 4,
+    "name": {
+      "en": "Adaptability",
+      "fr": "Adaptabilité"
+    },
+    "description": {
+      "en": "Moves that are the same type as you deal +4 damage.",
+      "fr": "Les capacités du même type que vous infligent +4 dégâts."
+    }
+  },
+  {
+    "id": "aftermath",
+    "rank": 1,
+    "name": {
+      "en": "Aftermath",
+      "fr": "Boom Final"
+    },
+    "description": {
+      "en": "When knocked out by a melee attack, the attacker loses 1d20 HP.",
+      "fr": "Lorsque vous êtes mis K.O. par une attaque de mêlée, l'attaquant perd 1d20 PV."
+    }
+  },
+  {
+    "id": "analytic",
+    "rank": 1,
+    "name": {
+      "en": "Analytic",
+      "fr": "Analyste"
+    },
+    "description": {
+      "en": "When attacking a foe who has already acted this round, deal +4 damage.",
+      "fr": "Lorsque vous attaquez un adversaire ayant déjà agi ce tour, infligez +4 dégâts."
+    }
+  },
+  {
+    "id": "anger-point",
+    "rank": 2,
+    "name": {
+      "en": "Anger Point",
+      "fr": "Colérique"
+    },
+    "description": {
+      "en": "When hit by a critical hit, raise Attack +6 for 10 mins. This passive does not stack.",
+      "fr": "Lorsque vous subissez un coup critique, votre Attaque augmente de +6 pendant 10 minutes. Ce passif ne se cumule pas."
+    }
+  },
+  {
+    "id": "battle-armor",
+    "rank": 3,
+    "name": {
+      "en": "Battle Armor",
+      "fr": "Armurbaston"
+    },
+    "description": {
+      "en": "Critical hits are treated as normal hits against you.",
+      "fr": "Les coups critiques sont traités comme des coups normaux contre vous."
+    }
+  },
+  {
+    "id": "big-pecks",
+    "rank": 1,
+    "name": {
+      "en": "Big Pecks",
+      "fr": "Cœur de Coq"
+    },
+    "description": {
+      "en": "Your Defense cannot be lowered by a foe’s effects.",
+      "fr": "Votre Défense ne peut pas être réduite par les effets d'un adversaire."
+    }
+  },
+  {
+    "id": "blaze",
+    "rank": 3,
+    "name": {
+      "en": "Blaze",
+      "fr": "Brasier"
+    },
+    "description": {
+      "en": "When you are below 20 HP, your Fire-type attacks deal +4 damage.",
+      "fr": "Lorsque vous êtes sous 20 PV, vos attaques de type Feu infligent +4 dégâts."
+    }
+  },
+  {
+    "id": "chlorophyll",
+    "rank": 10,
+    "name": {
+      "en": "Chlorophyll",
+      "fr": "Chlorophylle"
+    },
+    "description": {
+      "en": "While in Sunny Weather, your Speed is +2.",
+      "fr": "Tant que le temps est Ensoleillé, votre Vitesse est de +2."
+    }
+  },
+  {
+    "id": "clear-body",
+    "rank": 1,
+    "name": {
+      "en": "Clear Body",
+      "fr": "Corps Sain"
+    },
+    "description": {
+      "en": "Your stats cannot be lowered by a foe’s effects.",
+      "fr": "Vos statistiques ne peuvent pas être réduites par les effets d'un adversaire."
+    }
+  },
+  {
+    "id": "cloud-nine",
+    "rank": 1,
+    "name": {
+      "en": "Cloud Nine",
+      "fr": "Ciel Gris"
+    },
+    "description": {
+      "en": "As a free action you may deplete one use of Defog and use Defog.,",
+      "fr": "En tant qu'action gratuite, vous pouvez dépenser une utilisation de Anti-Brume et utiliser Anti-Brume."
+    }
+  },
+  {
+    "id": "competitive",
+    "rank": 2,
+    "name": {
+      "en": "Competitive",
+      "fr": "Battant"
+    },
+    "description": {
+      "en": "If a foe lowers any of your stats, you have +2 Special Attack until your lowered stats are returned to normal.",
+      "fr": "Si un adversaire réduit l'une de vos statistiques, vous gagnez +2 en Attaque Spéciale jusqu'à ce que vos statistiques reviennent à la normale."
+    }
+  },
+  {
+    "id": "compound-eyes",
+    "rank": 2,
+    "name": {
+      "en": "Compound Eyes",
+      "fr": "Œil Composé"
+    },
+    "description": {
+      "en": "Add +1 during accuracy check whenever you use a ranged attack.",
+      "fr": "Ajoutez +1 lors du test de précision chaque fois que vous utilisez une attaque à distance."
+    }
+  },
+  {
+    "id": "cursed-body",
+    "rank": 1,
+    "name": {
+      "en": "Cursed Body",
+      "fr": "Corps Maudit"
+    },
+    "description": {
+      "en": "When you are hit by a foe’s melee attack, disable that attack for 10 mins. Cursed Body can only affect one attack at a time.",
+      "fr": "Lorsque vous êtes touché par une attaque de mêlée, cette attaque est neutralisée pendant 10 minutes. Corps Maudit ne peut affecter qu'une seule attaque à la fois."
+    }
+  },
+  {
+    "id": "cute-charm",
+    "rank": 4,
+    "name": {
+      "en": "Cute Charm",
+      "fr": "Joli Sourire"
+    },
+    "description": {
+      "en": "Whenever you are hit with a melee attack, roll 1d4. On 4, Infatuate the attacker.",
+      "fr": "Chaque fois que vous êtes touché par une attaque de mêlée, lancez 1d4. Sur un 4, rendez l'attaquant Amoureux."
+    }
+  },
+  {
+    "id": "damp",
+    "rank": 6,
+    "name": {
+      "en": "Damp",
+      "fr": "Moiteur"
+    },
+    "description": {
+      "en": "Explosion, Misty Explosion, and Self-Destruct fail to do anything if used within 40ft of you.",
+      "fr": "Explosion, Explosion Brumeuse et Destruction échouent si elles sont utilisées dans un rayon de 40 pieds autour de vous."
+    }
+  },
+  {
+    "id": "defiant",
+    "rank": 1,
+    "name": {
+      "en": "Defiant",
+      "fr": "Acharné"
+    },
+    "description": {
+      "en": "If a foe lowers any of your stats, you have +2 Attack until your lowered stats are returned to normal.",
+      "fr": "Si un adversaire réduit l'une de vos statistiques, vous gagnez +2 en Attaque jusqu'à ce que vos statistiques reviennent à la normale."
+    }
+  },
+  {
+    "id": "download",
+    "rank": 1,
+    "name": {
+      "en": "Download",
+      "fr": "Télécharge"
+    },
+    "description": {
+      "en": "Your Attack is +1 against targets with lower Special Defense than Defense. Your Special Attack is +1 against targets with lower Defense than Special Defense.",
+      "fr": "Votre Attaque est de +1 contre les cibles dont la Défense Spéciale est inférieure à leur Défense. Votre Attaque Spéciale est de +1 contre les cibles dont la Défense est inférieure à leur Défense Spéciale."
+    }
+  },
+  {
+    "id": "drought",
+    "rank": 1,
+    "name": {
+      "en": "Drought",
+      "fr": "Sécheresse"
+    },
+    "description": {
+      "en": "As a free action you may deplete one use of Sunny Day and use Sunny Day.",
+      "fr": "En tant qu'action gratuite, vous pouvez dépenser une utilisation de Zénith et utiliser Zénith."
+    }
+  },
+  {
+    "id": "dry-skin",
+    "rank": 2,
+    "name": {
+      "en": "Dry Skin",
+      "fr": "Peau Sèche"
+    },
+    "description": {
+      "en": "In sunny weather, you lose 4 HP at the end of your actions. In rainy weather, you recover 4 HP at the end of your actions. You are immune to Water-type attacks.",
+      "fr": "Par temps Ensoleillé, vous perdez 4 PV à la fin de vos actions. Par temps Pluvieux, vous récupérez 4 PV à la fin de vos actions. Vous êtes immunisé contre les attaques de type Eau."
+    }
+  },
+  {
+    "id": "early-bird",
+    "rank": 2,
+    "name": {
+      "en": "Early Bird",
+      "fr": "Matinal"
+    },
+    "description": {
+      "en": "You roll twice during checks to wake from Sleep and use the higher result.",
+      "fr": "Vous lancez deux fois le dé lors des tests pour vous réveiller du Sommeil et conservez le meilleur résultat."
+    }
+  },
+  {
+    "id": "effect-spore",
+    "rank": 3,
+    "name": {
+      "en": "Effect Spore",
+      "fr": "Pose Spore"
+    },
+    "description": {
+      "en": "Whenever you are hit with a melee attack, roll 1d4. On 4, randomly either Paralyze, Poison, or put to Sleep the attacker.",
+      "fr": "Chaque fois que vous êtes touché par une attaque de mêlée, lancez 1d4. Sur un 4, l'attaquant est aléatoirement Paralysé, Empoisonné ou Endormi."
+    }
+  },
+  {
+    "id": "filter",
+    "rank": 1,
+    "name": {
+      "en": "Filter",
+      "fr": "Filtre"
+    },
+    "description": {
+      "en": "Super-effective attacks against you deal -4 damage after applying weakness.",
+      "fr": "Les attaques super efficaces contre vous infligent 4 dégâts de moins après application de la faiblesse."
+    }
+  },
+  {
+    "id": "flame-body",
+    "rank": 2,
+    "name": {
+      "en": "Flame Body",
+      "fr": "Corps Ardent"
+    },
+    "description": {
+      "en": "Whenever you are hit with a melee attack, roll 1d4. On 4, Burn the attacker.",
+      "fr": "Chaque fois que vous êtes touché par une attaque de mêlée, lancez 1d4. Sur un 4, brûlez l'attaquant."
+    }
+  },
+  {
+    "id": "flash-fire",
+    "rank": 7,
+    "name": {
+      "en": "Flash Fire",
+      "fr": "Torche"
+    },
+    "description": {
+      "en": "You are immune to Fire-type attacks. If you would be hit by a Fire-type attack, your Fire type attacks deal +4 damage for 2 mins.",
+      "fr": "Vous êtes immunisé contre les attaques de type Feu. Si vous deviez être touché par une attaque de type Feu, vos attaques de type Feu infligent +4 dégâts pendant 2 minutes."
+    }
+  },
+  {
+    "id": "focus-energy",
+    "rank": 18,
+    "name": {
+      "en": "Focus Energy",
+      "fr": "Puissance"
+    },
+    "description": {
+      "en": "Attacks are critical hits on natural 18-20",
+      "fr": "Les attaques sont des coups critiques sur un résultat naturel de 18 à 20."
+    }
+  },
+  {
+    "id": "friend-guard",
+    "rank": 3,
+    "name": {
+      "en": "Friend Guard",
+      "fr": "Garde-Ami"
+    },
+    "description": {
+      "en": "Allies within 25ft of you take -1d4 damage when attacked.",
+      "fr": "Les alliés dans un rayon de 25 pieds subissent 1d4 dégâts de moins lorsqu'ils sont attaqués."
+    }
+  },
+  {
+    "id": "guts",
+    "rank": 7,
+    "name": {
+      "en": "Guts",
+      "fr": "Cran"
+    },
+    "description": {
+      "en": "While afflicted, your Attack is +2.",
+      "fr": "Tant que vous êtes affecté par un statut, votre Attaque est de +2."
+    }
+  },
+  {
+    "id": "harvest",
+    "rank": 1,
+    "name": {
+      "en": "Harvest",
+      "fr": "Récolte"
+    },
+    "description": {
+      "en": "When using a Berry, you only use half of it while still gaining its full effects. You can only use half of a Berry if you have Harvest.",
+      "fr": "Lorsque vous utilisez une Baie, vous n'en consommez que la moitié tout en bénéficiant de son effet complet. Vous ne pouvez utiliser une demi-Baie que si vous possédez Récolte."
+    }
+  },
+  {
+    "id": "hustle",
+    "rank": 4,
+    "name": {
+      "en": "Hustle",
+      "fr": "Agitation"
+    },
+    "description": {
+      "en": "Your attacks against foes have -2 Accuracy. After thefirst time you miss an attack during an encounter, the -2 Accuracy penalty is removed and you gain +4 Attack until the end ofthe encounter.)",
+      "fr": "Vos attaques contre les adversaires subissent un malus de -2 en précision. Après le premier échec d'une attaque pendant un combat, ce malus disparaît et vous gagnez +4 en Attaque jusqu'à la fin du combat."
+    }
+  },
+  {
+    "id": "hydration",
+    "rank": 3,
+    "name": {
+      "en": "Hydration",
+      "fr": "Hydratation"
+    },
+    "description": {
+      "en": "While in Raining weather, you are cured of any afflictions.",
+      "fr": "Tant que le temps est Pluvieux, vous êtes guéri de toutes les altérations d'état."
+    }
+  },
+  {
+    "id": "hyper-cutter",
+    "rank": 3,
+    "name": {
+      "en": "Hyper Cutter",
+      "fr": "Hyper Cutter"
+    },
+    "description": {
+      "en": "Your Attack cannot be lowered by a foe’s effects.",
+      "fr": "Votre Attaque ne peut pas être réduite par les effets d'un adversaire."
+    }
+  },
+  {
+    "id": "ice-body",
+    "rank": 1,
+    "name": {
+      "en": "Ice Body",
+      "fr": "Corps Gel"
+    },
+    "description": {
+      "en": "If in Hailing weather, you recover 4 HP during your action and you don’t take damage from Hailing weather.",
+      "fr": "Si le temps est Grêle, vous récupérez 4 PV pendant votre action et ne subissez pas les dégâts de la Grêle."
+    }
+  },
+  {
+    "id": "immunity",
+    "rank": 1,
+    "name": {
+      "en": "Immunity",
+      "fr": "Vaccin"
+    },
+    "description": {
+      "en": "You are immune to getting Poisoned and Toxified.",
+      "fr": "Vous êtes immunisé contre les états Empoisonné et Gravement Empoisonné."
+    }
+  },
+  {
+    "id": "imposter",
+    "rank": 1,
+    "name": {
+      "en": "Imposter",
+      "fr": "Imposteur"
+    },
+    "description": {
+      "en": "As a free action you may use Transform.",
+      "fr": "En tant qu'action gratuite, vous pouvez utiliser Morphing."
+    }
+  },
+  {
+    "id": "infiltrator",
+    "rank": 1,
+    "name": {
+      "en": "Infiltrator",
+      "fr": "Infiltration"
+    },
+    "description": {
+      "en": "Hindering terrain and Walls do not affect you or your attacks.",
+      "fr": "Les terrains gênants et les Murs n'affectent ni vous ni vos attaques."
+    }
+  },
+  {
+    "id": "inner-focus",
+    "rank": 9,
+    "name": {
+      "en": "Inner Focus",
+      "fr": "Attention"
+    },
+    "description": {
+      "en": "You are immune to being Stunned.",
+      "fr": "Vous êtes immunisé contre l'état Étourdi."
+    }
+  },
+  {
+    "id": "insomnia",
+    "rank": 2,
+    "name": {
+      "en": "Insomnia",
+      "fr": "Insomnia"
+    },
+    "description": {
+      "en": "You are immune to being put to Sleep.",
+      "fr": "Vous êtes immunisé contre le Sommeil."
+    }
+  },
+  {
+    "id": "iron-fist",
+    "rank": 1,
+    "name": {
+      "en": "Iron Fist",
+      "fr": "Poing de Fer"
+    },
+    "description": {
+      "en": "Your punching attacks deal +4 damage.",
+      "fr": "Vos attaques de poing infligent +4 dégâts."
+    }
+  },
+  {
+    "id": "justified",
+    "rank": 1,
+    "name": {
+      "en": "Justified",
+      "fr": "Cœur Noble"
+    },
+    "description": {
+      "en": "When a foe hits you with a Dark-type attack, your Attack is +1 for 10 mins.",
+      "fr": "Lorsqu'un adversaire vous touche avec une attaque de type Ténèbres, votre Attaque augmente de +1 pendant 10 minutes."
+    }
+  },
+  {
+    "id": "keen-eye",
+    "rank": 7,
+    "name": {
+      "en": "Keen Eye",
+      "fr": "Regard Vif"
+    },
+    "description": {
+      "en": "Your accuracy checks cannot be negatively affected by foes.",
+      "fr": "Vos tests de précision ne peuvent pas être affectés négativement par les adversaires."
+    }
+  },
+  {
+    "id": "leaf-guard",
+    "rank": 1,
+    "name": {
+      "en": "Leaf Guard",
+      "fr": "Feuille Garde"
+    },
+    "description": {
+      "en": "While in sunny weather, you are cured of any afflictions.",
+      "fr": "Tant que le temps est Ensoleillé, vous êtes guéri de toutes les altérations d'état."
+    }
+  },
+  {
+    "id": "levitate",
+    "rank": 5,
+    "name": {
+      "en": "Levitate",
+      "fr": "Lévitation"
+    },
+    "description": {
+      "en": "You are immune to Ground-type moves while you are airborne.",
+      "fr": "Vous êtes immunisé contre les capacités de type Sol tant que vous êtes en l'air."
+    }
+  },
+  {
+    "id": "lightning-rod",
+    "rank": 7,
+    "name": {
+      "en": "Lightning Rod",
+      "fr": "Paratonnerre"
+    },
+    "description": {
+      "en": "Any foe’s ranged Electric-type attacks within 25ft or any adjacent foe’s Electric-type attacks are negated and drawn to you. Your Special Attack is +2 until the end of your next turn whenever you negate an Electric-type attack",
+      "fr": "Toutes les attaques Électrik à distance des adversaires dans un rayon de 25 pieds, ou les attaques Électrik des adversaires adjacents, sont annulées et attirées vers vous. Votre Attaque Spéciale augmente de +2 jusqu'à la fin de votre prochain tour chaque fois que vous annulez une attaque de type Électrik."
+    }
+  },
+  {
+    "id": "limber",
+    "rank": 5,
+    "name": {
+      "en": "Limber",
+      "fr": "Échauffement"
+    },
+    "description": {
+      "en": "You are immune to being Paralyzed.",
+      "fr": "Vous êtes immunisé contre la Paralysie."
+    }
+  },
+  {
+    "id": "liquid-ooze",
+    "rank": 2,
+    "name": {
+      "en": "Liquid Ooze",
+      "fr": "Suintement"
+    },
+    "description": {
+      "en": "If you are hit by an attack that damages you and heals the attacker, the attacker is dealt damage equal to what they would have healed, instead of healing.",
+      "fr": "Si vous êtes touché par une attaque qui vous inflige des dégâts et soigne l'attaquant, celui-ci subit à la place des dégâts égaux au montant qu'il aurait dû récupérer."
+    }
+  },
+  {
+    "id": "magic-guard",
+    "rank": 3,
+    "name": {
+      "en": "Magic Guard",
+      "fr": "Garde Magik"
+    },
+    "description": {
+      "en": "You can only take damage from attacks that deal damage. You are unaffected by damage from afflictions, coats, hazards, weather or any passives.",
+      "fr": "Vous ne pouvez subir des dégâts que provenant d'attaques infligeant directement des dégâts. Vous êtes immunisé contre les dégâts des altérations d'état, des revêtements, des pièges, de la météo et des passifs."
+    }
+  },
+  {
+    "id": "marvel-scale",
+    "rank": 2,
+    "name": {
+      "en": "Marvel Scale",
+      "fr": "Écaille Spéciale"
+    },
+    "description": {
+      "en": "While afflicted, your Defense is +2.",
+      "fr": "Tant que vous êtes affecté par une altération d'état, votre Défense est de +2."
+    }
+  },
+  {
+    "id": "mold-breaker",
+    "rank": 1,
+    "name": {
+      "en": "Mold Breaker",
+      "fr": "Brise Moule"
+    },
+    "description": {
+      "en": "Your attacks ignore any passives that would redirect, negate or weaken your attacks.",
+      "fr": "Vos attaques ignorent tous les passifs qui redirigeraient, annuleraient ou affaibliraient vos attaques."
+    }
+  },
+  {
+    "id": "multiscale",
+    "rank": 1,
+    "name": {
+      "en": "Multiscale",
+      "fr": "Multiécaille"
+    },
+    "description": {
+      "en": "When you are at Max HP, you take -4 damage from all attacks.",
+      "fr": "Tant que vous êtes à vos PV maximum, vous subissez 4 dégâts de moins de toutes les attaques."
+    }
+  },
+  {
+    "id": "natural-cure",
+    "rank": 3,
+    "name": {
+      "en": "Natural Cure",
+      "fr": "Médic Nature\n"
+    },
+    "description": {
+      "en": "Whenever returned to a Poke Ball, you are cured of any afflictions.",
+      "fr": "Chaque fois que vous retournez dans une Poké Ball, vous êtes guéri de toutes les altérations d'état."
+    }
+  },
+  {
+    "id": "neutralizing-gas",
+    "rank": 1,
+    "name": {
+      "en": "Neutralizing Gas",
+      "fr": "Gaz Inhibiteur\n"
+    },
+    "description": {
+      "en": "Non-Stat passives other than your own do not work within 10ft of you.",
+      "fr": "Les passifs qui ne sont pas des statistiques, à l'exception des vôtres, ne fonctionnent pas dans un rayon de 10 pieds autour de vous."
+    }
+  },
+  {
+    "id": "no-guard",
+    "rank": 1,
+    "name": {
+      "en": "No Guard",
+      "fr": "Annule Garde"
+    },
+    "description": {
+      "en": "You cannot miss your attacks, and attacks made against you cannot miss.",
+      "fr": "Vos attaques ne peuvent pas manquer leur cible, et les attaques dirigées contre vous ne peuvent pas vous manquer."
+    }
+  },
+  {
+    "id": "oblivious",
+    "rank": 3,
+    "name": {
+      "en": "Oblivious",
+      "fr": "Benêt"
+    },
+    "description": {
+      "en": "You are immune to Infatuation.",
+      "fr": "Vous êtes immunisé contre l'état Amoureux."
+    }
+  },
+  {
+    "id": "overcoat",
+    "rank": 1,
+    "name": {
+      "en": "Overcoat",
+      "fr": "Envelocape"
+    },
+    "description": {
+      "en": "You are immune to damage from weather.",
+      "fr": "Vous êtes immunisé contre les dégâts infligés par la météo."
+    }
+  },
+  {
+    "id": "overgrow",
+    "rank": 3,
+    "name": {
+      "en": "Overgrow",
+      "fr": "Engrais"
+    },
+    "description": {
+      "en": "When you are below 20 HP, your Grass-type attacks deal +4 damage.",
+      "fr": "Lorsque vous êtes sous 20 PV, vos attaques de type Plante infligent +4 dégâts."
+    }
+  },
+  {
+    "id": "own-tempo",
+    "rank": 2,
+    "name": {
+      "en": "Own Tempo",
+      "fr": "Tempo Perso"
+    },
+    "description": {
+      "en": "You are immune to being Confused.",
+      "fr": "Vous êtes immunisé contre la Confusion."
+    }
+  },
+  {
+    "id": "poison-point",
+    "rank": 7,
+    "name": {
+      "en": "Poison Point",
+      "fr": "Point Poison"
+    },
+    "description": {
+      "en": "Whenever you are hit with a melee attack, roll 1d4. On 4, Poison the attacker.",
+      "fr": "Chaque fois que vous êtes touché par une attaque de mêlée, lancez 1d4. Sur un 4, empoisonnez l'attaquant."
+    }
+  },
+  {
+    "id": "poison-touch",
+    "rank": 1,
+    "name": {
+      "en": "Poison Touch",
+      "fr": "Toxitouche"
+    },
+    "description": {
+      "en": "Whenever you hit with a melee attack, you may roll 1d6. On 6, Poison the target.",
+      "fr": "Chaque fois que vous touchez avec une attaque de mêlée, vous pouvez lancer 1d6. Sur un 6, empoisonnez la cible."
+    }
+  },
+  {
+    "id": "pressure",
+    "rank": 1,
+    "name": {
+      "en": "Pressure",
+      "fr": "Pression"
+    },
+    "description": {
+      "en": "If you are hit by a 3/day attack, the attacker can’t use that attack for the remainder of the day.",
+      "fr": "Si vous êtes touché par une capacité utilisable 3 fois par jour, l'attaquant ne peut plus utiliser cette capacité jusqu'à la fin de la journée."
+    }
+  },
+  {
+    "id": "quick-feet",
+    "rank": 1,
+    "name": {
+      "en": "Quick Feet",
+      "fr": "Pied Véloce"
+    },
+    "description": {
+      "en": "While afflicted, your Speed is +2.",
+      "fr": "Tant que vous êtes affecté par une altération d'état, votre Vitesse est de +2."
+    }
+  },
+  {
+    "id": "rain-dish",
+    "rank": 2,
+    "name": {
+      "en": "Rain Dish",
+      "fr": "Cuvette"
+    },
+    "description": {
+      "en": "If in Raining Weather, you regain 4 HP after you act.",
+      "fr": "Si le temps est Pluvieux, vous récupérez 4 PV après avoir agi."
+    }
+  },
+  {
+    "id": "reckless",
+    "rank": 1,
+    "name": {
+      "en": "Reckless",
+      "fr": "Téméraire"
+    },
+    "description": {
+      "en": "Your attacks that damage yourself on hit, deal +4 damage.",
+      "fr": "Vos attaques qui vous infligent également des dégâts infligent +4 dégâts."
+    }
+  },
+  {
+    "id": "regenerator",
+    "rank": 1,
+    "name": {
+      "en": "Regenerator",
+      "fr": "Régé-Force\n"
+    },
+    "description": {
+      "en": "When returned to a Poke Ball, you recover to Max HP after being stored for 1 hour.",
+      "fr": "Lorsque vous retournez dans une Poké Ball, vous récupérez tous vos PV après y être resté pendant 1 heure."
+    }
+  },
+  {
+    "id": "rock-head",
+    "rank": 5,
+    "name": {
+      "en": "Rock Head",
+      "fr": "Tête de Roc\n"
+    },
+    "description": {
+      "en": "Your attacks that damage yourself on hit do not damage yourself.",
+      "fr": "Vos attaques qui vous infligent également des dégâts ne vous blessent plus."
+    }
+  },
+  {
+    "id": "sand-force",
+    "rank": 1,
+    "name": {
+      "en": "Sand Force",
+      "fr": "Force Sable"
+    },
+    "description": {
+      "en": "While in Sandstorming Weather, your Rock-type and Ground-type attacks deal +4 damage and you don’t take damage from Sandstorming weather.",
+      "fr": "Tant que le temps est Tempête de Sable, vos attaques de type Roche et Sol infligent +4 dégâts et vous ne subissez pas les dégâts de la Tempête de Sable."
+    }
+  },
+  {
+    "id": "sand-rush",
+    "rank": 1,
+    "name": {
+      "en": "Sand Rush",
+      "fr": "Baigne Sable"
+    },
+    "description": {
+      "en": "While in Sandstorming Weather, Your Speed is +2 and you don’t take damage from Sandstorming weather.",
+      "fr": "Tant que le temps est Tempête de Sable, votre Vitesse est de +2 et vous ne subissez pas les dégâts de la Tempête de Sable."
+    }
+  },
+  {
+    "id": "sand-veil",
+    "rank": 5,
+    "name": {
+      "en": "Sand Veil",
+      "fr": "Voile Sable"
+    },
+    "description": {
+      "en": "While in Sandstorming Weather, any foe’s attacks made against you have -1 during accuracy check and you don’t take damage from Sandstorming weather.",
+      "fr": "Tant que le temps est Tempête de Sable, les attaques des adversaires contre vous subissent un malus de -1 au test de précision et vous ne subissez pas les dégâts de la Tempête de Sable."
+    }
+  },
+  {
+    "id": "shed-skin",
+    "rank": 7,
+    "name": {
+      "en": "Shed Skin",
+      "fr": "Mue"
+    },
+    "description": {
+      "en": "After acting, you may roll 1d4. On 4, you are cured of any afflictions.",
+      "fr": "Après avoir agi, vous pouvez lancer 1d4. Sur un 4, vous êtes guéri de toutes les altérations d'état."
+    }
+  },
+  {
+    "id": "sheer-force",
+    "rank": 4,
+    "name": {
+      "en": "Sheer Force",
+      "fr": "Sans Limite"
+    },
+    "description": {
+      "en": "Your attacks that have additional effects that affect the target may deal +4 damage, but will not have those additional effects.",
+      "fr": "Vos attaques ayant des effets supplémentaires sur la cible peuvent infliger +4 dégâts, mais perdent ces effets supplémentaires."
+    }
+  },
+  {
+    "id": "shell-armor",
+    "rank": 6,
+    "name": {
+      "en": "Shell Armor",
+      "fr": "Coque Armure"
+    },
+    "description": {
+      "en": "Critical hits are treated as normal hits against you",
+      "fr": "Les coups critiques sont traités comme des coups normaux contre vous."
+    }
+  },
+  {
+    "id": "shield-dust",
+    "rank": 7,
+    "name": {
+      "en": "Shield Dust",
+      "fr": "Écran Poudre"
+    },
+    "description": {
+      "en": "You are unaffected by additional effects from attacks that deal damage.",
+      "fr": "Vous n'êtes pas affecté par les effets supplémentaires des attaques qui infligent des dégâts."
+    }
+  },
+  {
+    "id": "skill-link",
+    "rank": 1,
+    "name": {
+      "en": "Skill Link",
+      "fr": "Multi-Coups"
+    },
+    "description": {
+      "en": "Your scatter moves have +2 during Accuracy Check.",
+      "fr": "Vos capacités à projectiles multiples gagnent +2 au test de précision."
+    }
+  },
+  {
+    "id": "sniper",
+    "rank": 3,
+    "name": {
+      "en": "Sniper",
+      "fr": "Sniper"
+    },
+    "description": {
+      "en": "When you land a critical hit, you deal an additional 8 damage, applied before weakness and resistances.",
+      "fr": "Lorsque vous infligez un coup critique, vous infligez 8 dégâts supplémentaires, appliqués avant les faiblesses et les résistances."
+    }
+  },
+  {
+    "id": "solar-power",
+    "rank": 1,
+    "name": {
+      "en": "Solar Power",
+      "fr": "Force Soleil"
+    },
+    "description": {
+      "en": "While in Sunny weather, you deal an additional 4 damage while attacking. After acting in Sunny weather, you take 4 damage.",
+      "fr": "Tant que le temps est Ensoleillé, vous infligez 4 dégâts supplémentaires lorsque vous attaquez. Après avoir agi sous un temps Ensoleillé, vous subissez 4 dégâts."
+    }
+  },
+  {
+    "id": "soundproof",
+    "rank": 2,
+    "name": {
+      "en": "Soundproof",
+      "fr": "Anti-Bruit"
+    },
+    "description": {
+      "en": "You are immune to sound-based attacks, like Boomburst, Bug Buzz, Chatter, Clanging Scales, Disarming Voice, Echoed Voice, Eerie Spell, Grass  Whistle, Hyper Voice, Overdrive, Perish Song, Roar, Round, Sing,  Snore, Sparkling Aria, Supersonic, Uproar",
+      "fr": "Vous êtes immunisé contre les attaques basées sur le son."
+    }
+  },
+  {
+    "id": "static",
+    "rank": 5,
+    "name": {
+      "en": "Static",
+      "fr": "Statik"
+    },
+    "description": {
+      "en": "Whenever you are hit with a melee attack, roll 1d4. On 4, Paralyze the attacker.",
+      "fr": "Chaque fois que vous êtes touché par une attaque de mêlée, lancez 1d4. Sur un 4, paralysez l'attaquant."
+    }
+  },
+  {
+    "id": "steadfast",
+    "rank": 2,
+    "name": {
+      "en": "Steadfast",
+      "fr": "Impassible"
+    },
+    "description": {
+      "en": "When you are Stunned, your Speed is +1 for 10 mins.",
+      "fr": "Lorsque vous êtes Étourdi, votre Vitesse augmente de +1 pendant 10 minutes."
+    }
+  },
+  {
+    "id": "stench",
+    "rank": 2,
+    "name": {
+      "en": "Stench",
+      "fr": "Puanteur"
+    },
+    "description": {
+      "en": "Whenever you are hit with a melee attack, roll 1d4. On 4, Stun the attacker",
+      "fr": "Chaque fois que vous êtes touché par une attaque de mêlée, lancez 1d4. Sur un 4, étourdissez l'attaquant."
+    }
+  },
+  {
+    "id": "sticky-hold",
+    "rank": 1,
+    "name": {
+      "en": "Sticky Hold",
+      "fr": "Glu "
+    },
+    "description": {
+      "en": "You cannot drop held items or have held items stolen from you.",
+      "fr": "Vous ne pouvez pas lâcher les objets tenus ni vous les faire voler."
+    }
+  },
+  {
+    "id": "sturdy",
+    "rank": 6,
+    "name": {
+      "en": "Sturdy",
+      "fr": "Fermeté"
+    },
+    "description": {
+      "en": "If you would be brought from Max HP to 0 or below, you are instead brought to 1 HP.",
+      "fr": "Si vous deviez passer de vos PV maximum à 0 PV ou moins, vous tombez à la place à 1 PV."
+    }
+  },
+  {
+    "id": "swarm",
+    "rank": 2,
+    "name": {
+      "en": "Swarm",
+      "fr": "Essaim "
+    },
+    "description": {
+      "en": "When you are below 20 HP, your Bug-type attacks deal +4 damage.",
+      "fr": "Lorsque vous êtes sous 20 PV, vos attaques de type Insecte infligent +4 dégâts."
+    }
+  },
+  {
+    "id": "swift-swim",
+    "rank": 9,
+    "name": {
+      "en": "Swift Swim",
+      "fr": "Glissade"
+    },
+    "description": {
+      "en": "While in Raining weather, your Speed is +2.",
+      "fr": "Tant que le temps est Pluvieux, votre Vitesse est de +2."
+    }
+  },
+  {
+    "id": "synchronize",
+    "rank": 3,
+    "name": {
+      "en": "Synchronize",
+      "fr": "Synchro"
+    },
+    "description": {
+      "en": "When you are Burned, Poisoned, Paralyzed, or Toxified by a foe, the offender is also given the same affliction.",
+      "fr": "Lorsque vous êtes Brûlé, Empoisonné, Paralysé ou Gravement Empoisonné par un adversaire, celui-ci reçoit également la même altération d'état."
+    }
+  },
+  {
+    "id": "tangled-feet",
+    "rank": 3,
+    "name": {
+      "en": "Tangled Feet",
+      "fr": "Pieds Confus"
+    },
+    "description": {
+      "en": "While you are confused, any foe’s attacks made against you have -1 during accuracy check.",
+      "fr": "Tant que vous êtes Confus, les attaques des adversaires contre vous subissent un malus de -1 au test de précision."
+    }
+  },
+  {
+    "id": "technician",
+    "rank": 3,
+    "name": {
+      "en": "Technician",
+      "fr": "Technicien "
+    },
+    "description": {
+      "en": "When rolling damage, replace any rolled 1s or 2s with 3s.",
+      "fr": "Lorsque vous lancez les dés de dégâts, remplacez tous les 1 et les 2 obtenus par des 3."
+    }
+  },
+  {
+    "id": "thick-fat",
+    "rank": 3,
+    "name": {
+      "en": "Thick Fat",
+      "fr": "Isograisse"
+    },
+    "description": {
+      "en": "You take -4 damage from Fire-type attacks and Ice-type attacks.",
+      "fr": "Vous subissez 4 dégâts de moins des attaques de type Feu et Glace."
+    }
+  },
+  {
+    "id": "tinted-lens",
+    "rank": 1,
+    "name": {
+      "en": "Tinted Lens",
+      "fr": "Lentiteintée"
+    },
+    "description": {
+      "en": "Your resisted attacks deal +4 damage after applying weaknesses and resistance.",
+      "fr": "Vos attaques auxquelles la cible résiste infligent +4 dégâts après application des faiblesses et des résistances."
+    }
+  },
+  {
+    "id": "too-pure",
+    "rank": 1,
+    "name": {
+      "en": "Too Pure",
+      "fr": "Trop Pur"
+    },
+    "description": {
+      "en": "All attacks made against you are treated as if they are super-effective. If the attack already is, the attacker rolls +1 dice while rolling for damage.",
+      "fr": "Toutes les attaques dirigées contre vous sont considérées comme super efficaces. Si elles le sont déjà, l'attaquant lance un dé supplémentaire lorsqu'il détermine les dégâts."
+    }
+  },
+  {
+    "id": "torrent",
+    "rank": 3,
+    "name": {
+      "en": "Torrent",
+      "fr": "Torrent"
+    },
+    "description": {
+      "en": "When you are below 20 HP, your Water-type attacks deal +4 damage.",
+      "fr": "Lorsque vous êtes sous 20 PV, vos attaques de type Eau infligent +4 dégâts."
+    }
+  },
+  {
+    "id": "unnerve",
+    "rank": 3,
+    "name": {
+      "en": "Unnerve",
+      "fr": "Tension"
+    },
+    "description": {
+      "en": "Foes within 25ft of you cannot consume food.",
+      "fr": "Les adversaires dans un rayon de 25 pieds autour de vous ne peuvent pas consommer de nourriture."
+    }
+  },
+  {
+    "id": "water-absorb",
+    "rank": 4,
+    "name": {
+      "en": "Water Absorb",
+      "fr": "Absorbe-Eau"
+    },
+    "description": {
+      "en": "When you are hit by a water-type attack, halve the damage, then you heal that much HP instead of taking damage.",
+      "fr": "Lorsque vous êtes touché par une attaque de type Eau, réduisez les dégâts de moitié, puis récupérez ce montant de PV au lieu de subir ces dégâts."
+    }
+  },
+  {
+    "id": "weak-armor",
+    "rank": 2,
+    "name": {
+      "en": "Weak Armor",
+      "fr": "Armurouillée"
+    },
+    "description": {
+      "en": "When you are hit by a melee attack, Your Defense is -3 and your Speed is +3 for 10 mins. This does not stack.",
+      "fr": "Lorsque vous êtes touché par une attaque de mêlée, votre Défense diminue de 3 et votre Vitesse augmente de 3 pendant 10 minutes. Cet effet ne se cumule pas."
+    }
+  },
+  {
+    "id": "wonder-skin",
+    "rank": 1,
+    "name": {
+      "en": "Wonder Skin",
+      "fr": "Peau Miracle"
+    },
+    "description": {
+      "en": "Your stats cannot be lowered by a foe’s effects.",
+      "fr": "Vos statistiques ne peuvent pas être réduites par les effets d'un adversaire."
+    }
+  },
+  {
+    "id": "vital-spirit",
+    "incomplete": true,
+    "rank": null,
+    "name": {
+      "en": "Vital Spirit",
+      "fr": "Esprit Vital"
+    },
+    "description": {
+      "en": null,
+      "fr": null
+    }
+  },
+  {
+    "id": "water-veil",
+    "incomplete": true,
+    "rank": null,
+    "name": {
+      "en": "Water Veil",
+      "fr": "Ignifu-Voile"
+    },
+    "description": {
+      "en": null,
+      "fr": null
+    }
+  }
+]

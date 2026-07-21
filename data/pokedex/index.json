@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "files": {
+    "pokemon": "pokemon.json",
+    "skills": "skills.json",
+    "passives": "passives.json",
+    "moves": "moves.json"
+  },
+  "counts": {
+    "pokemon": 151,
+    "skills": 37,
+    "passives": 95,
+    "moves": 227
+  }
+}

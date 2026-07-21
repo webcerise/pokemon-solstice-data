@@ -1,0 +1,21 @@
+{
+  "counts": {
+    "pokemon": 151,
+    "skills": 37,
+    "passives": 95,
+    "moves": 227
+  },
+  "unresolvedMoveTranslations": [],
+  "moveMatchSuggestions": [],
+  "unresolvedReferences": {
+    "skills": [],
+    "passives": [],
+    "moves": []
+  },
+  "duplicateIds": {
+    "pokemon": [],
+    "skills": [],
+    "passives": [],
+    "moves": []
+  }
+}

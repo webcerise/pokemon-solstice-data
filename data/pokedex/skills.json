@@ -1,0 +1,410 @@
+[
+  {
+    "id": "alluring",
+    "name": {
+      "en": "Alluring",
+      "fr": "Séduisant"
+    },
+    "description": {
+      "en": "attracts others with their aroma",
+      "fr": "Attire les autres grâce à son parfum."
+    }
+  },
+  {
+    "id": "amorphous",
+    "name": {
+      "en": "Amorphous",
+      "fr": "Amorphe"
+    },
+    "description": {
+      "en": "can change their body into a liquid-like state",
+      "fr": "Peut transformer son corps en une substance liquide."
+    }
+  },
+  {
+    "id": "burrow",
+    "name": {
+      "en": "Burrow",
+      "fr": "Fouisseur"
+    },
+    "description": {
+      "en": "moves through earth easily",
+      "fr": "Se déplace facilement sous terre."
+    }
+  },
+  {
+    "id": "climber",
+    "name": {
+      "en": "Climber",
+      "fr": "Grimpeur"
+    },
+    "description": {
+      "en": "treats walls and ceilings as normal terrain",
+      "fr": "Considère les murs et les plafonds comme un terrain normal."
+    }
+  },
+  {
+    "id": "firestarter",
+    "name": {
+      "en": "Firestarter",
+      "fr": "Pyrogène"
+    },
+    "description": {
+      "en": "can create fire",
+      "fr": "Peut créer du feu."
+    }
+  },
+  {
+    "id": "flight",
+    "name": {
+      "en": "Flight",
+      "fr": "Vol"
+    },
+    "description": {
+      "en": "can fly",
+      "fr": "Peut voler."
+    }
+  },
+  {
+    "id": "flopper",
+    "name": {
+      "en": "Flopper",
+      "fr": "Hors de l'eau"
+    },
+    "description": {
+      "en": "treats dry land as special terrain",
+      "fr": "Considère la terre ferme comme un terrain difficile."
+    }
+  },
+  {
+    "id": "fountain",
+    "name": {
+      "en": "Fountain",
+      "fr": "Source"
+    },
+    "description": {
+      "en": "can create water",
+      "fr": "Peut créer de l'eau."
+    }
+  },
+  {
+    "id": "freezer",
+    "name": {
+      "en": "Freezer",
+      "fr": "Cryogène"
+    },
+    "description": {
+      "en": "can create ice",
+      "fr": "Peut créer de la glace."
+    }
+  },
+  {
+    "id": "gilled",
+    "name": {
+      "en": "Gilled",
+      "fr": "Branchies"
+    },
+    "description": {
+      "en": "can breathe underwater",
+      "fr": "Peut respirer sous l'eau."
+    }
+  },
+  {
+    "id": "glow",
+    "name": {
+      "en": "Glow",
+      "fr": "Luminescent"
+    },
+    "description": {
+      "en": "can produce light",
+      "fr": "Peut produire de la lumière."
+    }
+  },
+  {
+    "id": "groundshaper",
+    "name": {
+      "en": "Groundshaper",
+      "fr": "Géomancien"
+    },
+    "description": {
+      "en": "can manipulate the ground",
+      "fr": "Peut manipuler la terre et le sol."
+    }
+  },
+  {
+    "id": "guster",
+    "name": {
+      "en": "Guster",
+      "fr": "Aérogène"
+    },
+    "description": {
+      "en": "can produce wind",
+      "fr": "Peut produire du vent."
+    }
+  },
+  {
+    "id": "heater",
+    "name": {
+      "en": "Heater",
+      "fr": "Chaleureux"
+    },
+    "description": {
+      "en": "always warm",
+      "fr": "Son corps est toujours chaud."
+    }
+  },
+  {
+    "id": "hover",
+    "name": {
+      "en": "Hover",
+      "fr": "Lévitation"
+    },
+    "description": {
+      "en": "can hover",
+      "fr": "Peut léviter."
+    }
+  },
+  {
+    "id": "inflatable",
+    "name": {
+      "en": "Inflatable",
+      "fr": "Gonflable"
+    },
+    "description": {
+      "en": "can expand",
+      "fr": "Peut gonfler son corps."
+    }
+  },
+  {
+    "id": "intelligence",
+    "name": {
+      "en": "Intelligence",
+      "fr": "Intelligence"
+    },
+    "description": {
+      "en": "very smart",
+      "fr": "Est particulièrement intelligent."
+    }
+  },
+  {
+    "id": "invisibility",
+    "name": {
+      "en": "Invisibility",
+      "fr": "Invisibilité"
+    },
+    "description": {
+      "en": "can turn invisible",
+      "fr": "Peut devenir invisible."
+    }
+  },
+  {
+    "id": "magnetic",
+    "name": {
+      "en": "Magnetic",
+      "fr": "Magnétique"
+    },
+    "description": {
+      "en": "controls magnetic fields",
+      "fr": "Contrôle les champs magnétiques."
+    }
+  },
+  {
+    "id": "mind-lock",
+    "name": {
+      "en": "Mind Lock",
+      "fr": "Verrou mental"
+    },
+    "description": {
+      "en": "minds can't be read",
+      "fr": "Son esprit ne peut pas être lu."
+    }
+  },
+  {
+    "id": "modular",
+    "name": {
+      "en": "Modular",
+      "fr": "Modulaire"
+    },
+    "description": {
+      "en": "consists of multiple parts",
+      "fr": "Son corps est constitué de plusieurs parties."
+    }
+  },
+  {
+    "id": "phasing",
+    "name": {
+      "en": "Phasing",
+      "fr": "Intangible"
+    },
+    "description": {
+      "en": "can move through solid objects",
+      "fr": "Peut traverser les objets solides."
+    }
+  },
+  {
+    "id": "reach",
+    "name": {
+      "en": "Reach",
+      "fr": "Allonge"
+    },
+    "description": {
+      "en": "melee range is greater",
+      "fr": "Sa portée au corps à corps est supérieure à la normale."
+    }
+  },
+  {
+    "id": "repulsive",
+    "name": {
+      "en": "Repulsive",
+      "fr": "Repoussant"
+    },
+    "description": {
+      "en": "repels others with a foul smell",
+      "fr": "Repousse les autres grâce à une odeur nauséabonde."
+    }
+  },
+  {
+    "id": "shrinkable",
+    "name": {
+      "en": "Shrinkable",
+      "fr": "Rétractable"
+    },
+    "description": {
+      "en": "can shrink",
+      "fr": "Peut rétrécir."
+    }
+  },
+  {
+    "id": "sinker",
+    "name": {
+      "en": "Sinker",
+      "fr": "Non-nageur"
+    },
+    "description": {
+      "en": "can't swim",
+      "fr": "Ne sait pas nager."
+    }
+  },
+  {
+    "id": "sprouter",
+    "name": {
+      "en": "Sprouter",
+      "fr": "Phytokinésie"
+    },
+    "description": {
+      "en": "can manipulate plant life",
+      "fr": "Peut manipuler les plantes."
+    }
+  },
+  {
+    "id": "stealth",
+    "name": {
+      "en": "Stealth",
+      "fr": "Discrétion"
+    },
+    "description": {
+      "en": "can make stealth skill checks",
+      "fr": "Peut effectuer des tests de Discrétion."
+    }
+  },
+  {
+    "id": "strength",
+    "name": {
+      "en": "Strength",
+      "fr": "Force"
+    },
+    "description": {
+      "en": "very strong",
+      "fr": "Est particulièrement fort."
+    }
+  },
+  {
+    "id": "swimmer",
+    "name": {
+      "en": "Swimmer",
+      "fr": "Nageur"
+    },
+    "description": {
+      "en": "can swim",
+      "fr": "Peut nager."
+    }
+  },
+  {
+    "id": "telekinetic",
+    "name": {
+      "en": "Telekinetic",
+      "fr": "Télékinésie"
+    },
+    "description": {
+      "en": "can move things with their mind",
+      "fr": "Peut déplacer des objets par la pensée."
+    }
+  },
+  {
+    "id": "telepath",
+    "name": {
+      "en": "Telepath",
+      "fr": "Télépathie"
+    },
+    "description": {
+      "en": "can read minds and/or emotions",
+      "fr": "Peut lire les pensées et/ou les émotions."
+    }
+  },
+  {
+    "id": "threaded",
+    "name": {
+      "en": "Threaded",
+      "fr": "Tisseur"
+    },
+    "description": {
+      "en": "can move around on spun threads or vines",
+      "fr": "Peut se déplacer sur des fils ou des lianes qu'il a tissés."
+    }
+  },
+  {
+    "id": "tracker",
+    "name": {
+      "en": "Tracker",
+      "fr": "Pisteur"
+    },
+    "description": {
+      "en": "can follow scents",
+      "fr": "Peut suivre des pistes grâce aux odeurs."
+    }
+  },
+  {
+    "id": "wired",
+    "name": {
+      "en": "Wired",
+      "fr": "Interface"
+    },
+    "description": {
+      "en": "can go into electronics",
+      "fr": "Peut interagir avec les appareils électroniques."
+    }
+  },
+  {
+    "id": "zapper",
+    "name": {
+      "en": "Zapper",
+      "fr": "Électrogène"
+    },
+    "description": {
+      "en": "can produce electricity",
+      "fr": "Peut produire de l'électricité."
+    }
+  },
+  {
+    "id": "genetic-relation",
+    "incomplete": true,
+    "name": {
+      "en": "Genetic Relation",
+      "fr": "Lien génétique"
+    },
+    "description": {
+      "en": null,
+      "fr": null
+    }
+  }
+]

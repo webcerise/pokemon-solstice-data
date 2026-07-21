@@ -1,0 +1,6919 @@
+[
+  {
+    "id": 92,
+    "enabled": true,
+    "name": {
+      "fr": "Fantominus",
+      "en": "Gastly"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/92.png",
+    "rarity": "Peu commun",
+    "evolution": null,
+    "types": [
+      "Spectre",
+      "Poison"
+    ],
+    "stats": {
+      "hp": 18,
+      "attack": 4,
+      "specialAttack": 10,
+      "defense": 3,
+      "specialDefense": 4,
+      "speed": 8
+    },
+    "skillIds": [
+      "flight",
+      "invisibility",
+      "phasing"
+    ],
+    "passiveIds": [
+      "levitate"
+    ],
+    "moveIds": [
+      "lick",
+      "confuse-ray",
+      "mean-look"
+    ],
+    "size": "Moyen",
+    "weight": "Plume",
+    "eggGroups": [
+      "Amorphe"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 93,
+    "enabled": true,
+    "name": {
+      "fr": "Spectrum",
+      "en": "Haunter"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/93.png",
+    "rarity": "Peu commun",
+    "evolution": {
+      "method": "level",
+      "requirement": 25,
+      "trainerLevel": 5
+    },
+    "types": [
+      "Spectre",
+      "Poison"
+    ],
+    "stats": {
+      "hp": 30,
+      "attack": 5,
+      "specialAttack": 12,
+      "defense": 5,
+      "specialDefense": 6,
+      "speed": 10
+    },
+    "skillIds": [
+      "flight",
+      "invisibility",
+      "phasing"
+    ],
+    "passiveIds": [
+      "levitate"
+    ],
+    "moveIds": [
+      "shadow-punch",
+      "hypnosis",
+      "payback"
+    ],
+    "size": "Moyen",
+    "weight": "Plume",
+    "eggGroups": [
+      "Amorphe"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 109,
+    "enabled": true,
+    "name": {
+      "fr": "Smogo",
+      "en": "Koffing"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/109.png",
+    "rarity": "Peu commun",
+    "evolution": null,
+    "types": [
+      "Poison"
+    ],
+    "stats": {
+      "hp": 24,
+      "attack": 7,
+      "specialAttack": 6,
+      "defense": 10,
+      "specialDefense": 5,
+      "speed": 4
+    },
+    "skillIds": [
+      "flight",
+      "repulsive"
+    ],
+    "passiveIds": [
+      "levitate"
+    ],
+    "moveIds": [
+      "poison-gas",
+      "smokescreen",
+      "assurance"
+    ],
+    "size": "Moyen",
+    "weight": "Plume",
+    "eggGroups": [
+      "Amorphe"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 102,
+    "enabled": true,
+    "name": {
+      "fr": "Noeunoeuf",
+      "en": "Exeggcute"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/102.png",
+    "rarity": "Peu commun",
+    "evolution": null,
+    "types": [
+      "Plante",
+      "Psy"
+    ],
+    "stats": {
+      "hp": 36,
+      "attack": 4,
+      "specialAttack": 6,
+      "defense": 8,
+      "specialDefense": 5,
+      "speed": 4
+    },
+    "skillIds": [
+      "modular"
+    ],
+    "passiveIds": [
+      "chlorophyll"
+    ],
+    "moveIds": [
+      "barrage",
+      "hypnosis",
+      "bullet-seed"
+    ],
+    "size": "Petit",
+    "weight": "Plume",
+    "eggGroups": [
+      "Végétal"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 59,
+    "enabled": true,
+    "name": {
+      "fr": "Arcanin",
+      "en": "Arcanine"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/59.png",
+    "rarity": "Peu commun",
+    "evolution": {
+      "method": "item",
+      "requirement": "Pierre Feu",
+      "trainerLevel": null
+    },
+    "types": [
+      "Feu"
+    ],
+    "stats": {
+      "hp": 54,
+      "attack": 12,
+      "specialAttack": 10,
+      "defense": 9,
+      "specialDefense": 8,
+      "speed": 12
+    },
+    "skillIds": [
+      "firestarter",
+      "tracker"
+    ],
+    "passiveIds": [
+      "flash-fire",
+      "justified"
+    ],
+    "moveIds": [
+      "extreme-speed",
+      "flare-blitz",
+      "crunch"
+    ],
+    "size": "Grand",
+    "weight": "Lourd",
+    "eggGroups": [
+      "Terrestre"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 25
+    }
+  },
+  {
+    "id": 68,
+    "enabled": true,
+    "name": {
+      "fr": "Mackogneur",
+      "en": "Machamp"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/68.png",
+    "rarity": "Peu commun",
+    "evolution": {
+      "method": "trade",
+      "requirement": "Fil de Liaison",
+      "trainerLevel": null
+    },
+    "types": [
+      "Combat"
+    ],
+    "stats": {
+      "hp": 54,
+      "attack": 15,
+      "specialAttack": 7,
+      "defense": 9,
+      "specialDefense": 9,
+      "speed": 6
+    },
+    "skillIds": [
+      "strength"
+    ],
+    "passiveIds": [
+      "focus-energy",
+      "guts",
+      "no-guard",
+      "steadfast"
+    ],
+    "moveIds": [
+      "strength",
+      "submission",
+      "cross-chop"
+    ],
+    "size": "Grand",
+    "weight": "Lourd",
+    "eggGroups": [
+      "Humanoïde"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 25
+    }
+  },
+  {
+    "id": 78,
+    "enabled": true,
+    "name": {
+      "fr": "Galopa",
+      "en": "Rapidash"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/78.png",
+    "rarity": "Peu commun",
+    "evolution": {
+      "method": "level",
+      "requirement": 40,
+      "trainerLevel": 8
+    },
+    "types": [
+      "Feu"
+    ],
+    "stats": {
+      "hp": 42,
+      "attack": 11,
+      "specialAttack": 8,
+      "defense": 8,
+      "specialDefense": 8,
+      "speed": 13
+    },
+    "skillIds": [
+      "firestarter",
+      "heater",
+      "sinker"
+    ],
+    "passiveIds": [
+      "flame-body",
+      "flash-fire"
+    ],
+    "moveIds": [
+      "flame-charge",
+      "bounce",
+      "flare-blitz"
+    ],
+    "size": "Grand",
+    "weight": "Lourd",
+    "eggGroups": [
+      "Terrestre"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 85,
+    "enabled": true,
+    "name": {
+      "fr": "Dodrio",
+      "en": "Dodrio"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/85.png",
+    "rarity": "Peu commun",
+    "evolution": {
+      "method": "level",
+      "requirement": 31,
+      "trainerLevel": 7
+    },
+    "types": [
+      "Normal",
+      "Vol"
+    ],
+    "stats": {
+      "hp": 36,
+      "attack": 13,
+      "specialAttack": 6,
+      "defense": 8,
+      "specialDefense": 6,
+      "speed": 13
+    },
+    "skillIds": [],
+    "passiveIds": [
+      "early-bird",
+      "tangled-feet"
+    ],
+    "moveIds": [
+      "tri-attack",
+      "pursuit",
+      "jump-kick"
+    ],
+    "size": "Grand",
+    "weight": "Lourd",
+    "eggGroups": [
+      "Aérien"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 103,
+    "enabled": true,
+    "name": {
+      "fr": "Noadkoko",
+      "en": "Exeggutor"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/103.png",
+    "rarity": "Peu commun",
+    "evolution": {
+      "method": "item",
+      "requirement": "Pierre Plante",
+      "trainerLevel": null
+    },
+    "types": [
+      "Plante",
+      "Psy"
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 10,
+      "specialAttack": 13,
+      "defense": 9,
+      "specialDefense": 8,
+      "speed": 6
+    },
+    "skillIds": [
+      "telepath"
+    ],
+    "passiveIds": [
+      "chlorophyll",
+      "harvest"
+    ],
+    "moveIds": [
+      "psyshock",
+      "wood-hammer",
+      "egg-bomb"
+    ],
+    "size": "Grand",
+    "weight": "Lourd",
+    "eggGroups": [
+      "Végétal"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 111,
+    "enabled": true,
+    "name": {
+      "fr": "Rhinocorne",
+      "en": "Rhyhorn"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/111.png",
+    "rarity": "Peu commun",
+    "evolution": null,
+    "types": [
+      "Sol",
+      "Roche"
+    ],
+    "stats": {
+      "hp": 48,
+      "attack": 9,
+      "specialAttack": 3,
+      "defense": 10,
+      "specialDefense": 3,
+      "speed": 5
+    },
+    "skillIds": [
+      "groundshaper"
+    ],
+    "passiveIds": [
+      "lightning-rod"
+    ],
+    "moveIds": [
+      "smack-down",
+      "stomp",
+      "bulldoze"
+    ],
+    "size": "Grand",
+    "weight": "Lourd",
+    "eggGroups": [
+      "Monstrueux",
+      "Terrestre"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 112,
+    "enabled": true,
+    "name": {
+      "fr": "Rhinoféros",
+      "en": "Rhydon"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/112.png",
+    "rarity": "Peu commun",
+    "evolution": {
+      "method": "level",
+      "requirement": 42,
+      "trainerLevel": 9
+    },
+    "types": [
+      "Sol",
+      "Roche"
+    ],
+    "stats": {
+      "hp": 66,
+      "attack": 13,
+      "specialAttack": 5,
+      "defense": 12,
+      "specialDefense": 5,
+      "speed": 6
+    },
+    "skillIds": [
+      "groundshaper"
+    ],
+    "passiveIds": [
+      "lightning-rod",
+      "rock-head"
+    ],
+    "moveIds": [
+      "hammer-arm",
+      "rock-blast",
+      "drill-run"
+    ],
+    "size": "Grand",
+    "weight": "Lourd",
+    "eggGroups": [
+      "Monstrueux",
+      "Terrestre"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 115,
+    "enabled": true,
+    "name": {
+      "fr": "Kangourex",
+      "en": "Kangaskhan"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/115.png",
+    "rarity": "Rare",
+    "evolution": null,
+    "types": [
+      "Normal"
+    ],
+    "stats": {
+      "hp": 66,
+      "attack": 11,
+      "specialAttack": 4,
+      "defense": 8,
+      "specialDefense": 8,
+      "speed": 9
+    },
+    "skillIds": [],
+    "passiveIds": [
+      "early-bird",
+      "inner-focus"
+    ],
+    "moveIds": [
+      "comet-punch",
+      "mega-punch",
+      "crunch"
+    ],
+    "size": "Grand",
+    "weight": "Lourd",
+    "eggGroups": [
+      "Monstrueux"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 100
+    }
+  },
+  {
+    "id": 128,
+    "enabled": true,
+    "name": {
+      "fr": "Tauros",
+      "en": "Tauros"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/128.png",
+    "rarity": "Peu commun",
+    "evolution": null,
+    "types": [
+      "Normal"
+    ],
+    "stats": {
+      "hp": 48,
+      "attack": 10,
+      "specialAttack": 4,
+      "defense": 11,
+      "specialDefense": 7,
+      "speed": 13
+    },
+    "skillIds": [
+      "genetic-relation",
+      "strength"
+    ],
+    "passiveIds": [
+      "anger-point",
+      "sheer-force"
+    ],
+    "moveIds": [
+      "horn-attack",
+      "swagger",
+      "thrash"
+    ],
+    "size": "Grand",
+    "weight": "Lourd",
+    "eggGroups": [
+      "Terrestre"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 0
+    }
+  },
+  {
+    "id": 150,
+    "enabled": false,
+    "name": {
+      "fr": "Mewtwo",
+      "en": "Mewtwo"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/150.png",
+    "rarity": "Légendaire",
+    "evolution": null,
+    "types": [],
+    "stats": {
+      "hp": null,
+      "attack": null,
+      "specialAttack": null,
+      "defense": null,
+      "specialDefense": null,
+      "speed": null
+    },
+    "skillIds": [],
+    "passiveIds": [],
+    "moveIds": [],
+    "size": "Grand",
+    "weight": "Lourd",
+    "eggGroups": [],
+    "gender": {
+      "genderless": false,
+      "femaleRate": null
+    }
+  },
+  {
+    "id": 55,
+    "enabled": true,
+    "name": {
+      "fr": "Akwakwak",
+      "en": "Golduck"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/55.png",
+    "rarity": "Peu commun",
+    "evolution": {
+      "method": "level",
+      "requirement": 33,
+      "trainerLevel": 7
+    },
+    "types": [
+      "Eau"
+    ],
+    "stats": {
+      "hp": 48,
+      "attack": 9,
+      "specialAttack": 10,
+      "defense": 8,
+      "specialDefense": 8,
+      "speed": 9
+    },
+    "skillIds": [
+      "fountain",
+      "swimmer",
+      "telekinetic"
+    ],
+    "passiveIds": [
+      "cloud-nine",
+      "damp",
+      "swift-swim"
+    ],
+    "moveIds": [
+      "aqua-jet",
+      "aqua-tail",
+      "psybeam"
+    ],
+    "size": "Moyen",
+    "weight": "Lourd",
+    "eggGroups": [
+      "Aquatique 1",
+      "Terrestre"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 67,
+    "enabled": true,
+    "name": {
+      "fr": "Machopeur",
+      "en": "Machoke"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/67.png",
+    "rarity": "Peu commun",
+    "evolution": {
+      "method": "level",
+      "requirement": 28,
+      "trainerLevel": 6
+    },
+    "types": [
+      "Combat"
+    ],
+    "stats": {
+      "hp": 48,
+      "attack": 12,
+      "specialAttack": 5,
+      "defense": 8,
+      "specialDefense": 6,
+      "speed": 5
+    },
+    "skillIds": [
+      "strength"
+    ],
+    "passiveIds": [
+      "focus-energy",
+      "guts",
+      "steadfast"
+    ],
+    "moveIds": [
+      "seismic-toss",
+      "revenge",
+      "knock-off"
+    ],
+    "size": "Moyen",
+    "weight": "Lourd",
+    "eggGroups": [
+      "Humanoïde"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 25
+    }
+  },
+  {
+    "id": 75,
+    "enabled": true,
+    "name": {
+      "fr": "Gravalanch",
+      "en": "Graveler"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/75.png",
+    "rarity": "Commun",
+    "evolution": {
+      "method": "level",
+      "requirement": 25,
+      "trainerLevel": 5
+    },
+    "types": [
+      "Roche",
+      "Sol"
+    ],
+    "stats": {
+      "hp": 36,
+      "attack": 10,
+      "specialAttack": 5,
+      "defense": 13,
+      "specialDefense": 5,
+      "speed": 6
+    },
+    "skillIds": [
+      "groundshaper",
+      "sinker"
+    ],
+    "passiveIds": [
+      "rock-head",
+      "sturdy"
+    ],
+    "moveIds": [
+      "smack-down",
+      "bulldoze",
+      "rock-blast"
+    ],
+    "size": "Moyen",
+    "weight": "Lourd",
+    "eggGroups": [
+      "Minéral"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 86,
+    "enabled": true,
+    "name": {
+      "fr": "Otaria",
+      "en": "Seel"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/86.png",
+    "rarity": "Peu commun",
+    "evolution": null,
+    "types": [
+      "Eau"
+    ],
+    "stats": {
+      "hp": 42,
+      "attack": 5,
+      "specialAttack": 5,
+      "defense": 7,
+      "specialDefense": 7,
+      "speed": 5
+    },
+    "skillIds": [
+      "fountain",
+      "freezer",
+      "swimmer"
+    ],
+    "passiveIds": [
+      "thick-fat"
+    ],
+    "moveIds": [
+      "headbutt",
+      "icy-wind",
+      "encore"
+    ],
+    "size": "Moyen",
+    "weight": "Lourd",
+    "eggGroups": [
+      "Aquatique 1",
+      "Terrestre"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 87,
+    "enabled": true,
+    "name": {
+      "fr": "Lamantine",
+      "en": "Dewgong"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/87.png",
+    "rarity": "Peu commun",
+    "evolution": {
+      "method": "level",
+      "requirement": 34,
+      "trainerLevel": 7
+    },
+    "types": [
+      "Eau",
+      "Glace"
+    ],
+    "stats": {
+      "hp": 54,
+      "attack": 7,
+      "specialAttack": 7,
+      "defense": 9,
+      "specialDefense": 10,
+      "speed": 7
+    },
+    "skillIds": [
+      "fountain",
+      "freezer",
+      "swimmer"
+    ],
+    "passiveIds": [
+      "hydration",
+      "ice-body",
+      "thick-fat"
+    ],
+    "moveIds": [
+      "sheer-cold",
+      "aurora-beam",
+      "aqua-tail"
+    ],
+    "size": "Moyen",
+    "weight": "Lourd",
+    "eggGroups": [
+      "Aquatique 1",
+      "Terrestre"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 91,
+    "enabled": true,
+    "name": {
+      "fr": "Crustabri",
+      "en": "Cloyster"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/91.png",
+    "rarity": "Peu commun",
+    "evolution": {
+      "method": "item",
+      "requirement": "Pierre Eau",
+      "trainerLevel": null
+    },
+    "types": [
+      "Eau",
+      "Glace"
+    ],
+    "stats": {
+      "hp": 30,
+      "attack": 10,
+      "specialAttack": 9,
+      "defense": 20,
+      "specialDefense": 5,
+      "speed": 7
+    },
+    "skillIds": [
+      "fountain",
+      "flopper",
+      "freezer",
+      "gilled",
+      "swimmer"
+    ],
+    "passiveIds": [
+      "overcoat",
+      "shell-armor",
+      "skill-link"
+    ],
+    "moveIds": [
+      "spike-cannon",
+      "icicle-spear",
+      "clamp"
+    ],
+    "size": "Moyen",
+    "weight": "Lourd",
+    "eggGroups": [
+      "Aquatique 3"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 97,
+    "enabled": true,
+    "name": {
+      "fr": "Hypnomade",
+      "en": "Hypno"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/97.png",
+    "rarity": "Peu commun",
+    "evolution": {
+      "method": "level",
+      "requirement": 26,
+      "trainerLevel": 6
+    },
+    "types": [
+      "Psy"
+    ],
+    "stats": {
+      "hp": 54,
+      "attack": 7,
+      "specialAttack": 7,
+      "defense": 7,
+      "specialDefense": 12,
+      "speed": 7
+    },
+    "skillIds": [
+      "mind-lock",
+      "telekinetic"
+    ],
+    "passiveIds": [
+      "inner-focus",
+      "insomnia"
+    ],
+    "moveIds": [
+      "headbutt",
+      "disable",
+      "zen-headbutt"
+    ],
+    "size": "Moyen",
+    "weight": "Lourd",
+    "eggGroups": [
+      "Humanoïde"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 121,
+    "enabled": true,
+    "name": {
+      "fr": "Staross",
+      "en": "Starmie"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/121.png",
+    "rarity": "Peu commun",
+    "evolution": {
+      "method": "item",
+      "requirement": "Pierre Eau",
+      "trainerLevel": null
+    },
+    "types": [
+      "Eau",
+      "Psy"
+    ],
+    "stats": {
+      "hp": 36,
+      "attack": 8,
+      "specialAttack": 10,
+      "defense": 10,
+      "specialDefense": 9,
+      "speed": 12
+    },
+    "skillIds": [
+      "flight",
+      "fountain",
+      "gilled",
+      "glow",
+      "swimmer"
+    ],
+    "passiveIds": [
+      "analytic",
+      "natural-cure"
+    ],
+    "moveIds": [
+      "confuse-ray",
+      "recover",
+      "bubble-beam"
+    ],
+    "size": "Moyen",
+    "weight": "Lourd",
+    "eggGroups": [
+      "Aquatique 3"
+    ],
+    "gender": {
+      "genderless": true,
+      "femaleRate": null
+    }
+  },
+  {
+    "id": 23,
+    "enabled": true,
+    "name": {
+      "fr": "Abo",
+      "en": "Ekans"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/23.png",
+    "rarity": "Peu commun",
+    "evolution": null,
+    "types": [
+      "Poison"
+    ],
+    "stats": {
+      "hp": 24,
+      "attack": 7,
+      "specialAttack": 4,
+      "defense": 4,
+      "specialDefense": 5,
+      "speed": 6
+    },
+    "skillIds": [
+      "stealth",
+      "tracker"
+    ],
+    "passiveIds": [
+      "shed-skin"
+    ],
+    "moveIds": [
+      "wrap",
+      "poison-sting",
+      "bite"
+    ],
+    "size": "Moyen",
+    "weight": "Léger",
+    "eggGroups": [
+      "Terrestre",
+      "Draconique"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 35,
+    "enabled": true,
+    "name": {
+      "fr": "Mélofée",
+      "en": "Clefairy"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/35.png",
+    "rarity": "Peu commun",
+    "evolution": null,
+    "types": [
+      "Fée"
+    ],
+    "stats": {
+      "hp": 42,
+      "attack": 5,
+      "specialAttack": 6,
+      "defense": 7,
+      "specialDefense": 8,
+      "speed": 4
+    },
+    "skillIds": [
+      "flight"
+    ],
+    "passiveIds": [
+      "cute-charm",
+      "magic-guard"
+    ],
+    "moveIds": [
+      "encore",
+      "wake-up-slap",
+      "body-slam"
+    ],
+    "size": "Moyen",
+    "weight": "Léger",
+    "eggGroups": [
+      "Féerique"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 75
+    }
+  },
+  {
+    "id": 1,
+    "enabled": true,
+    "name": {
+      "fr": "Bulbizarre",
+      "en": "Bulbasaur"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/1.png",
+    "rarity": "Rare",
+    "evolution": null,
+    "types": [
+      "Plante",
+      "Poison"
+    ],
+    "stats": {
+      "hp": 30,
+      "attack": 5,
+      "specialAttack": 7,
+      "defense": 6,
+      "specialDefense": 7,
+      "speed": 5
+    },
+    "skillIds": [
+      "sprouter",
+      "threaded"
+    ],
+    "passiveIds": [
+      "overgrow"
+    ],
+    "moveIds": [
+      "tackle",
+      "leech-seed",
+      "vine-whip"
+    ],
+    "size": "Petit",
+    "weight": "Léger",
+    "eggGroups": [
+      "Monstrueux",
+      "Végétal"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 12.5
+    }
+  },
+  {
+    "id": 4,
+    "enabled": true,
+    "name": {
+      "fr": "Salamèche",
+      "en": "Charmander"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/4.png",
+    "rarity": "Rare",
+    "evolution": null,
+    "types": [
+      "Feu"
+    ],
+    "stats": {
+      "hp": 24,
+      "attack": 5,
+      "specialAttack": 6,
+      "defense": 5,
+      "specialDefense": 5,
+      "speed": 7
+    },
+    "skillIds": [
+      "firestarter",
+      "sinker"
+    ],
+    "passiveIds": [
+      "blaze"
+    ],
+    "moveIds": [
+      "scratch",
+      "ember",
+      "smokescreen"
+    ],
+    "size": "Petit",
+    "weight": "Léger",
+    "eggGroups": [
+      "Draconique",
+      "Monstrueux"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 12.5
+    }
+  },
+  {
+    "id": 7,
+    "enabled": true,
+    "name": {
+      "fr": "Carapuce",
+      "en": "Squirtle"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/7.png",
+    "rarity": "Rare",
+    "evolution": null,
+    "types": [
+      "Eau"
+    ],
+    "stats": {
+      "hp": 24,
+      "attack": 5,
+      "specialAttack": 5,
+      "defense": 8,
+      "specialDefense": 6,
+      "speed": 4
+    },
+    "skillIds": [
+      "fountain",
+      "swimmer"
+    ],
+    "passiveIds": [
+      "torrent"
+    ],
+    "moveIds": [
+      "tackle",
+      "water-gun",
+      "rapid-spin"
+    ],
+    "size": "Petit",
+    "weight": "Léger",
+    "eggGroups": [
+      "Aquatique 1",
+      "Monstrueux"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 12.5
+    }
+  },
+  {
+    "id": 10,
+    "enabled": true,
+    "name": {
+      "fr": "Chenipan",
+      "en": "Caterpie"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/10.png",
+    "rarity": "Commun",
+    "evolution": null,
+    "types": [
+      "Insecte"
+    ],
+    "stats": {
+      "hp": 30,
+      "attack": 3,
+      "specialAttack": 2,
+      "defense": 4,
+      "specialDefense": 2,
+      "speed": 7
+    },
+    "skillIds": [
+      "repulsive",
+      "threaded"
+    ],
+    "passiveIds": [
+      "shield-dust"
+    ],
+    "moveIds": [
+      "splash",
+      "tackle",
+      "bug-bite"
+    ],
+    "size": "Petit",
+    "weight": "Léger",
+    "eggGroups": [
+      "Insectoïde"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 13,
+    "enabled": true,
+    "name": {
+      "fr": "Aspicot",
+      "en": "Weedle"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/13.png",
+    "rarity": "Commun",
+    "evolution": null,
+    "types": [
+      "Insecte",
+      "Poison"
+    ],
+    "stats": {
+      "hp": 24,
+      "attack": 4,
+      "specialAttack": 2,
+      "defense": 3,
+      "specialDefense": 2,
+      "speed": 7
+    },
+    "skillIds": [
+      "threaded"
+    ],
+    "passiveIds": [
+      "shield-dust"
+    ],
+    "moveIds": [
+      "poison-sting",
+      "tackle",
+      "bug-bite"
+    ],
+    "size": "Petit",
+    "weight": "Léger",
+    "eggGroups": [
+      "Insectoïde"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 19,
+    "enabled": true,
+    "name": {
+      "fr": "Rattata",
+      "en": "Rattata"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/19.png",
+    "rarity": "Commun",
+    "evolution": null,
+    "types": [
+      "Normal"
+    ],
+    "stats": {
+      "hp": 18,
+      "attack": 7,
+      "specialAttack": 3,
+      "defense": 4,
+      "specialDefense": 4,
+      "speed": 8
+    },
+    "skillIds": [
+      "stealth"
+    ],
+    "passiveIds": [
+      "focus-energy"
+    ],
+    "moveIds": [
+      "quick-attack",
+      "bite",
+      "pursuit"
+    ],
+    "size": "Petit",
+    "weight": "Léger",
+    "eggGroups": [
+      "Terrestre"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 29,
+    "enabled": true,
+    "name": {
+      "fr": "Nidoran♀",
+      "en": "Nidoran♀"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/29.png",
+    "rarity": "Commun",
+    "evolution": null,
+    "types": [
+      "Poison"
+    ],
+    "stats": {
+      "hp": 36,
+      "attack": 6,
+      "specialAttack": 4,
+      "defense": 6,
+      "specialDefense": 4,
+      "speed": 4
+    },
+    "skillIds": [],
+    "passiveIds": [
+      "poison-point"
+    ],
+    "moveIds": [
+      "scratch",
+      "double-kick",
+      "poison-sting"
+    ],
+    "size": "Petit",
+    "weight": "Léger",
+    "eggGroups": [
+      "Monstrueux",
+      "Terrestre"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 100
+    }
+  },
+  {
+    "id": 32,
+    "enabled": true,
+    "name": {
+      "fr": "Nidoran♂",
+      "en": "Nidoran♂"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/32.png",
+    "rarity": "Commun",
+    "evolution": null,
+    "types": [
+      "Poison"
+    ],
+    "stats": {
+      "hp": 30,
+      "attack": 7,
+      "specialAttack": 4,
+      "defense": 4,
+      "specialDefense": 4,
+      "speed": 5
+    },
+    "skillIds": [],
+    "passiveIds": [
+      "focus-energy",
+      "poison-point"
+    ],
+    "moveIds": [
+      "peck",
+      "double-kick",
+      "poison-sting"
+    ],
+    "size": "Petit",
+    "weight": "Léger",
+    "eggGroups": [
+      "Monstrueux",
+      "Terrestre"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 0
+    }
+  },
+  {
+    "id": 37,
+    "enabled": true,
+    "name": {
+      "fr": "Goupix",
+      "en": "Vulpix"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/37.png",
+    "rarity": "Peu commun",
+    "evolution": null,
+    "types": [
+      "Feu"
+    ],
+    "stats": {
+      "hp": 24,
+      "attack": 5,
+      "specialAttack": 5,
+      "defense": 5,
+      "specialDefense": 7,
+      "speed": 7
+    },
+    "skillIds": [
+      "firestarter"
+    ],
+    "passiveIds": [
+      "flash-fire"
+    ],
+    "moveIds": [
+      "ember",
+      "quick-attack",
+      "confuse-ray"
+    ],
+    "size": "Petit",
+    "weight": "Léger",
+    "eggGroups": [
+      "Terrestre"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 75
+    }
+  },
+  {
+    "id": 39,
+    "enabled": true,
+    "name": {
+      "fr": "Rondoudou",
+      "en": "Jigglypuff"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/39.png",
+    "rarity": "Peu commun",
+    "evolution": null,
+    "types": [
+      "Normal",
+      "Fée"
+    ],
+    "stats": {
+      "hp": 72,
+      "attack": 5,
+      "specialAttack": 5,
+      "defense": 3,
+      "specialDefense": 3,
+      "speed": 2
+    },
+    "skillIds": [
+      "inflatable"
+    ],
+    "passiveIds": [
+      "competitive",
+      "cute-charm"
+    ],
+    "moveIds": [
+      "disarming-voice",
+      "double-slap",
+      "rollout"
+    ],
+    "size": "Petit",
+    "weight": "Léger",
+    "eggGroups": [
+      "Féerique"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 75
+    }
+  },
+  {
+    "id": 70,
+    "enabled": true,
+    "name": {
+      "fr": "Boustiflor",
+      "en": "Weepinbell"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/70.png",
+    "rarity": "Commun",
+    "evolution": {
+      "method": "level",
+      "requirement": 21,
+      "trainerLevel": 5
+    },
+    "types": [
+      "Plante",
+      "Poison"
+    ],
+    "stats": {
+      "hp": 42,
+      "attack": 10,
+      "specialAttack": 10,
+      "defense": 5,
+      "specialDefense": 5,
+      "speed": 6
+    },
+    "skillIds": [
+      "sprouter",
+      "threaded"
+    ],
+    "passiveIds": [
+      "chlorophyll"
+    ],
+    "moveIds": [
+      "poison-powder",
+      "stun-spore",
+      "sleep-powder"
+    ],
+    "size": "Moyen",
+    "weight": "Léger",
+    "eggGroups": [
+      "Végétal"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 110,
+    "enabled": true,
+    "name": {
+      "fr": "Smogogo",
+      "en": "Weezing"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/110.png",
+    "rarity": "Peu commun",
+    "evolution": {
+      "method": "level",
+      "requirement": 35,
+      "trainerLevel": 7
+    },
+    "types": [
+      "Poison"
+    ],
+    "stats": {
+      "hp": 42,
+      "attack": 9,
+      "specialAttack": 9,
+      "defense": 12,
+      "specialDefense": 7,
+      "speed": 6
+    },
+    "skillIds": [
+      "flight",
+      "repulsive"
+    ],
+    "passiveIds": [
+      "levitate",
+      "neutralizing-gas",
+      "stench"
+    ],
+    "moveIds": [
+      "gyro-ball",
+      "sludge-bomb",
+      "self-destruct"
+    ],
+    "size": "Moyen",
+    "weight": "Léger",
+    "eggGroups": [
+      "Amorphe"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 147,
+    "enabled": true,
+    "name": {
+      "fr": "Minidraco",
+      "en": "Dratini"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/147.png",
+    "rarity": "Rare",
+    "evolution": null,
+    "types": [
+      "Dragon"
+    ],
+    "stats": {
+      "hp": 24,
+      "attack": 7,
+      "specialAttack": 5,
+      "defense": 5,
+      "specialDefense": 5,
+      "speed": 5
+    },
+    "skillIds": [
+      "flight",
+      "swimmer"
+    ],
+    "passiveIds": [
+      "shed-skin"
+    ],
+    "moveIds": [
+      "wrap",
+      "thunder-wave",
+      "twister"
+    ],
+    "size": "Moyen",
+    "weight": "Léger",
+    "eggGroups": [
+      "Draconique",
+      "Aquatique 1"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 41,
+    "enabled": true,
+    "name": {
+      "fr": "Nosferapti",
+      "en": "Zubat"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/41.png",
+    "rarity": "Commun",
+    "evolution": null,
+    "types": [
+      "Poison",
+      "Vol"
+    ],
+    "stats": {
+      "hp": 24,
+      "attack": 5,
+      "specialAttack": 3,
+      "defense": 4,
+      "specialDefense": 4,
+      "speed": 6
+    },
+    "skillIds": [
+      "flight"
+    ],
+    "passiveIds": [
+      "inner-focus"
+    ],
+    "moveIds": [
+      "absorb",
+      "supersonic",
+      "bite"
+    ],
+    "size": "Petit",
+    "weight": "Léger",
+    "eggGroups": [
+      "Aérien"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 43,
+    "enabled": true,
+    "name": {
+      "fr": "Mystherbe",
+      "en": "Oddish"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/43.png",
+    "rarity": "Commun",
+    "evolution": null,
+    "types": [
+      "Plante",
+      "Poison"
+    ],
+    "stats": {
+      "hp": 30,
+      "attack": 6,
+      "specialAttack": 9,
+      "defense": 6,
+      "specialDefense": 7,
+      "speed": 3
+    },
+    "skillIds": [
+      "sprouter"
+    ],
+    "passiveIds": [
+      "chlorophyll"
+    ],
+    "moveIds": [
+      "absorb",
+      "sweet-scent",
+      "acid-spray"
+    ],
+    "size": "Petit",
+    "weight": "Léger",
+    "eggGroups": [
+      "Végétal"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 44,
+    "enabled": true,
+    "name": {
+      "fr": "Ortide",
+      "en": "Gloom"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/44.png",
+    "rarity": "Commun",
+    "evolution": {
+      "method": "level",
+      "requirement": 21,
+      "trainerLevel": 5
+    },
+    "types": [
+      "Plante",
+      "Poison"
+    ],
+    "stats": {
+      "hp": 36,
+      "attack": 8,
+      "specialAttack": 10,
+      "defense": 7,
+      "specialDefense": 8,
+      "speed": 4
+    },
+    "skillIds": [
+      "sprouter",
+      "repulsive"
+    ],
+    "passiveIds": [
+      "chlorophyll"
+    ],
+    "moveIds": [
+      "poison-powder",
+      "stun-spore",
+      "sleep-powder"
+    ],
+    "size": "Petit",
+    "weight": "Léger",
+    "eggGroups": [
+      "Végétal"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 46,
+    "enabled": true,
+    "name": {
+      "fr": "Paras",
+      "en": "Paras"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/46.png",
+    "rarity": "Commun",
+    "evolution": null,
+    "types": [
+      "Insecte",
+      "Plante"
+    ],
+    "stats": {
+      "hp": 24,
+      "attack": 8,
+      "specialAttack": 6,
+      "defense": 6,
+      "specialDefense": 6,
+      "speed": 3
+    },
+    "skillIds": [],
+    "passiveIds": [
+      "effect-spore"
+    ],
+    "moveIds": [
+      "stun-spore",
+      "absorb",
+      "fury-cutter"
+    ],
+    "size": "Petit",
+    "weight": "Léger",
+    "eggGroups": [
+      "Insectoïde",
+      "Végétal"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 52,
+    "enabled": true,
+    "name": {
+      "fr": "Miaouss",
+      "en": "Meowth"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/52.png",
+    "rarity": "Commun",
+    "evolution": null,
+    "types": [
+      "Normal"
+    ],
+    "stats": {
+      "hp": 24,
+      "attack": 7,
+      "specialAttack": 4,
+      "defense": 5,
+      "specialDefense": 4,
+      "speed": 9
+    },
+    "skillIds": [
+      "stealth"
+    ],
+    "passiveIds": [
+      "technician"
+    ],
+    "moveIds": [
+      "fake-out",
+      "fury-swipes",
+      "feint-attack"
+    ],
+    "size": "Petit",
+    "weight": "Léger",
+    "eggGroups": [
+      "Terrestre"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 69,
+    "enabled": true,
+    "name": {
+      "fr": "Chétiflor",
+      "en": "Bellsprout"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/69.png",
+    "rarity": "Commun",
+    "evolution": null,
+    "types": [
+      "Plante",
+      "Poison"
+    ],
+    "stats": {
+      "hp": 30,
+      "attack": 9,
+      "specialAttack": 8,
+      "defense": 4,
+      "specialDefense": 3,
+      "speed": 4
+    },
+    "skillIds": [
+      "sprouter",
+      "threaded"
+    ],
+    "passiveIds": [
+      "chlorophyll"
+    ],
+    "moveIds": [
+      "vine-whip",
+      "pound",
+      "wrap"
+    ],
+    "size": "Petit",
+    "weight": "Léger",
+    "eggGroups": [
+      "Végétal"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 81,
+    "enabled": true,
+    "name": {
+      "fr": "Magnéti",
+      "en": "Magnemite"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/81.png",
+    "rarity": "Peu commun",
+    "evolution": null,
+    "types": [
+      "Électrik",
+      "Acier"
+    ],
+    "stats": {
+      "hp": 18,
+      "attack": 4,
+      "specialAttack": 10,
+      "defense": 7,
+      "specialDefense": 6,
+      "speed": 5
+    },
+    "skillIds": [
+      "flight",
+      "magnetic",
+      "zapper"
+    ],
+    "passiveIds": [
+      "sturdy"
+    ],
+    "moveIds": [
+      "tackle",
+      "thunder-shock",
+      "magnet-pull"
+    ],
+    "size": "Petit",
+    "weight": "Léger",
+    "eggGroups": [
+      "Minéral"
+    ],
+    "gender": {
+      "genderless": true,
+      "femaleRate": null
+    }
+  },
+  {
+    "id": 90,
+    "enabled": true,
+    "name": {
+      "fr": "Kokiyas",
+      "en": "Shellder"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/90.png",
+    "rarity": "Peu commun",
+    "evolution": null,
+    "types": [
+      "Eau"
+    ],
+    "stats": {
+      "hp": 18,
+      "attack": 7,
+      "specialAttack": 5,
+      "defense": 12,
+      "specialDefense": 3,
+      "speed": 4
+    },
+    "skillIds": [
+      "fountain",
+      "flopper",
+      "gilled",
+      "swimmer"
+    ],
+    "passiveIds": [
+      "shell-armor"
+    ],
+    "moveIds": [
+      "tackle",
+      "water-gun",
+      "supersonic"
+    ],
+    "size": "Petit",
+    "weight": "Léger",
+    "eggGroups": [
+      "Aquatique 3"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 98,
+    "enabled": true,
+    "name": {
+      "fr": "Krabby",
+      "en": "Krabby"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/98.png",
+    "rarity": "Peu commun",
+    "evolution": null,
+    "types": [
+      "Eau"
+    ],
+    "stats": {
+      "hp": 18,
+      "attack": 12,
+      "specialAttack": 3,
+      "defense": 10,
+      "specialDefense": 3,
+      "speed": 5
+    },
+    "skillIds": [
+      "fountain",
+      "gilled",
+      "swimmer"
+    ],
+    "passiveIds": [
+      "hyper-cutter"
+    ],
+    "moveIds": [
+      "bubble",
+      "vice-grip",
+      "mud-shot"
+    ],
+    "size": "Petit",
+    "weight": "Léger",
+    "eggGroups": [
+      "Aquatique 3"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 100,
+    "enabled": true,
+    "name": {
+      "fr": "Voltorbe",
+      "en": "Voltorb"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/100.png",
+    "rarity": "Peu commun",
+    "evolution": null,
+    "types": [
+      "Électrik"
+    ],
+    "stats": {
+      "hp": 24,
+      "attack": 3,
+      "specialAttack": 6,
+      "defense": 5,
+      "specialDefense": 8,
+      "speed": 10
+    },
+    "skillIds": [
+      "zapper"
+    ],
+    "passiveIds": [
+      "static"
+    ],
+    "moveIds": [
+      "tackle",
+      "sonic-boom",
+      "spark"
+    ],
+    "size": "Petit",
+    "weight": "Léger",
+    "eggGroups": [
+      "Minéral"
+    ],
+    "gender": {
+      "genderless": true,
+      "femaleRate": null
+    }
+  },
+  {
+    "id": 104,
+    "enabled": true,
+    "name": {
+      "fr": "Osselait",
+      "en": "Cubone"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/104.png",
+    "rarity": "Peu commun",
+    "evolution": null,
+    "types": [
+      "Sol"
+    ],
+    "stats": {
+      "hp": 30,
+      "attack": 6,
+      "specialAttack": 4,
+      "defense": 11,
+      "specialDefense": 5,
+      "speed": 4
+    },
+    "skillIds": [],
+    "passiveIds": [
+      "focus-energy",
+      "lightning-rod"
+    ],
+    "moveIds": [
+      "hold-back",
+      "headbutt",
+      "bone-club"
+    ],
+    "size": "Petit",
+    "weight": "Léger",
+    "eggGroups": [
+      "Monstrueux"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 116,
+    "enabled": true,
+    "name": {
+      "fr": "Hypotrempe",
+      "en": "Horsea"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/116.png",
+    "rarity": "Peu commun",
+    "evolution": null,
+    "types": [
+      "Eau"
+    ],
+    "stats": {
+      "hp": 18,
+      "attack": 5,
+      "specialAttack": 7,
+      "defense": 7,
+      "specialDefense": 3,
+      "speed": 6
+    },
+    "skillIds": [
+      "fountain",
+      "flopper",
+      "gilled",
+      "swimmer"
+    ],
+    "passiveIds": [
+      "swift-swim"
+    ],
+    "moveIds": [
+      "bubble",
+      "smokescreen",
+      "water-gun"
+    ],
+    "size": "Petit",
+    "weight": "Léger",
+    "eggGroups": [
+      "Aquatique 1",
+      "Draconique"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 129,
+    "enabled": true,
+    "name": {
+      "fr": "Magicarpe",
+      "en": "Magikarp"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/129.png",
+    "rarity": "Commun",
+    "evolution": null,
+    "types": [
+      "Eau"
+    ],
+    "stats": {
+      "hp": 12,
+      "attack": 1,
+      "specialAttack": 2,
+      "defense": 6,
+      "specialDefense": 2,
+      "speed": 8
+    },
+    "skillIds": [
+      "flopper",
+      "fountain",
+      "gilled",
+      "swimmer"
+    ],
+    "passiveIds": [
+      "swift-swim"
+    ],
+    "moveIds": [
+      "splash",
+      "tackle",
+      "flail"
+    ],
+    "size": "Petit",
+    "weight": "Léger",
+    "eggGroups": [
+      "Aquatique 2",
+      "Draconique"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 132,
+    "enabled": true,
+    "name": {
+      "fr": "Métamorph",
+      "en": "Ditto"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/132.png",
+    "rarity": "Rare",
+    "evolution": null,
+    "types": [
+      "Normal"
+    ],
+    "stats": {
+      "hp": 30,
+      "attack": 5,
+      "specialAttack": 5,
+      "defense": 5,
+      "specialDefense": 5,
+      "speed": 5
+    },
+    "skillIds": [
+      "amorphous",
+      "inflatable",
+      "shrinkable"
+    ],
+    "passiveIds": [
+      "imposter",
+      "limber"
+    ],
+    "moveIds": [
+      "transform"
+    ],
+    "size": "Petit",
+    "weight": "Léger",
+    "eggGroups": [
+      "Métamorph"
+    ],
+    "gender": {
+      "genderless": true,
+      "femaleRate": null
+    }
+  },
+  {
+    "id": 133,
+    "enabled": true,
+    "name": {
+      "fr": "Évoli",
+      "en": "Eevee"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/133.png",
+    "rarity": "Peu commun",
+    "evolution": null,
+    "types": [
+      "Normal"
+    ],
+    "stats": {
+      "hp": 36,
+      "attack": 6,
+      "specialAttack": 5,
+      "defense": 6,
+      "specialDefense": 7,
+      "speed": 6
+    },
+    "skillIds": [
+      "tracker"
+    ],
+    "passiveIds": [
+      "adaptability"
+    ],
+    "moveIds": [
+      "quick-attack",
+      "bite",
+      "swift"
+    ],
+    "size": "Petit",
+    "weight": "Léger",
+    "eggGroups": [
+      "Terrestre"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 12.5
+    }
+  },
+  {
+    "id": 138,
+    "enabled": false,
+    "name": {
+      "fr": "Amonita",
+      "en": "Omanyte"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/138.png",
+    "rarity": "Fossile",
+    "evolution": null,
+    "types": [
+      "Roche",
+      "Eau"
+    ],
+    "stats": {
+      "hp": 24,
+      "attack": 5,
+      "specialAttack": 9,
+      "defense": 10,
+      "specialDefense": 6,
+      "speed": 4
+    },
+    "skillIds": [
+      "fountain",
+      "gilled",
+      "swimmer"
+    ],
+    "passiveIds": [
+      "shell-armor"
+    ],
+    "moveIds": [
+      "bite",
+      "water-gun",
+      "rollout"
+    ],
+    "size": "Petit",
+    "weight": "Léger",
+    "eggGroups": [
+      "Aquatique 1",
+      "Aquatique 3"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 12.5
+    }
+  },
+  {
+    "id": 151,
+    "enabled": false,
+    "name": {
+      "fr": "Mew",
+      "en": "Mew"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/151.png",
+    "rarity": "Légendaire",
+    "evolution": null,
+    "types": [],
+    "stats": {
+      "hp": null,
+      "attack": null,
+      "specialAttack": null,
+      "defense": null,
+      "specialDefense": null,
+      "speed": null
+    },
+    "skillIds": [],
+    "passiveIds": [],
+    "moveIds": [],
+    "size": "Petit",
+    "weight": "Léger",
+    "eggGroups": [],
+    "gender": {
+      "genderless": false,
+      "femaleRate": null
+    }
+  },
+  {
+    "id": 3,
+    "enabled": true,
+    "name": {
+      "fr": "Florizarre",
+      "en": "Venusaur"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/3.png",
+    "rarity": "Rare",
+    "evolution": {
+      "method": "level",
+      "requirement": 32,
+      "trainerLevel": 7
+    },
+    "types": [
+      "Plante",
+      "Poison"
+    ],
+    "stats": {
+      "hp": 48,
+      "attack": 9,
+      "specialAttack": 11,
+      "defense": 9,
+      "specialDefense": 10,
+      "speed": 8
+    },
+    "skillIds": [
+      "sprouter",
+      "threaded"
+    ],
+    "passiveIds": [
+      "overgrow",
+      "chlorophyll"
+    ],
+    "moveIds": [
+      "petal-blizzard",
+      "synthesis",
+      "solar-beam"
+    ],
+    "size": "Grand",
+    "weight": "Lourd",
+    "eggGroups": [
+      "Draconique",
+      "Monstrueux"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 12.5
+    }
+  },
+  {
+    "id": 6,
+    "enabled": true,
+    "name": {
+      "fr": "Dracaufeu",
+      "en": "Charizard"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/6.png",
+    "rarity": "Rare",
+    "evolution": {
+      "method": "level",
+      "requirement": 32,
+      "trainerLevel": 7
+    },
+    "types": [
+      "Feu"
+    ],
+    "stats": {
+      "hp": 48,
+      "attack": 8,
+      "specialAttack": 11,
+      "defense": 9,
+      "specialDefense": 9,
+      "speed": 10
+    },
+    "skillIds": [
+      "firestarter",
+      "sinker",
+      "flight"
+    ],
+    "passiveIds": [
+      "blaze",
+      "solar-power"
+    ],
+    "moveIds": [
+      "wing-attack",
+      "flamethrower",
+      "fire-spin"
+    ],
+    "size": "Grand",
+    "weight": "Lourd",
+    "eggGroups": [
+      "Aquatique 1",
+      "Monstrueux"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 12.5
+    }
+  },
+  {
+    "id": 9,
+    "enabled": true,
+    "name": {
+      "fr": "Tortank",
+      "en": "Blastoise"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/9.png",
+    "rarity": "Rare",
+    "evolution": {
+      "method": "level",
+      "requirement": 32,
+      "trainerLevel": 7
+    },
+    "types": [
+      "Eau"
+    ],
+    "stats": {
+      "hp": 48,
+      "attack": 8,
+      "specialAttack": 9,
+      "defense": 12,
+      "specialDefense": 11,
+      "speed": 8
+    },
+    "skillIds": [
+      "fountain",
+      "swimmer"
+    ],
+    "passiveIds": [
+      "torrent",
+      "rain-dish"
+    ],
+    "moveIds": [
+      "aqua-tail",
+      "flash-cannon",
+      "hydro-pump"
+    ],
+    "size": "Grand",
+    "weight": "Lourd",
+    "eggGroups": [
+      "Insectoïde"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 142,
+    "enabled": false,
+    "name": {
+      "fr": "Ptéra",
+      "en": "Aerodactyl"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/142.png",
+    "rarity": "Fossile",
+    "evolution": null,
+    "types": [
+      "Roche",
+      "Vol"
+    ],
+    "stats": {
+      "hp": 48,
+      "attack": 11,
+      "specialAttack": 6,
+      "defense": 7,
+      "specialDefense": 8,
+      "speed": 13
+    },
+    "skillIds": [
+      "flight"
+    ],
+    "passiveIds": [
+      "pressure",
+      "rock-head",
+      "unnerve"
+    ],
+    "moveIds": [
+      "ancient-power",
+      "crunch",
+      "sky-drop"
+    ],
+    "size": "Géant",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Aérien"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 12.5
+    }
+  },
+  {
+    "id": 45,
+    "enabled": true,
+    "name": {
+      "fr": "Rafflesia",
+      "en": "Vileplume"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/45.png",
+    "rarity": "Commun",
+    "evolution": {
+      "method": "item",
+      "requirement": "Pierre Plante",
+      "trainerLevel": null
+    },
+    "types": [
+      "Plante",
+      "Poison"
+    ],
+    "stats": {
+      "hp": 48,
+      "attack": 9,
+      "specialAttack": 12,
+      "defense": 9,
+      "specialDefense": 9,
+      "speed": 5
+    },
+    "skillIds": [
+      "alluring",
+      "repulsive",
+      "sprouter"
+    ],
+    "passiveIds": [
+      "chlorophyll",
+      "effect-spore"
+    ],
+    "moveIds": [
+      "petal-blizzard",
+      "petal-dance",
+      "solar-beam"
+    ],
+    "size": "Grand",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Végétal"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 73,
+    "enabled": true,
+    "name": {
+      "fr": "Tentacruel",
+      "en": "Tentacruel"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/73.png",
+    "rarity": "Peu commun",
+    "evolution": {
+      "method": "level",
+      "requirement": 30,
+      "trainerLevel": 6
+    },
+    "types": [
+      "Eau",
+      "Poison"
+    ],
+    "stats": {
+      "hp": 48,
+      "attack": 9,
+      "specialAttack": 8,
+      "defense": 7,
+      "specialDefense": 12,
+      "speed": 10
+    },
+    "skillIds": [
+      "fountain",
+      "gilled",
+      "reach",
+      "swimmer"
+    ],
+    "passiveIds": [
+      "clear-body",
+      "liquid-ooze",
+      "rain-dish"
+    ],
+    "moveIds": [
+      "water-pulse",
+      "wrap",
+      "poison-jab"
+    ],
+    "size": "Grand",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Aquatique 3"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 88,
+    "enabled": true,
+    "name": {
+      "fr": "Tadmorv",
+      "en": "Grimer"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/88.png",
+    "rarity": "Peu commun",
+    "evolution": null,
+    "types": [
+      "Poison"
+    ],
+    "stats": {
+      "hp": 48,
+      "attack": 10,
+      "specialAttack": 4,
+      "defense": 7,
+      "specialDefense": 5,
+      "speed": 3
+    },
+    "skillIds": [
+      "amorphous",
+      "repulsive"
+    ],
+    "passiveIds": [
+      "stench"
+    ],
+    "moveIds": [
+      "mud-slap",
+      "sludge",
+      "disable"
+    ],
+    "size": "Grand",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Amorphe"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 144,
+    "enabled": false,
+    "name": {
+      "fr": "Artikodin",
+      "en": "Articuno"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/144.png",
+    "rarity": "Légendaire",
+    "evolution": null,
+    "types": [],
+    "stats": {
+      "hp": null,
+      "attack": null,
+      "specialAttack": null,
+      "defense": null,
+      "specialDefense": null,
+      "speed": null
+    },
+    "skillIds": [],
+    "passiveIds": [],
+    "moveIds": [],
+    "size": "Grand",
+    "weight": "Moyen",
+    "eggGroups": [],
+    "gender": {
+      "genderless": false,
+      "femaleRate": null
+    }
+  },
+  {
+    "id": 145,
+    "enabled": false,
+    "name": {
+      "fr": "Électhor",
+      "en": "Zapdos"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/145.png",
+    "rarity": "Légendaire",
+    "evolution": null,
+    "types": [],
+    "stats": {
+      "hp": null,
+      "attack": null,
+      "specialAttack": null,
+      "defense": null,
+      "specialDefense": null,
+      "speed": null
+    },
+    "skillIds": [],
+    "passiveIds": [],
+    "moveIds": [],
+    "size": "Grand",
+    "weight": "Moyen",
+    "eggGroups": [],
+    "gender": {
+      "genderless": false,
+      "femaleRate": null
+    }
+  },
+  {
+    "id": 146,
+    "enabled": false,
+    "name": {
+      "fr": "Sulfura",
+      "en": "Moltres"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/146.png",
+    "rarity": "Légendaire",
+    "evolution": null,
+    "types": [],
+    "stats": {
+      "hp": null,
+      "attack": null,
+      "specialAttack": null,
+      "defense": null,
+      "specialDefense": null,
+      "speed": null
+    },
+    "skillIds": [],
+    "passiveIds": [],
+    "moveIds": [],
+    "size": "Grand",
+    "weight": "Moyen",
+    "eggGroups": [],
+    "gender": {
+      "genderless": false,
+      "femaleRate": null
+    }
+  },
+  {
+    "id": 148,
+    "enabled": true,
+    "name": {
+      "fr": "Draco",
+      "en": "Dragonair"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/148.png",
+    "rarity": "Rare",
+    "evolution": {
+      "method": "level",
+      "requirement": 30,
+      "trainerLevel": 6
+    },
+    "types": [
+      "Dragon"
+    ],
+    "stats": {
+      "hp": 36,
+      "attack": 9,
+      "specialAttack": 7,
+      "defense": 7,
+      "specialDefense": 7,
+      "speed": 7
+    },
+    "skillIds": [
+      "flight",
+      "swimmer"
+    ],
+    "passiveIds": [
+      "marvel-scale",
+      "shed-skin"
+    ],
+    "moveIds": [
+      "dragon-rage",
+      "slam",
+      "aqua-tail"
+    ],
+    "size": "Grand",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Draconique",
+      "Aquatique 1"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 40,
+    "enabled": true,
+    "name": {
+      "fr": "Grodoudou",
+      "en": "Wigglytuff"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/40.png",
+    "rarity": "Peu commun",
+    "evolution": {
+      "method": "item",
+      "requirement": "Pierre Lune",
+      "trainerLevel": null
+    },
+    "types": [
+      "Normal",
+      "Fée"
+    ],
+    "stats": {
+      "hp": 84,
+      "attack": 7,
+      "specialAttack": 9,
+      "defense": 6,
+      "specialDefense": 5,
+      "speed": 5
+    },
+    "skillIds": [
+      "inflatable"
+    ],
+    "passiveIds": [
+      "competitive",
+      "cute-charm",
+      "friend-guard"
+    ],
+    "moveIds": [
+      "wake-up-slap",
+      "double-edge",
+      "hyper-voice"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Féerique"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 75
+    }
+  },
+  {
+    "id": 42,
+    "enabled": true,
+    "name": {
+      "fr": "Nosferalto",
+      "en": "Golbat"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/42.png",
+    "rarity": "Commun",
+    "evolution": {
+      "method": "level",
+      "requirement": 22,
+      "trainerLevel": 5
+    },
+    "types": [
+      "Poison",
+      "Vol"
+    ],
+    "stats": {
+      "hp": 48,
+      "attack": 10,
+      "specialAttack": 7,
+      "defense": 7,
+      "specialDefense": 8,
+      "speed": 9
+    },
+    "skillIds": [
+      "flight"
+    ],
+    "passiveIds": [
+      "infiltrator",
+      "inner-focus"
+    ],
+    "moveIds": [
+      "wing-attack",
+      "poison-fang",
+      "mean-look"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Aérien"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 47,
+    "enabled": true,
+    "name": {
+      "fr": "Parasect",
+      "en": "Parasect"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/47.png",
+    "rarity": "Commun",
+    "evolution": {
+      "method": "level",
+      "requirement": 24,
+      "trainerLevel": 5
+    },
+    "types": [
+      "Insecte",
+      "Plante"
+    ],
+    "stats": {
+      "hp": 36,
+      "attack": 11,
+      "specialAttack": 7,
+      "defense": 8,
+      "specialDefense": 8,
+      "speed": 3
+    },
+    "skillIds": [],
+    "passiveIds": [
+      "damp",
+      "dry-skin",
+      "effect-spore"
+    ],
+    "moveIds": [
+      "spore",
+      "slash",
+      "giga-drain"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Insectoïde",
+      "Végétal"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 48,
+    "enabled": true,
+    "name": {
+      "fr": "Mimitoss",
+      "en": "Venonat"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/48.png",
+    "rarity": "Peu commun",
+    "evolution": null,
+    "types": [
+      "Insecte",
+      "Poison"
+    ],
+    "stats": {
+      "hp": 36,
+      "attack": 6,
+      "specialAttack": 4,
+      "defense": 5,
+      "specialDefense": 6,
+      "speed": 5
+    },
+    "skillIds": [
+      "telekinetic"
+    ],
+    "passiveIds": [
+      "compound-eyes"
+    ],
+    "moveIds": [
+      "disable",
+      "supersonic",
+      "confusion"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Insectoïde"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 49,
+    "enabled": true,
+    "name": {
+      "fr": "Aéromite",
+      "en": "Venomoth"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/49.png",
+    "rarity": "Peu commun",
+    "evolution": {
+      "method": "level",
+      "requirement": 31,
+      "trainerLevel": 7
+    },
+    "types": [
+      "Insecte",
+      "Poison"
+    ],
+    "stats": {
+      "hp": 42,
+      "attack": 7,
+      "specialAttack": 10,
+      "defense": 6,
+      "specialDefense": 9,
+      "speed": 10
+    },
+    "skillIds": [
+      "flight",
+      "telekinetic"
+    ],
+    "passiveIds": [
+      "compound-eyes",
+      "shield-dust",
+      "tinted-lens",
+      "wonder-skin"
+    ],
+    "moveIds": [
+      "sleep-powder",
+      "psychic",
+      "bug-buzz"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Insectoïde"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 51,
+    "enabled": true,
+    "name": {
+      "fr": "Triopikeur",
+      "en": "Dugtrio"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/51.png",
+    "rarity": "Peu commun",
+    "evolution": {
+      "method": "level",
+      "requirement": 26,
+      "trainerLevel": 6
+    },
+    "types": [
+      "Sol"
+    ],
+    "stats": {
+      "hp": 24,
+      "attack": 11,
+      "specialAttack": 6,
+      "defense": 6,
+      "specialDefense": 7,
+      "speed": 12
+    },
+    "skillIds": [
+      "burrow",
+      "groundshaper",
+      "sinker"
+    ],
+    "passiveIds": [
+      "sand-force",
+      "sand-veil"
+    ],
+    "moveIds": [
+      "sand-tomb",
+      "slash",
+      "earthquake"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Terrestre"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 53,
+    "enabled": true,
+    "name": {
+      "fr": "Persian",
+      "en": "Persian"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/53.png",
+    "rarity": "Commun",
+    "evolution": {
+      "method": "level",
+      "requirement": 28,
+      "trainerLevel": 6
+    },
+    "types": [
+      "Normal"
+    ],
+    "stats": {
+      "hp": 42,
+      "attack": 9,
+      "specialAttack": 7,
+      "defense": 7,
+      "specialDefense": 7,
+      "speed": 12
+    },
+    "skillIds": [
+      "stealth"
+    ],
+    "passiveIds": [
+      "limber",
+      "technician",
+      "unnerve"
+    ],
+    "moveIds": [
+      "power-gem",
+      "slash",
+      "night-slash"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Terrestre"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 54,
+    "enabled": true,
+    "name": {
+      "fr": "Psykokwak",
+      "en": "Psyduck"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/54.png",
+    "rarity": "Peu commun",
+    "evolution": null,
+    "types": [
+      "Eau"
+    ],
+    "stats": {
+      "hp": 30,
+      "attack": 6,
+      "specialAttack": 7,
+      "defense": 5,
+      "specialDefense": 5,
+      "speed": 6
+    },
+    "skillIds": [
+      "fountain",
+      "swimmer",
+      "telekinetic"
+    ],
+    "passiveIds": [
+      "damp"
+    ],
+    "moveIds": [
+      "scratch",
+      "water-gun",
+      "confusion"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Aquatique 1",
+      "Terrestre"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 57,
+    "enabled": true,
+    "name": {
+      "fr": "Colossinge",
+      "en": "Primeape"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/57.png",
+    "rarity": "Peu commun",
+    "evolution": {
+      "method": "level",
+      "requirement": 28,
+      "trainerLevel": 6
+    },
+    "types": [
+      "Combat"
+    ],
+    "stats": {
+      "hp": 42,
+      "attack": 13,
+      "specialAttack": 6,
+      "defense": 6,
+      "specialDefense": 7,
+      "speed": 10
+    },
+    "skillIds": [
+      "climber"
+    ],
+    "passiveIds": [
+      "focus-energy",
+      "anger-point",
+      "vital-spirit"
+    ],
+    "moveIds": [
+      "rage",
+      "cross-chop",
+      "punishment"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Terrestre"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 61,
+    "enabled": true,
+    "name": {
+      "fr": "Têtarte",
+      "en": "Poliwhirl"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/61.png",
+    "rarity": "Peu commun",
+    "evolution": {
+      "method": "level",
+      "requirement": 25,
+      "trainerLevel": 5
+    },
+    "types": [
+      "Eau"
+    ],
+    "stats": {
+      "hp": 42,
+      "attack": 7,
+      "specialAttack": 5,
+      "defense": 7,
+      "specialDefense": 5,
+      "speed": 9
+    },
+    "skillIds": [
+      "fountain",
+      "gilled",
+      "swimmer"
+    ],
+    "passiveIds": [
+      "damp",
+      "water-absorb"
+    ],
+    "moveIds": [
+      "body-slam",
+      "bubble-beam",
+      "mud-shot"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Aquatique 1"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 62,
+    "enabled": true,
+    "name": {
+      "fr": "Tartard",
+      "en": "Poliwrath"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/62.png",
+    "rarity": "Peu commun",
+    "evolution": {
+      "method": "item",
+      "requirement": "Pierre Eau",
+      "trainerLevel": null
+    },
+    "types": [
+      "Eau",
+      "Combat"
+    ],
+    "stats": {
+      "hp": 54,
+      "attack": 10,
+      "specialAttack": 7,
+      "defense": 10,
+      "specialDefense": 9,
+      "speed": 7
+    },
+    "skillIds": [
+      "fountain",
+      "gilled",
+      "swimmer"
+    ],
+    "passiveIds": [
+      "damp",
+      "swift-swim",
+      "water-absorb"
+    ],
+    "moveIds": [
+      "submission",
+      "dynamic-punch",
+      "mind-reader"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Aquatique 1"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 64,
+    "enabled": true,
+    "name": {
+      "fr": "Kadabra",
+      "en": "Kadabra"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/64.png",
+    "rarity": "Peu commun",
+    "evolution": {
+      "method": "level",
+      "requirement": 16,
+      "trainerLevel": 4
+    },
+    "types": [
+      "Psy"
+    ],
+    "stats": {
+      "hp": 24,
+      "attack": 4,
+      "specialAttack": 13,
+      "defense": 3,
+      "specialDefense": 8,
+      "speed": 11
+    },
+    "skillIds": [
+      "telekinetic",
+      "telepath"
+    ],
+    "passiveIds": [
+      "inner-focus",
+      "synchronize"
+    ],
+    "moveIds": [
+      "confusion",
+      "disable",
+      "reflect"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Humanoïde"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 25
+    }
+  },
+  {
+    "id": 65,
+    "enabled": true,
+    "name": {
+      "fr": "Alakazam",
+      "en": "Alakazam"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/65.png",
+    "rarity": "Peu commun",
+    "evolution": {
+      "method": "trade",
+      "requirement": "Fil de Liaison",
+      "trainerLevel": null
+    },
+    "types": [
+      "Psy"
+    ],
+    "stats": {
+      "hp": 36,
+      "attack": 5,
+      "specialAttack": 15,
+      "defense": 5,
+      "specialDefense": 11,
+      "speed": 12
+    },
+    "skillIds": [
+      "intelligence",
+      "telekinetic",
+      "telepath"
+    ],
+    "passiveIds": [
+      "inner-focus",
+      "magic-guard",
+      "synchronize"
+    ],
+    "moveIds": [
+      "recover",
+      "psychic",
+      "future-sight"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Humanoïde"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 25
+    }
+  },
+  {
+    "id": 71,
+    "enabled": true,
+    "name": {
+      "fr": "Empiflor",
+      "en": "Victreebel"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/71.png",
+    "rarity": "Commun",
+    "evolution": {
+      "method": "item",
+      "requirement": "Pierre Plante",
+      "trainerLevel": null
+    },
+    "types": [
+      "Plante",
+      "Poison"
+    ],
+    "stats": {
+      "hp": 48,
+      "attack": 12,
+      "specialAttack": 11,
+      "defense": 7,
+      "specialDefense": 7,
+      "speed": 7
+    },
+    "skillIds": [
+      "alluring",
+      "sprouter",
+      "threaded"
+    ],
+    "passiveIds": [
+      "chlorophyll",
+      "leaf-guard"
+    ],
+    "moveIds": [
+      "leaf-tornado",
+      "poison-jab",
+      "leaf-blade"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Végétal"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 72,
+    "enabled": true,
+    "name": {
+      "fr": "Tentacool",
+      "en": "Tentacool"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/72.png",
+    "rarity": "Peu commun",
+    "evolution": null,
+    "types": [
+      "Eau",
+      "Poison"
+    ],
+    "stats": {
+      "hp": 24,
+      "attack": 4,
+      "specialAttack": 5,
+      "defense": 4,
+      "specialDefense": 10,
+      "speed": 7
+    },
+    "skillIds": [
+      "fountain",
+      "flopper",
+      "gilled",
+      "swimmer"
+    ],
+    "passiveIds": [
+      "liquid-ooze"
+    ],
+    "moveIds": [
+      "poison-sting",
+      "supersonic",
+      "constrict"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Aquatique 3"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 77,
+    "enabled": true,
+    "name": {
+      "fr": "Ponyta",
+      "en": "Ponyta"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/77.png",
+    "rarity": "Peu commun",
+    "evolution": null,
+    "types": [
+      "Feu"
+    ],
+    "stats": {
+      "hp": 30,
+      "attack": 10,
+      "specialAttack": 7,
+      "defense": 7,
+      "specialDefense": 7,
+      "speed": 10
+    },
+    "skillIds": [
+      "firestarter",
+      "heater",
+      "sinker"
+    ],
+    "passiveIds": [
+      "flash-fire"
+    ],
+    "moveIds": [
+      "tackle",
+      "ember",
+      "stomp"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Terrestre"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 79,
+    "enabled": true,
+    "name": {
+      "fr": "Ramoloss",
+      "en": "Slowpoke"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/79.png",
+    "rarity": "Peu commun",
+    "evolution": null,
+    "types": [
+      "Eau",
+      "Psy"
+    ],
+    "stats": {
+      "hp": 54,
+      "attack": 7,
+      "specialAttack": 4,
+      "defense": 6,
+      "specialDefense": 6,
+      "speed": 2
+    },
+    "skillIds": [
+      "fountain",
+      "swimmer"
+    ],
+    "passiveIds": [
+      "oblivious"
+    ],
+    "moveIds": [
+      "tackle",
+      "water-gun",
+      "yawn"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Monstrueux",
+      "Aquatique 1"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 80,
+    "enabled": true,
+    "name": {
+      "fr": "Flagadoss",
+      "en": "Slowbro"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/80.png",
+    "rarity": "Peu commun",
+    "evolution": {
+      "method": "level",
+      "requirement": 37,
+      "trainerLevel": 8
+    },
+    "types": [
+      "Eau",
+      "Psy"
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 8,
+      "specialAttack": 10,
+      "defense": 12,
+      "specialDefense": 10,
+      "speed": 3
+    },
+    "skillIds": [
+      "fountain",
+      "swimmer",
+      "telekinetic"
+    ],
+    "passiveIds": [
+      "oblivious",
+      "own-tempo",
+      "regenerator"
+    ],
+    "moveIds": [
+      "confusion",
+      "water-pulse",
+      "psychic"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Monstrueux",
+      "Aquatique 1"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 82,
+    "enabled": true,
+    "name": {
+      "fr": "Magnéton",
+      "en": "Magneton"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/82.png",
+    "rarity": "Peu commun",
+    "evolution": {
+      "method": "level",
+      "requirement": 30,
+      "trainerLevel": 6
+    },
+    "types": [
+      "Électrik",
+      "Acier"
+    ],
+    "stats": {
+      "hp": 30,
+      "attack": 8,
+      "specialAttack": 12,
+      "defense": 10,
+      "specialDefense": 7,
+      "speed": 7
+    },
+    "skillIds": [
+      "flight",
+      "magnetic",
+      "modular",
+      "zapper"
+    ],
+    "passiveIds": [
+      "sturdy"
+    ],
+    "moveIds": [
+      "tri-attack",
+      "thunder-wave",
+      "light-screen"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Minéral"
+    ],
+    "gender": {
+      "genderless": true,
+      "femaleRate": null
+    }
+  },
+  {
+    "id": 84,
+    "enabled": true,
+    "name": {
+      "fr": "Doduo",
+      "en": "Doduo"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/84.png",
+    "rarity": "Peu commun",
+    "evolution": null,
+    "types": [
+      "Normal",
+      "Vol"
+    ],
+    "stats": {
+      "hp": 24,
+      "attack": 9,
+      "specialAttack": 4,
+      "defense": 6,
+      "specialDefense": 4,
+      "speed": 9
+    },
+    "skillIds": [],
+    "passiveIds": [],
+    "moveIds": [
+      "peck",
+      "quick-attack",
+      "fury-attack"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Aérien"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 89,
+    "enabled": true,
+    "name": {
+      "fr": "Grotadmorv",
+      "en": "Muk"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/89.png",
+    "rarity": "Peu commun",
+    "evolution": {
+      "method": "level",
+      "requirement": 38,
+      "trainerLevel": 8
+    },
+    "types": [
+      "Poison"
+    ],
+    "stats": {
+      "hp": 66,
+      "attack": 13,
+      "specialAttack": 7,
+      "defense": 10,
+      "specialDefense": 10,
+      "speed": 5
+    },
+    "skillIds": [
+      "amorphous",
+      "repulsive"
+    ],
+    "passiveIds": [
+      "poison-touch",
+      "stench",
+      "sticky-hold"
+    ],
+    "moveIds": [
+      "venom-drench",
+      "mud-bomb",
+      "sludge-wave"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Amorphe"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 94,
+    "enabled": true,
+    "name": {
+      "fr": "Ectoplasma",
+      "en": "Gengar"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/94.png",
+    "rarity": "Peu commun",
+    "evolution": {
+      "method": "trade",
+      "requirement": "Fil de Liaison",
+      "trainerLevel": null
+    },
+    "types": [
+      "Spectre",
+      "Poison"
+    ],
+    "stats": {
+      "hp": 36,
+      "attack": 7,
+      "specialAttack": 13,
+      "defense": 6,
+      "specialDefense": 8,
+      "speed": 11
+    },
+    "skillIds": [
+      "flight",
+      "invisibility",
+      "phasing"
+    ],
+    "passiveIds": [
+      "cursed-body",
+      "levitate"
+    ],
+    "moveIds": [
+      "shadow-ball",
+      "dream-eater",
+      "dark-pulse"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Amorphe"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 96,
+    "enabled": true,
+    "name": {
+      "fr": "Soporifik",
+      "en": "Drowzee"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/96.png",
+    "rarity": "Peu commun",
+    "evolution": null,
+    "types": [
+      "Psy"
+    ],
+    "stats": {
+      "hp": 36,
+      "attack": 5,
+      "specialAttack": 4,
+      "defense": 5,
+      "specialDefense": 9,
+      "speed": 4
+    },
+    "skillIds": [
+      "mind-lock",
+      "telekinetic"
+    ],
+    "passiveIds": [
+      "insomnia"
+    ],
+    "moveIds": [
+      "hypnosis",
+      "pound",
+      "confusion"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Humanoïde"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 99,
+    "enabled": true,
+    "name": {
+      "fr": "Krabboss",
+      "en": "Kingler"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/99.png",
+    "rarity": "Peu commun",
+    "evolution": {
+      "method": "level",
+      "requirement": 28,
+      "trainerLevel": 6
+    },
+    "types": [
+      "Eau"
+    ],
+    "stats": {
+      "hp": 36,
+      "attack": 14,
+      "specialAttack": 5,
+      "defense": 13,
+      "specialDefense": 5,
+      "speed": 8
+    },
+    "skillIds": [
+      "fountain",
+      "gilled",
+      "swimmer"
+    ],
+    "passiveIds": [
+      "hyper-cutter",
+      "sheer-force",
+      "shell-armor"
+    ],
+    "moveIds": [
+      "metal-claw",
+      "stomp",
+      "crabhammer"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Aquatique 3"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 101,
+    "enabled": true,
+    "name": {
+      "fr": "Électrode",
+      "en": "Electrode"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/101.png",
+    "rarity": "Peu commun",
+    "evolution": {
+      "method": "level",
+      "requirement": 30,
+      "trainerLevel": 6
+    },
+    "types": [
+      "Électrik"
+    ],
+    "stats": {
+      "hp": 36,
+      "attack": 7,
+      "specialAttack": 8,
+      "defense": 7,
+      "specialDefense": 10,
+      "speed": 15
+    },
+    "skillIds": [
+      "zapper"
+    ],
+    "passiveIds": [
+      "aftermath",
+      "soundproof",
+      "static"
+    ],
+    "moveIds": [
+      "electro-ball",
+      "self-destruct",
+      "swift"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Minéral"
+    ],
+    "gender": {
+      "genderless": true,
+      "femaleRate": null
+    }
+  },
+  {
+    "id": 105,
+    "enabled": true,
+    "name": {
+      "fr": "Ossatueur",
+      "en": "Marowak"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/105.png",
+    "rarity": "Peu commun",
+    "evolution": {
+      "method": "level",
+      "requirement": 28,
+      "trainerLevel": 6
+    },
+    "types": [
+      "Sol"
+    ],
+    "stats": {
+      "hp": 36,
+      "attack": 10,
+      "specialAttack": 5,
+      "defense": 12,
+      "specialDefense": 8,
+      "speed": 5
+    },
+    "skillIds": [],
+    "passiveIds": [
+      "focus-energy",
+      "battle-armor",
+      "lightning-rod",
+      "rock-head"
+    ],
+    "moveIds": [
+      "bone-rush",
+      "bonemerang",
+      "double-edge"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Monstrueux"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 106,
+    "enabled": true,
+    "name": {
+      "fr": "Kicklee",
+      "en": "Hitmonlee"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/106.png",
+    "rarity": "Peu commun",
+    "evolution": null,
+    "types": [
+      "Combat"
+    ],
+    "stats": {
+      "hp": 30,
+      "attack": 12,
+      "specialAttack": 4,
+      "defense": 5,
+      "specialDefense": 11,
+      "speed": 9
+    },
+    "skillIds": [
+      "reach"
+    ],
+    "passiveIds": [
+      "focus-energy",
+      "guts",
+      "limber",
+      "reckless"
+    ],
+    "moveIds": [
+      "mega-kick",
+      "high-jump-kick",
+      "close-combat"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Humanoïde"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 0
+    }
+  },
+  {
+    "id": 107,
+    "enabled": true,
+    "name": {
+      "fr": "Tygnon",
+      "en": "Hitmonchan"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/107.png",
+    "rarity": "Peu commun",
+    "evolution": null,
+    "types": [
+      "Combat"
+    ],
+    "stats": {
+      "hp": 30,
+      "attack": 11,
+      "specialAttack": 4,
+      "defense": 8,
+      "specialDefense": 11,
+      "speed": 10
+    },
+    "skillIds": [],
+    "passiveIds": [
+      "guts",
+      "inner-focus",
+      "iron-fist",
+      "keen-eye"
+    ],
+    "moveIds": [
+      "fire-punch",
+      "ice-punch",
+      "thunder-punch"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Humanoïde"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 0
+    }
+  },
+  {
+    "id": 108,
+    "enabled": true,
+    "name": {
+      "fr": "Excelangue",
+      "en": "Lickitung"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/108.png",
+    "rarity": "Rare",
+    "evolution": null,
+    "types": [
+      "Normal"
+    ],
+    "stats": {
+      "hp": 54,
+      "attack": 6,
+      "specialAttack": 6,
+      "defense": 9,
+      "specialDefense": 8,
+      "speed": 3
+    },
+    "skillIds": [
+      "reach"
+    ],
+    "passiveIds": [
+      "own-tempo"
+    ],
+    "moveIds": [
+      "lick",
+      "supersonic",
+      "knock-off"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Monstrueux"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 113,
+    "enabled": true,
+    "name": {
+      "fr": "Leveinard",
+      "en": "Chansey"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/113.png",
+    "rarity": "Rare",
+    "evolution": null,
+    "types": [
+      "Normal"
+    ],
+    "stats": {
+      "hp": 150,
+      "attack": 2,
+      "specialAttack": 4,
+      "defense": 2,
+      "specialDefense": 11,
+      "speed": 5
+    },
+    "skillIds": [
+      "telepath"
+    ],
+    "passiveIds": [
+      "friend-guard",
+      "natural-cure",
+      "too-pure"
+    ],
+    "moveIds": [
+      "double-slap",
+      "soft-boiled",
+      "egg-bomb"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Féerique"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 100
+    }
+  },
+  {
+    "id": 114,
+    "enabled": true,
+    "name": {
+      "fr": "Saquedeneu",
+      "en": "Tangela"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/114.png",
+    "rarity": "Rare",
+    "evolution": null,
+    "types": [
+      "Plante"
+    ],
+    "stats": {
+      "hp": 42,
+      "attack": 7,
+      "specialAttack": 11,
+      "defense": 12,
+      "specialDefense": 4,
+      "speed": 6
+    },
+    "skillIds": [
+      "reach",
+      "threaded"
+    ],
+    "passiveIds": [
+      "chlorophyll"
+    ],
+    "moveIds": [
+      "constrict",
+      "sleep-powder",
+      "vine-whip"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Végétal"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 117,
+    "enabled": true,
+    "name": {
+      "fr": "Hypocéan",
+      "en": "Seadra"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/117.png",
+    "rarity": "Peu commun",
+    "evolution": {
+      "method": "level",
+      "requirement": 32,
+      "trainerLevel": 7
+    },
+    "types": [
+      "Eau"
+    ],
+    "stats": {
+      "hp": 36,
+      "attack": 8,
+      "specialAttack": 10,
+      "defense": 10,
+      "specialDefense": 5,
+      "speed": 11
+    },
+    "skillIds": [
+      "fountain",
+      "flopper",
+      "gilled",
+      "swimmer"
+    ],
+    "passiveIds": [
+      "focus-energy",
+      "poison-point",
+      "sniper"
+    ],
+    "moveIds": [
+      "twister",
+      "bubble-beam",
+      "brine"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Aquatique 1",
+      "Draconique"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 119,
+    "enabled": true,
+    "name": {
+      "fr": "Poissoroy",
+      "en": "Seaking"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/119.png",
+    "rarity": "Peu commun",
+    "evolution": {
+      "method": "level",
+      "requirement": 33,
+      "trainerLevel": 7
+    },
+    "types": [
+      "Eau"
+    ],
+    "stats": {
+      "hp": 48,
+      "attack": 10,
+      "specialAttack": 7,
+      "defense": 7,
+      "specialDefense": 8,
+      "speed": 9
+    },
+    "skillIds": [
+      "fountain",
+      "flopper",
+      "gilled",
+      "swimmer"
+    ],
+    "passiveIds": [
+      "lightning-rod",
+      "swift-swim",
+      "water-veil"
+    ],
+    "moveIds": [
+      "waterfall",
+      "horn-drill",
+      "megahorn"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Aquatique 2"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 120,
+    "enabled": true,
+    "name": {
+      "fr": "Stari",
+      "en": "Staryu"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/120.png",
+    "rarity": "Peu commun",
+    "evolution": null,
+    "types": [
+      "Eau"
+    ],
+    "stats": {
+      "hp": 18,
+      "attack": 5,
+      "specialAttack": 7,
+      "defense": 7,
+      "specialDefense": 6,
+      "speed": 9
+    },
+    "skillIds": [
+      "flight",
+      "fountain",
+      "gilled",
+      "glow",
+      "swimmer"
+    ],
+    "passiveIds": [
+      "natural-cure"
+    ],
+    "moveIds": [
+      "swift",
+      "water-gun",
+      "rapid-spin"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Aquatique 3"
+    ],
+    "gender": {
+      "genderless": true,
+      "femaleRate": null
+    }
+  },
+  {
+    "id": 122,
+    "enabled": true,
+    "name": {
+      "fr": "M. Mime",
+      "en": "Mr. Mime"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/122.png",
+    "rarity": "Rare",
+    "evolution": null,
+    "types": [
+      "Psy",
+      "Fée"
+    ],
+    "stats": {
+      "hp": 24,
+      "attack": 6,
+      "specialAttack": 10,
+      "defense": 9,
+      "specialDefense": 12,
+      "speed": 9
+    },
+    "skillIds": [
+      "telekinetic"
+    ],
+    "passiveIds": [],
+    "moveIds": [
+      "light-screen",
+      "reflect",
+      "psybeam"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Humanoïde"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 123,
+    "enabled": true,
+    "name": {
+      "fr": "Insécateur",
+      "en": "Scyther"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/123.png",
+    "rarity": "Rare",
+    "evolution": null,
+    "types": [
+      "Insecte",
+      "Vol"
+    ],
+    "stats": {
+      "hp": 42,
+      "attack": 13,
+      "specialAttack": 6,
+      "defense": 8,
+      "specialDefense": 8,
+      "speed": 13
+    },
+    "skillIds": [
+      "flight"
+    ],
+    "passiveIds": [
+      "focus-energy",
+      "swarm"
+    ],
+    "moveIds": [
+      "vacuum-wave",
+      "slash",
+      "x-scissor"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Insectoïde"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 124,
+    "enabled": true,
+    "name": {
+      "fr": "Lippoutou",
+      "en": "Jynx"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/124.png",
+    "rarity": "Rare",
+    "evolution": null,
+    "types": [
+      "Glace",
+      "Psy"
+    ],
+    "stats": {
+      "hp": 42,
+      "attack": 5,
+      "specialAttack": 14,
+      "defense": 4,
+      "specialDefense": 10,
+      "speed": 10
+    },
+    "skillIds": [
+      "freezer"
+    ],
+    "passiveIds": [
+      "dry-skin",
+      "oblivious"
+    ],
+    "moveIds": [
+      "lovely-kiss",
+      "heart-stamp",
+      "blizzard"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Humanoïde"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 100
+    }
+  },
+  {
+    "id": 125,
+    "enabled": true,
+    "name": {
+      "fr": "Élektek",
+      "en": "Electabuzz"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/125.png",
+    "rarity": "Peu commun",
+    "evolution": null,
+    "types": [
+      "Électrik"
+    ],
+    "stats": {
+      "hp": 42,
+      "attack": 9,
+      "specialAttack": 10,
+      "defense": 6,
+      "specialDefense": 9,
+      "speed": 11
+    },
+    "skillIds": [
+      "zapper"
+    ],
+    "passiveIds": [
+      "static",
+      "vital-spirit"
+    ],
+    "moveIds": [
+      "swift",
+      "thunder-wave",
+      "thunder-punch"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Humanoïde"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 25
+    }
+  },
+  {
+    "id": 126,
+    "enabled": true,
+    "name": {
+      "fr": "Magmar",
+      "en": "Magmar"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/126.png",
+    "rarity": "Peu commun",
+    "evolution": null,
+    "types": [
+      "Feu"
+    ],
+    "stats": {
+      "hp": 42,
+      "attack": 11,
+      "specialAttack": 10,
+      "defense": 6,
+      "specialDefense": 9,
+      "speed": 9
+    },
+    "skillIds": [
+      "firestarter",
+      "heater",
+      "sinker"
+    ],
+    "passiveIds": [
+      "flame-body"
+    ],
+    "moveIds": [
+      "fire-spin",
+      "confuse-ray",
+      "fire-punch"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Humanoïde"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 25
+    }
+  },
+  {
+    "id": 127,
+    "enabled": true,
+    "name": {
+      "fr": "Scarabrute",
+      "en": "Pinsir"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/127.png",
+    "rarity": "Rare",
+    "evolution": null,
+    "types": [
+      "Insecte"
+    ],
+    "stats": {
+      "hp": 42,
+      "attack": 15,
+      "specialAttack": 6,
+      "defense": 11,
+      "specialDefense": 7,
+      "speed": 9
+    },
+    "skillIds": [
+      "strength"
+    ],
+    "passiveIds": [
+      "focus-energy",
+      "hyper-cutter",
+      "mold-breaker"
+    ],
+    "moveIds": [
+      "brick-break",
+      "x-scissor",
+      "guillotine"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Insectoïde"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 134,
+    "enabled": true,
+    "name": {
+      "fr": "Aquali",
+      "en": "Vaporeon"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/134.png",
+    "rarity": "Peu commun",
+    "evolution": {
+      "method": "item",
+      "requirement": "Pierre Eau",
+      "trainerLevel": null
+    },
+    "types": [
+      "Eau"
+    ],
+    "stats": {
+      "hp": 78,
+      "attack": 7,
+      "specialAttack": 11,
+      "defense": 8,
+      "specialDefense": 10,
+      "speed": 7
+    },
+    "skillIds": [
+      "amorphous",
+      "fountain",
+      "gilled",
+      "swimmer",
+      "tracker"
+    ],
+    "passiveIds": [
+      "adaptability",
+      "hydration",
+      "water-absorb"
+    ],
+    "moveIds": [
+      "water-gun",
+      "aqua-ring",
+      "hydro-pump"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Terrestre"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 12.5
+    }
+  },
+  {
+    "id": 135,
+    "enabled": true,
+    "name": {
+      "fr": "Voltali",
+      "en": "Jolteon"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/135.png",
+    "rarity": "Peu commun",
+    "evolution": {
+      "method": "item",
+      "requirement": "Pierre Foudre",
+      "trainerLevel": null
+    },
+    "types": [
+      "Électrik"
+    ],
+    "stats": {
+      "hp": 42,
+      "attack": 7,
+      "specialAttack": 11,
+      "defense": 7,
+      "specialDefense": 10,
+      "speed": 15
+    },
+    "skillIds": [
+      "tracker",
+      "zapper"
+    ],
+    "passiveIds": [
+      "adaptability",
+      "quick-feet"
+    ],
+    "moveIds": [
+      "thunder-shock",
+      "pin-missile",
+      "thunder"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Terrestre"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 12.5
+    }
+  },
+  {
+    "id": 136,
+    "enabled": true,
+    "name": {
+      "fr": "Pyroli",
+      "en": "Flareon"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/136.png",
+    "rarity": "Peu commun",
+    "evolution": {
+      "method": "item",
+      "requirement": "Pierre Feu",
+      "trainerLevel": null
+    },
+    "types": [
+      "Feu"
+    ],
+    "stats": {
+      "hp": 42,
+      "attack": 13,
+      "specialAttack": 10,
+      "defense": 7,
+      "specialDefense": 11,
+      "speed": 9
+    },
+    "skillIds": [
+      "firestarter",
+      "heater",
+      "tracker"
+    ],
+    "passiveIds": [
+      "adaptability",
+      "flash-fire",
+      "guts"
+    ],
+    "moveIds": [
+      "ember",
+      "smog",
+      "flare-blitz"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Terrestre"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 12.5
+    }
+  },
+  {
+    "id": 137,
+    "enabled": true,
+    "name": {
+      "fr": "Porygon",
+      "en": "Porygon"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/137.png",
+    "rarity": "Rare",
+    "evolution": null,
+    "types": [
+      "Normal"
+    ],
+    "stats": {
+      "hp": 42,
+      "attack": 7,
+      "specialAttack": 9,
+      "defense": 7,
+      "specialDefense": 8,
+      "speed": 4
+    },
+    "skillIds": [
+      "flight",
+      "wired"
+    ],
+    "passiveIds": [
+      "download"
+    ],
+    "moveIds": [
+      "conversion",
+      "tackle",
+      "psybeam"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Minéral"
+    ],
+    "gender": {
+      "genderless": true,
+      "femaleRate": null
+    }
+  },
+  {
+    "id": 139,
+    "enabled": false,
+    "name": {
+      "fr": "Amonistar",
+      "en": "Omastar"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/139.png",
+    "rarity": "Fossile",
+    "evolution": null,
+    "types": [
+      "Roche",
+      "Eau"
+    ],
+    "stats": {
+      "hp": 42,
+      "attack": 7,
+      "specialAttack": 12,
+      "defense": 13,
+      "specialDefense": 7,
+      "speed": 6
+    },
+    "skillIds": [
+      "fountain",
+      "gilled",
+      "swimmer"
+    ],
+    "passiveIds": [
+      "shell-armor",
+      "swift-swim",
+      "weak-armor"
+    ],
+    "moveIds": [
+      "spike-cannon",
+      "rock-blast",
+      "hydro-pump"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Aquatique 1",
+      "Aquatique 3"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 12.5
+    }
+  },
+  {
+    "id": 141,
+    "enabled": false,
+    "name": {
+      "fr": "Kabutops",
+      "en": "Kabutops"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/141.png",
+    "rarity": "Fossile",
+    "evolution": null,
+    "types": [
+      "Roche",
+      "Eau"
+    ],
+    "stats": {
+      "hp": 36,
+      "attack": 13,
+      "specialAttack": 8,
+      "defense": 12,
+      "specialDefense": 7,
+      "speed": 8
+    },
+    "skillIds": [
+      "fountain",
+      "gilled",
+      "swimmer"
+    ],
+    "passiveIds": [
+      "battle-armor",
+      "swift-swim",
+      "weak-armor"
+    ],
+    "moveIds": [
+      "slash",
+      "ancient-power",
+      "night-slash"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Aquatique 1",
+      "Aquatique 3"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 12.5
+    }
+  },
+  {
+    "id": 56,
+    "enabled": true,
+    "name": {
+      "fr": "Férosinge",
+      "en": "Mankey"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/56.png",
+    "rarity": "Peu commun",
+    "evolution": null,
+    "types": [
+      "Combat"
+    ],
+    "stats": {
+      "hp": 24,
+      "attack": 9,
+      "specialAttack": 4,
+      "defense": 4,
+      "specialDefense": 5,
+      "speed": 7
+    },
+    "skillIds": [
+      "climber"
+    ],
+    "passiveIds": [
+      "focus-energy",
+      "vital-spirit"
+    ],
+    "moveIds": [
+      "karate-chop",
+      "pursuit",
+      "swagger"
+    ],
+    "size": "Petit",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Terrestre"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 58,
+    "enabled": true,
+    "name": {
+      "fr": "Caninos",
+      "en": "Growlithe"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/58.png",
+    "rarity": "Peu commun",
+    "evolution": null,
+    "types": [
+      "Feu"
+    ],
+    "stats": {
+      "hp": 36,
+      "attack": 8,
+      "specialAttack": 7,
+      "defense": 5,
+      "specialDefense": 5,
+      "speed": 8
+    },
+    "skillIds": [
+      "firestarter",
+      "tracker"
+    ],
+    "passiveIds": [
+      "flash-fire"
+    ],
+    "moveIds": [
+      "bite",
+      "ember",
+      "fire-fang"
+    ],
+    "size": "Petit",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Terrestre"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 25
+    }
+  },
+  {
+    "id": 60,
+    "enabled": true,
+    "name": {
+      "fr": "Ptitard",
+      "en": "Poliwag"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/60.png",
+    "rarity": "Peu commun",
+    "evolution": null,
+    "types": [
+      "Eau"
+    ],
+    "stats": {
+      "hp": 24,
+      "attack": 5,
+      "specialAttack": 4,
+      "defense": 4,
+      "specialDefense": 4,
+      "speed": 9
+    },
+    "skillIds": [
+      "fountain",
+      "flopper",
+      "gilled",
+      "swimmer"
+    ],
+    "passiveIds": [
+      "damp"
+    ],
+    "moveIds": [
+      "hypnosis",
+      "bubble",
+      "double-slap"
+    ],
+    "size": "Petit",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Aquatique 1"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 63,
+    "enabled": true,
+    "name": {
+      "fr": "Abra",
+      "en": "Abra"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/63.png",
+    "rarity": "Peu commun",
+    "evolution": null,
+    "types": [
+      "Psy"
+    ],
+    "stats": {
+      "hp": 18,
+      "attack": 2,
+      "specialAttack": 11,
+      "defense": 2,
+      "specialDefense": 6,
+      "speed": 9
+    },
+    "skillIds": [
+      "hover",
+      "telekinetic",
+      "telepath"
+    ],
+    "passiveIds": [
+      "synchronize"
+    ],
+    "moveIds": [
+      "splash",
+      "scratch",
+      "teleport"
+    ],
+    "size": "Petit",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Humanoïde"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 25
+    }
+  },
+  {
+    "id": 66,
+    "enabled": true,
+    "name": {
+      "fr": "Machoc",
+      "en": "Machop"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/66.png",
+    "rarity": "Peu commun",
+    "evolution": null,
+    "types": [
+      "Combat"
+    ],
+    "stats": {
+      "hp": 42,
+      "attack": 9,
+      "specialAttack": 4,
+      "defense": 5,
+      "specialDefense": 4,
+      "speed": 4
+    },
+    "skillIds": [],
+    "passiveIds": [
+      "focus-energy",
+      "guts"
+    ],
+    "moveIds": [
+      "low-kick",
+      "karate-chop",
+      "foresight"
+    ],
+    "size": "Petit",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Humanoïde"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 25
+    }
+  },
+  {
+    "id": 74,
+    "enabled": true,
+    "name": {
+      "fr": "Racaillou",
+      "en": "Geodude"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/74.png",
+    "rarity": "Commun",
+    "evolution": null,
+    "types": [
+      "Roche",
+      "Sol"
+    ],
+    "stats": {
+      "hp": 24,
+      "attack": 8,
+      "specialAttack": 3,
+      "defense": 11,
+      "specialDefense": 3,
+      "speed": 4
+    },
+    "skillIds": [
+      "hover"
+    ],
+    "passiveIds": [
+      "sturdy"
+    ],
+    "moveIds": [
+      "rollout",
+      "rock-throw",
+      "take-down"
+    ],
+    "size": "Petit",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Minéral"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 83,
+    "enabled": true,
+    "name": {
+      "fr": "Canarticho",
+      "en": "Farfetch'd"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/83.png",
+    "rarity": "Rare",
+    "evolution": null,
+    "types": [
+      "Normal",
+      "Vol"
+    ],
+    "stats": {
+      "hp": 30,
+      "attack": 11,
+      "specialAttack": 6,
+      "defense": 6,
+      "specialDefense": 6,
+      "speed": 8
+    },
+    "skillIds": [
+      "flight"
+    ],
+    "passiveIds": [
+      "defiant",
+      "inner-focus",
+      "keen-eye"
+    ],
+    "moveIds": [
+      "fury-cutter",
+      "night-slash",
+      "air-slash"
+    ],
+    "size": "Petit",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Aérien",
+      "Terrestre"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 118,
+    "enabled": true,
+    "name": {
+      "fr": "Poissirène",
+      "en": "Goldeen"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/118.png",
+    "rarity": "Peu commun",
+    "evolution": null,
+    "types": [
+      "Eau"
+    ],
+    "stats": {
+      "hp": 30,
+      "attack": 8,
+      "specialAttack": 4,
+      "defense": 6,
+      "specialDefense": 5,
+      "speed": 6
+    },
+    "skillIds": [
+      "fountain",
+      "flopper",
+      "gilled",
+      "swimmer"
+    ],
+    "passiveIds": [
+      "swift-swim"
+    ],
+    "moveIds": [
+      "peck",
+      "supersonic",
+      "horn-attack"
+    ],
+    "size": "Petit",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Aquatique 2"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 140,
+    "enabled": false,
+    "name": {
+      "fr": "Kabuto",
+      "en": "Kabuto"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/140.png",
+    "rarity": "Fossile",
+    "evolution": null,
+    "types": [
+      "Roche",
+      "Eau"
+    ],
+    "stats": {
+      "hp": 18,
+      "attack": 9,
+      "specialAttack": 6,
+      "defense": 10,
+      "specialDefense": 5,
+      "speed": 6
+    },
+    "skillIds": [
+      "flopper",
+      "fountain",
+      "gilled",
+      "swimmer"
+    ],
+    "passiveIds": [
+      "battle-armor"
+    ],
+    "moveIds": [
+      "absorb",
+      "mud-shot",
+      "aqua-jet"
+    ],
+    "size": "Petit",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Aquatique 1",
+      "Aquatique 3"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 12.5
+    }
+  },
+  {
+    "id": 18,
+    "enabled": true,
+    "name": {
+      "fr": "Roucarnage",
+      "en": "Pidgeot"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/18.png",
+    "rarity": "Commun",
+    "evolution": {
+      "method": "level",
+      "requirement": 36,
+      "trainerLevel": 8
+    },
+    "types": [
+      "Normal",
+      "Vol"
+    ],
+    "stats": {
+      "hp": 48,
+      "attack": 8,
+      "specialAttack": 7,
+      "defense": 10,
+      "specialDefense": 7,
+      "speed": 12
+    },
+    "skillIds": [
+      "flight",
+      "guster"
+    ],
+    "passiveIds": [
+      "big-pecks",
+      "keen-eye",
+      "tangled-feet"
+    ],
+    "moveIds": [
+      "mirror-move",
+      "air-slash",
+      "hurricane"
+    ],
+    "size": "Grand",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Aérien"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 24,
+    "enabled": true,
+    "name": {
+      "fr": "Arbok",
+      "en": "Arbok"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/24.png",
+    "rarity": "Peu commun",
+    "evolution": {
+      "method": "level",
+      "requirement": 22,
+      "trainerLevel": 5
+    },
+    "types": [
+      "Poison"
+    ],
+    "stats": {
+      "hp": 36,
+      "attack": 14,
+      "specialAttack": 7,
+      "defense": 9,
+      "specialDefense": 8,
+      "speed": 8
+    },
+    "skillIds": [
+      "stealth",
+      "swimmer",
+      "tracker"
+    ],
+    "passiveIds": [
+      "shed-skin",
+      "unnerve"
+    ],
+    "moveIds": [
+      "crunch",
+      "glare",
+      "acid-spray"
+    ],
+    "size": "Grand",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Terrestre",
+      "Draconique"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 31,
+    "enabled": true,
+    "name": {
+      "fr": "Nidoqueen",
+      "en": "Nidoqueen"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/31.png",
+    "rarity": "Commun",
+    "evolution": {
+      "method": "item",
+      "requirement": "Pierre Lune",
+      "trainerLevel": null
+    },
+    "types": [
+      "Poison",
+      "Sol"
+    ],
+    "stats": {
+      "hp": 54,
+      "attack": 10,
+      "specialAttack": 8,
+      "defense": 10,
+      "specialDefense": 9,
+      "speed": 8
+    },
+    "skillIds": [
+      "groundshaper"
+    ],
+    "passiveIds": [
+      "sheer-force",
+      "hustle",
+      "poison-point"
+    ],
+    "moveIds": [
+      "body-slam",
+      "earth-power",
+      "superpower"
+    ],
+    "size": "Grand",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Monstrueux",
+      "Terrestre"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 100
+    }
+  },
+  {
+    "id": 34,
+    "enabled": true,
+    "name": {
+      "fr": "Nidoking",
+      "en": "Nidoking"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/34.png",
+    "rarity": "Commun",
+    "evolution": {
+      "method": "item",
+      "requirement": "Pierre Lune",
+      "trainerLevel": null
+    },
+    "types": [
+      "Poison",
+      "Sol"
+    ],
+    "stats": {
+      "hp": 48,
+      "attack": 11,
+      "specialAttack": 9,
+      "defense": 8,
+      "specialDefense": 8,
+      "speed": 9
+    },
+    "skillIds": [
+      "groundshaper"
+    ],
+    "passiveIds": [
+      "focus-energy",
+      "hustle",
+      "poison-point",
+      "sheer-force"
+    ],
+    "moveIds": [
+      "horn-drill",
+      "earth-power",
+      "megahorn"
+    ],
+    "size": "Grand",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Monstrueux",
+      "Terrestre"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 0
+    }
+  },
+  {
+    "id": 2,
+    "enabled": true,
+    "name": {
+      "fr": "Herbizarre",
+      "en": "Ivysaur"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/2.png",
+    "rarity": "Rare",
+    "evolution": {
+      "method": "level",
+      "requirement": 16,
+      "trainerLevel": 4
+    },
+    "types": [
+      "Plante",
+      "Poison"
+    ],
+    "stats": {
+      "hp": 36,
+      "attack": 7,
+      "specialAttack": 9,
+      "defense": 7,
+      "specialDefense": 8,
+      "speed": 6
+    },
+    "skillIds": [
+      "sprouter",
+      "threaded"
+    ],
+    "passiveIds": [
+      "overgrow"
+    ],
+    "moveIds": [
+      "poison-powder",
+      "sleep-powder",
+      "razor-leaf"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Monstrueux",
+      "Végétal"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 12.5
+    }
+  },
+  {
+    "id": 5,
+    "enabled": true,
+    "name": {
+      "fr": "Reptincel",
+      "en": "Charmeleon"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/5.png",
+    "rarity": "Rare",
+    "evolution": {
+      "method": "level",
+      "requirement": 16,
+      "trainerLevel": 4
+    },
+    "types": [
+      "Feu"
+    ],
+    "stats": {
+      "hp": 36,
+      "attack": 6,
+      "specialAttack": 8,
+      "defense": 7,
+      "specialDefense": 7,
+      "speed": 8
+    },
+    "skillIds": [
+      "firestarter",
+      "sinker"
+    ],
+    "passiveIds": [
+      "blaze"
+    ],
+    "moveIds": [
+      "dragon-rage",
+      "fire-fang",
+      "slash"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Draconique",
+      "Monstrueux"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 12.5
+    }
+  },
+  {
+    "id": 8,
+    "enabled": true,
+    "name": {
+      "fr": "Carabaffe",
+      "en": "Wartortle"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/8.png",
+    "rarity": "Rare",
+    "evolution": {
+      "method": "level",
+      "requirement": 16,
+      "trainerLevel": 4
+    },
+    "types": [
+      "Eau"
+    ],
+    "stats": {
+      "hp": 36,
+      "attack": 6,
+      "specialAttack": 7,
+      "defense": 10,
+      "specialDefense": 8,
+      "speed": 6
+    },
+    "skillIds": [
+      "fountain",
+      "swimmer"
+    ],
+    "passiveIds": [
+      "torrent"
+    ],
+    "moveIds": [
+      "bite",
+      "water-pulse",
+      "skull-bash"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Aquatique 1",
+      "Monstrueux"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 12.5
+    }
+  },
+  {
+    "id": 11,
+    "enabled": true,
+    "name": {
+      "fr": "Chrysacier",
+      "en": "Metapod"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/11.png",
+    "rarity": "Commun",
+    "evolution": {
+      "method": "level",
+      "requirement": 7,
+      "trainerLevel": 2
+    },
+    "types": [
+      "Insecte"
+    ],
+    "stats": {
+      "hp": 30,
+      "attack": 2,
+      "specialAttack": 3,
+      "defense": 7,
+      "specialDefense": 3,
+      "speed": 5
+    },
+    "skillIds": [
+      "threaded"
+    ],
+    "passiveIds": [
+      "shield-dust",
+      "shed-skin"
+    ],
+    "moveIds": [
+      "bide",
+      "protect",
+      "safeguard"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Insectoïde"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 12,
+    "enabled": true,
+    "name": {
+      "fr": "Papilusion",
+      "en": "Butterfree"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/12.png",
+    "rarity": "Commun",
+    "evolution": {
+      "method": "level",
+      "requirement": 10,
+      "trainerLevel": 2
+    },
+    "types": [
+      "Insecte",
+      "Vol"
+    ],
+    "stats": {
+      "hp": 36,
+      "attack": 5,
+      "specialAttack": 10,
+      "defense": 5,
+      "specialDefense": 9,
+      "speed": 10
+    },
+    "skillIds": [
+      "flight",
+      "guster"
+    ],
+    "passiveIds": [
+      "shield-dust"
+    ],
+    "moveIds": [
+      "confusion",
+      "bug-buzz",
+      "air-slash"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Insectoïde"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 14,
+    "enabled": true,
+    "name": {
+      "fr": "Coconfort",
+      "en": "Kakuna"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/14.png",
+    "rarity": "Commun",
+    "evolution": {
+      "method": "level",
+      "requirement": 7,
+      "trainerLevel": 2
+    },
+    "types": [
+      "Insecte",
+      "Poison"
+    ],
+    "stats": {
+      "hp": 30,
+      "attack": 3,
+      "specialAttack": 3,
+      "defense": 6,
+      "specialDefense": 3,
+      "speed": 6
+    },
+    "skillIds": [
+      "threaded",
+      "heater"
+    ],
+    "passiveIds": [
+      "shield-dust",
+      "shed-skin"
+    ],
+    "moveIds": [
+      "bide",
+      "protect",
+      "safeguard"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Insectoïde"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 15,
+    "enabled": true,
+    "name": {
+      "fr": "Dardagnan",
+      "en": "Beedrill"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/15.png",
+    "rarity": "Commun",
+    "evolution": {
+      "method": "level",
+      "requirement": 10,
+      "trainerLevel": 2
+    },
+    "types": [
+      "Insecte",
+      "Poison"
+    ],
+    "stats": {
+      "hp": 42,
+      "attack": 9,
+      "specialAttack": 5,
+      "defense": 4,
+      "specialDefense": 8,
+      "speed": 10
+    },
+    "skillIds": [
+      "flight"
+    ],
+    "passiveIds": [
+      "focus-energy",
+      "shield-dust",
+      "sniper",
+      "swarm"
+    ],
+    "moveIds": [
+      "twineedle",
+      "poison-jab",
+      "fell-stinger"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Insectoïde"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 17,
+    "enabled": true,
+    "name": {
+      "fr": "Roucoups",
+      "en": "Pidgeotto"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/17.png",
+    "rarity": "Commun",
+    "evolution": {
+      "method": "level",
+      "requirement": 18,
+      "trainerLevel": 4
+    },
+    "types": [
+      "Normal",
+      "Vol"
+    ],
+    "stats": {
+      "hp": 36,
+      "attack": 6,
+      "specialAttack": 5,
+      "defense": 8,
+      "specialDefense": 5,
+      "speed": 9
+    },
+    "skillIds": [
+      "flight",
+      "guster"
+    ],
+    "passiveIds": [
+      "keen-eye",
+      "tangled-feet"
+    ],
+    "moveIds": [
+      "twister",
+      "wing-attack",
+      "roost"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Aérien"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 20,
+    "enabled": true,
+    "name": {
+      "fr": "Rattatac",
+      "en": "Raticate"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/20.png",
+    "rarity": "Commun",
+    "evolution": {
+      "method": "level",
+      "requirement": 20,
+      "trainerLevel": 4
+    },
+    "types": [
+      "Normal"
+    ],
+    "stats": {
+      "hp": 36,
+      "attack": 9,
+      "specialAttack": 5,
+      "defense": 6,
+      "specialDefense": 7,
+      "speed": 12
+    },
+    "skillIds": [
+      "stealth",
+      "swimmer"
+    ],
+    "passiveIds": [
+      "focus-energy",
+      "guts"
+    ],
+    "moveIds": [
+      "hyper-fang",
+      "crunch",
+      "super-fang"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Terrestre"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 22,
+    "enabled": true,
+    "name": {
+      "fr": "Rapasdepic",
+      "en": "Fearow"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/22.png",
+    "rarity": "Commun",
+    "evolution": {
+      "method": "level",
+      "requirement": 20,
+      "trainerLevel": 4
+    },
+    "types": [
+      "Normal",
+      "Vol"
+    ],
+    "stats": {
+      "hp": 42,
+      "attack": 10,
+      "specialAttack": 6,
+      "defense": 7,
+      "specialDefense": 6,
+      "speed": 12
+    },
+    "skillIds": [
+      "flight"
+    ],
+    "passiveIds": [
+      "focus-energy",
+      "keen-eye",
+      "sniper"
+    ],
+    "moveIds": [
+      "aerial-ace",
+      "drill-peck",
+      "drill-run"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Aérien"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 26,
+    "enabled": true,
+    "name": {
+      "fr": "Raichu",
+      "en": "Raichu"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/26.png",
+    "rarity": "Peu commun",
+    "evolution": {
+      "method": "item",
+      "requirement": "Pierre Foudre",
+      "trainerLevel": null
+    },
+    "types": [
+      "Électrik"
+    ],
+    "stats": {
+      "hp": 36,
+      "attack": 9,
+      "specialAttack": 10,
+      "defense": 7,
+      "specialDefense": 8,
+      "speed": 13
+    },
+    "skillIds": [
+      "zapper"
+    ],
+    "passiveIds": [
+      "lightning-rod",
+      "static"
+    ],
+    "moveIds": [
+      "slam",
+      "thunderbolt",
+      "thunder"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Terrestre",
+      "Féerique"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 28,
+    "enabled": true,
+    "name": {
+      "fr": "Sablaireau",
+      "en": "Sandslash"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/28.png",
+    "rarity": "Peu commun",
+    "evolution": {
+      "method": "level",
+      "requirement": 22,
+      "trainerLevel": 5
+    },
+    "types": [
+      "Sol"
+    ],
+    "stats": {
+      "hp": 48,
+      "attack": 13,
+      "specialAttack": 6,
+      "defense": 12,
+      "specialDefense": 6,
+      "speed": 7
+    },
+    "skillIds": [
+      "burrow",
+      "groundshaper"
+    ],
+    "passiveIds": [
+      "sand-rush",
+      "sand-veil"
+    ],
+    "moveIds": [
+      "slash",
+      "dig",
+      "earthquake"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Terrestre"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 30,
+    "enabled": true,
+    "name": {
+      "fr": "Nidorina",
+      "en": "Nidorina"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/30.png",
+    "rarity": "Commun",
+    "evolution": {
+      "method": "level",
+      "requirement": 16,
+      "trainerLevel": 4
+    },
+    "types": [
+      "Poison"
+    ],
+    "stats": {
+      "hp": 42,
+      "attack": 7,
+      "specialAttack": 6,
+      "defense": 8,
+      "specialDefense": 6,
+      "speed": 6
+    },
+    "skillIds": [],
+    "passiveIds": [
+      "hustle",
+      "poison-point"
+    ],
+    "moveIds": [
+      "bite",
+      "toxic-spikes",
+      "flatter"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Monstrueux",
+      "Terrestre"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 100
+    }
+  },
+  {
+    "id": 33,
+    "enabled": true,
+    "name": {
+      "fr": "Nidorino",
+      "en": "Nidorino"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/33.png",
+    "rarity": "Commun",
+    "evolution": {
+      "method": "level",
+      "requirement": 16,
+      "trainerLevel": 4
+    },
+    "types": [
+      "Poison"
+    ],
+    "stats": {
+      "hp": 36,
+      "attack": 8,
+      "specialAttack": 6,
+      "defense": 6,
+      "specialDefense": 6,
+      "speed": 7
+    },
+    "skillIds": [],
+    "passiveIds": [
+      "focus-energy",
+      "hustle",
+      "poison-point"
+    ],
+    "moveIds": [
+      "toxic-spikes",
+      "poison-jab",
+      "chip-away"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Monstrueux",
+      "Terrestre"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 0
+    }
+  },
+  {
+    "id": 36,
+    "enabled": true,
+    "name": {
+      "fr": "Mélodelfe",
+      "en": "Clefable"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/36.png",
+    "rarity": "Peu commun",
+    "evolution": {
+      "method": "item",
+      "requirement": "Pierre Lune",
+      "trainerLevel": null
+    },
+    "types": [
+      "Fée"
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 7,
+      "specialAttack": 10,
+      "defense": 9,
+      "specialDefense": 10,
+      "speed": 6
+    },
+    "skillIds": [
+      "flight"
+    ],
+    "passiveIds": [
+      "cute-charm",
+      "friend-guard",
+      "magic-guard"
+    ],
+    "moveIds": [
+      "lucky-chant",
+      "healing-wish",
+      "metronome"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Féerique"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 75
+    }
+  },
+  {
+    "id": 38,
+    "enabled": true,
+    "name": {
+      "fr": "Feunard",
+      "en": "Ninetales"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/38.png",
+    "rarity": "Peu commun",
+    "evolution": {
+      "method": "item",
+      "requirement": "Pierre Feu",
+      "trainerLevel": null
+    },
+    "types": [
+      "Feu"
+    ],
+    "stats": {
+      "hp": 42,
+      "attack": 9,
+      "specialAttack": 8,
+      "defense": 9,
+      "specialDefense": 10,
+      "speed": 10
+    },
+    "skillIds": [
+      "firestarter"
+    ],
+    "passiveIds": [
+      "drought",
+      "flash-fire"
+    ],
+    "moveIds": [
+      "flamethrower",
+      "will-o-wisp",
+      "safeguard"
+    ],
+    "size": "Moyen",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Terrestre"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 75
+    }
+  },
+  {
+    "id": 25,
+    "enabled": true,
+    "name": {
+      "fr": "Pikachu",
+      "en": "Pikachu"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/25.png",
+    "rarity": "Peu commun",
+    "evolution": null,
+    "types": [
+      "Électrik"
+    ],
+    "stats": {
+      "hp": 24,
+      "attack": 7,
+      "specialAttack": 6,
+      "defense": 5,
+      "specialDefense": 5,
+      "speed": 9
+    },
+    "skillIds": [
+      "zapper"
+    ],
+    "passiveIds": [
+      "static",
+      "lightning-rod"
+    ],
+    "moveIds": [
+      "quick-attack",
+      "electro-ball",
+      "iron-tail"
+    ],
+    "size": "Petit",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Terrestre",
+      "Féerique"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 27,
+    "enabled": true,
+    "name": {
+      "fr": "Sabelette",
+      "en": "Sandshrew"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/27.png",
+    "rarity": "Peu commun",
+    "evolution": null,
+    "types": [
+      "Sol"
+    ],
+    "stats": {
+      "hp": 30,
+      "attack": 8,
+      "specialAttack": 2,
+      "defense": 10,
+      "specialDefense": 3,
+      "speed": 4
+    },
+    "skillIds": [
+      "burrow"
+    ],
+    "passiveIds": [
+      "sand-veil"
+    ],
+    "moveIds": [
+      "scratch",
+      "poison-sting",
+      "rollout"
+    ],
+    "size": "Petit",
+    "weight": "Moyen",
+    "eggGroups": [
+      "Terrestre"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 16,
+    "enabled": true,
+    "name": {
+      "fr": "Roucool",
+      "en": "Pidgey"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/16.png",
+    "rarity": "Commun",
+    "evolution": null,
+    "types": [
+      "Normal",
+      "Vol"
+    ],
+    "stats": {
+      "hp": 24,
+      "attack": 5,
+      "specialAttack": 4,
+      "defense": 4,
+      "specialDefense": 4,
+      "speed": 6
+    },
+    "skillIds": [
+      "flight",
+      "guster"
+    ],
+    "passiveIds": [
+      "keen-eye"
+    ],
+    "moveIds": [
+      "gust",
+      "quick-attack",
+      "sand-attack"
+    ],
+    "size": "Petit",
+    "weight": "Plume",
+    "eggGroups": [
+      "Aérien"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 21,
+    "enabled": true,
+    "name": {
+      "fr": "Piafabec",
+      "en": "Spearow"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/21.png",
+    "rarity": "Commun",
+    "evolution": null,
+    "types": [
+      "Normal",
+      "Vol"
+    ],
+    "stats": {
+      "hp": 24,
+      "attack": 7,
+      "specialAttack": 3,
+      "defense": 4,
+      "specialDefense": 3,
+      "speed": 7
+    },
+    "skillIds": [
+      "flight"
+    ],
+    "passiveIds": [
+      "keen-eye"
+    ],
+    "moveIds": [
+      "peck",
+      "pursuit",
+      "fury-attack"
+    ],
+    "size": "Petit",
+    "weight": "Plume",
+    "eggGroups": [
+      "Aérien"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 50,
+    "enabled": true,
+    "name": {
+      "fr": "Taupiqueur",
+      "en": "Diglett"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/50.png",
+    "rarity": "Peu commun",
+    "evolution": null,
+    "types": [
+      "Sol"
+    ],
+    "stats": {
+      "hp": 6,
+      "attack": 6,
+      "specialAttack": 4,
+      "defense": 4,
+      "specialDefense": 5,
+      "speed": 10
+    },
+    "skillIds": [
+      "burrow",
+      "sinker"
+    ],
+    "passiveIds": [
+      "sand-veil"
+    ],
+    "moveIds": [
+      "scratch",
+      "arena-trap",
+      "dig"
+    ],
+    "size": "Minuscule",
+    "weight": "Plume",
+    "eggGroups": [
+      "Terrestre"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 95,
+    "enabled": true,
+    "name": {
+      "fr": "Onix",
+      "en": "Onix"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/95.png",
+    "rarity": "Peu commun",
+    "evolution": null,
+    "types": [
+      "Roche",
+      "Sol"
+    ],
+    "stats": {
+      "hp": 24,
+      "attack": 8,
+      "specialAttack": 4,
+      "defense": 16,
+      "specialDefense": 5,
+      "speed": 9
+    },
+    "skillIds": [
+      "burrow"
+    ],
+    "passiveIds": [
+      "sturdy"
+    ],
+    "moveIds": [
+      "stealth-rock",
+      "slam",
+      "smack-down"
+    ],
+    "size": "Gigantesque",
+    "weight": "Massif",
+    "eggGroups": [
+      "Minéral"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 130,
+    "enabled": true,
+    "name": {
+      "fr": "Léviator",
+      "en": "Gyarados"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/130.png",
+    "rarity": "Commun",
+    "evolution": {
+      "method": "level",
+      "requirement": 20,
+      "trainerLevel": 4
+    },
+    "types": [
+      "Eau",
+      "Vol"
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 14,
+      "specialAttack": 6,
+      "defense": 9,
+      "specialDefense": 10,
+      "speed": 11
+    },
+    "skillIds": [
+      "flight",
+      "fountain",
+      "gilled",
+      "swimmer"
+    ],
+    "passiveIds": [
+      "swift-swim"
+    ],
+    "moveIds": [
+      "bite",
+      "ice-fang",
+      "aqua-tail"
+    ],
+    "size": "Géant",
+    "weight": "Massif",
+    "eggGroups": [
+      "Aquatique 2",
+      "Draconique"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 76,
+    "enabled": true,
+    "name": {
+      "fr": "Grolem",
+      "en": "Golem"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/76.png",
+    "rarity": "Commun",
+    "evolution": {
+      "method": "trade",
+      "requirement": "Fil de Liaison",
+      "trainerLevel": null
+    },
+    "types": [
+      "Roche",
+      "Sol"
+    ],
+    "stats": {
+      "hp": 48,
+      "attack": 12,
+      "specialAttack": 6,
+      "defense": 14,
+      "specialDefense": 7,
+      "speed": 7
+    },
+    "skillIds": [
+      "groundshaper",
+      "sinker"
+    ],
+    "passiveIds": [
+      "rock-head",
+      "sturdy",
+      "sand-veil"
+    ],
+    "moveIds": [
+      "heavy-slam",
+      "stealth-rock",
+      "earthquake"
+    ],
+    "size": "Grand",
+    "weight": "Massif",
+    "eggGroups": [
+      "Minéral"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 131,
+    "enabled": true,
+    "name": {
+      "fr": "Lokhlass",
+      "en": "Lapras"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/131.png",
+    "rarity": "Rare",
+    "evolution": null,
+    "types": [
+      "Eau",
+      "Glace"
+    ],
+    "stats": {
+      "hp": 78,
+      "attack": 9,
+      "specialAttack": 9,
+      "defense": 9,
+      "specialDefense": 10,
+      "speed": 6
+    },
+    "skillIds": [
+      "flopper",
+      "fountain",
+      "freezer",
+      "swimmer"
+    ],
+    "passiveIds": [
+      "hydration",
+      "shell-armor",
+      "water-absorb"
+    ],
+    "moveIds": [
+      "sing",
+      "ice-beam",
+      "brine"
+    ],
+    "size": "Grand",
+    "weight": "Massif",
+    "eggGroups": [
+      "Monstrueux",
+      "Aquatique 1"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  },
+  {
+    "id": 143,
+    "enabled": true,
+    "name": {
+      "fr": "Ronflex",
+      "en": "Snorlax"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/143.png",
+    "rarity": "Rare",
+    "evolution": null,
+    "types": [
+      "Normal"
+    ],
+    "stats": {
+      "hp": 96,
+      "attack": 13,
+      "specialAttack": 7,
+      "defense": 8,
+      "specialDefense": 13,
+      "speed": 3
+    },
+    "skillIds": [],
+    "passiveIds": [
+      "immunity",
+      "thick-fat"
+    ],
+    "moveIds": [
+      "body-slam",
+      "rest",
+      "snore"
+    ],
+    "size": "Grand",
+    "weight": "Massif",
+    "eggGroups": [
+      "Monstrueux"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 12.5
+    }
+  },
+  {
+    "id": 149,
+    "enabled": true,
+    "name": {
+      "fr": "Dracolosse",
+      "en": "Dragonite"
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/149.png",
+    "rarity": "Rare",
+    "evolution": {
+      "method": "level",
+      "requirement": 55,
+      "trainerLevel": 11
+    },
+    "types": [
+      "Dragon",
+      "Vol"
+    ],
+    "stats": {
+      "hp": 54,
+      "attack": 15,
+      "specialAttack": 10,
+      "defense": 10,
+      "specialDefense": 10,
+      "speed": 9
+    },
+    "skillIds": [
+      "flight",
+      "swimmer"
+    ],
+    "passiveIds": [
+      "inner-focus",
+      "marvel-scale",
+      "multiscale",
+      "shed-skin"
+    ],
+    "moveIds": [
+      "wing-attack",
+      "dragon-rush",
+      "outrage"
+    ],
+    "size": "Grand",
+    "weight": "Massif",
+    "eggGroups": [
+      "Draconique",
+      "Aquatique 1"
+    ],
+    "gender": {
+      "genderless": false,
+      "femaleRate": 50
+    }
+  }
+]
