@@ -33,3 +33,16 @@
 @keyframes pokedex-spin{to{transform:rotate(360deg)}}
 @media(max-width:900px){.solstice-pokedex-tools{grid-template-columns:repeat(2,1fr)}.solstice-pokedex-search{grid-column:1/-1}.solstice-pokedex-grid{grid-template-columns:repeat(2,1fr)}.solstice-pokedex-users{grid-template-columns:repeat(4,1fr)}}
 @media(max-width:600px){.solstice-pokedex-tools,.solstice-pokedex-directory-tools{grid-template-columns:1fr}.solstice-pokedex-search{grid-column:auto}.solstice-pokedex-heading>span{display:none}.solstice-pokedex-users{grid-template-columns:repeat(3,1fr)}.solstice-pokedex-sheet{width:100vw}.solstice-pokedex-facts{grid-template-columns:repeat(2,1fr)}.solstice-pokedex-facts>div:nth-child(2){border:0}.solstice-pokedex-stats{grid-template-columns:repeat(2,1fr)}}
+
+.solstice-pokedex-detail-list{display:grid;gap:10px;grid-template-columns:repeat(2,minmax(0,1fr))}
+.solstice-pokedex-detail-card{background:linear-gradient(135deg,var(--prisld-2),var(--prisld-1));border:var(--prisld-border-1);border-left:4px solid var(--prisld-color-3);border-radius:11px;overflow:hidden;padding:13px}
+.solstice-pokedex-detail-card.passives{border-left-color:var(--prisld-color-2)}
+.solstice-pokedex-detail-card.moves{border-left-color:var(--prisld-color-1);grid-column:1/-1}
+.solstice-pokedex-detail-card>header{align-items:center;display:flex;gap:10px}
+.solstice-pokedex-detail-card>header>i{align-items:center;background:var(--prisld-deg);border-radius:8px;color:#fff;display:flex;flex:0 0 34px;font-size:17px;height:34px;justify-content:center}
+.solstice-pokedex-detail-card h4{color:var(--prisld-color-1);font:800 13px/1.15 var(--prisld-font-1);margin:0!important}
+.solstice-pokedex-detail-card header span{display:block;font-size:12px;margin-top:4px;opacity:.5}
+.solstice-pokedex-detail-card>p{border-top:var(--prisld-border-1);font-size:12px;line-height:1.6;margin:11px 0 0!important;padding-top:10px}
+.solstice-pokedex-detail-tags{display:flex;flex-wrap:wrap;gap:5px;margin-top:10px}
+.solstice-pokedex-detail-tags span{background:var(--prisld-1);border:var(--prisld-border-1);border-radius:5px;font-size:12px;font-weight:700;padding:5px 7px}
+@media(max-width:600px){.solstice-pokedex-detail-list{grid-template-columns:1fr}.solstice-pokedex-detail-card.moves{grid-column:auto}}

@@ -142,10 +142,24 @@
     return { hp: "PV", attack: "Attaque", specialAttack: "Attaque spéciale", defense: "Défense", specialDefense: "Défense spéciale", speed: "Vitesse" }[key];
   }
 
-  function linkedDetail(title, ids, map) {
+  function linkedDetail(title, ids, map, kind) {
     const section = el("section", "solstice-pokedex-detail-section"); section.appendChild(el("h3", "", title));
     const list = el("div", "solstice-pokedex-detail-list");
-    ids.forEach((id) => { const entry = map.get(id); if (!entry) return; const details = el("details"); const summary = el("summary"); summary.append(el("strong", "", entry.name.fr), el("small", "", entry.name.en)); details.appendChild(summary); const description = entry.description?.fr || entry.effect?.fr; if (description) details.appendChild(el("p", "", description)); list.appendChild(details); });
+    const icons = { skills: "ph-fill ph-sparkle", passives: "ph-fill ph-shield-check", moves: "ph-fill ph-lightning" };
+    ids.forEach((id) => {
+      const entry = map.get(id); if (!entry) return;
+      const card = el("article", `solstice-pokedex-detail-card ${kind}`);
+      const header = el("header"); header.appendChild(el("i", icons[kind]));
+      const names = el("div"); names.append(el("h4", "", entry.name.fr), el("span", "", entry.name.en)); header.appendChild(names); card.appendChild(header);
+      const description = entry.description?.fr || entry.effect?.fr;
+      card.appendChild(el("p", "", description || "Description à compléter."));
+      if (kind === "moves") {
+        const tags = el("div", "solstice-pokedex-detail-tags");
+        [entry.type.fr, entry.category.fr, entry.damage.formula, entry.frequency.perCombat ? `${entry.frequency.perCombat} / combat` : null].filter(Boolean).forEach((value) => tags.appendChild(el("span", "", value)));
+        card.appendChild(tags);
+      }
+      list.appendChild(card);
+    });
     if (!list.children.length) list.appendChild(el("p", "solstice-pokedex-muted", "Aucune information renseignée.")); section.appendChild(list); return section;
   }
 
@@ -156,7 +170,7 @@
     const facts = el("div", "solstice-pokedex-facts"); [["Rareté", pokemon.rarity], ["Taille", pokemon.size], ["Poids", pokemon.weight], ["Groupe", pokemon.eggGroups.join(", ")]].forEach(([label, value]) => { const item = el("div"); item.append(el("span", "", label), el("strong", "", value || "Non renseigné")); facts.appendChild(item); }); ui.detail.appendChild(facts);
     const stats = el("section", "solstice-pokedex-detail-section"); stats.appendChild(el("h3", "", "Statistiques")); const statGrid = el("div", "solstice-pokedex-stats"); Object.entries(pokemon.stats).forEach(([key, value]) => { if (value === null) return; const item = el("div"); item.append(el("span", "", statName(key)), el("strong", "", value)); statGrid.appendChild(item); }); stats.appendChild(statGrid); ui.detail.appendChild(stats);
     const evolution = el("section", "solstice-pokedex-detail-section"); evolution.appendChild(el("h3", "", "Évolution et reproduction")); const trainerLevel = pokemon.evolution?.trainerLevel; const evolutionText = trainerLevel ? `Niveau de dresseur requis : ${trainerLevel}.` : "Aucun niveau de dresseur particulier n’est requis."; evolution.appendChild(el("p", "", evolutionText)); evolution.appendChild(el("p", "", pokemon.gender.genderless ? "Asexué" : pokemon.gender.femaleRate === null ? "Répartition inconnue" : `${pokemon.gender.femaleRate} % de femelles`)); ui.detail.appendChild(evolution);
-    ui.detail.append(linkedDetail("Compétences", pokemon.skillIds, state.maps.skills), linkedDetail("Talents", pokemon.passiveIds, state.maps.passives), linkedDetail("Capacités", pokemon.moveIds, state.maps.moves));
+    ui.detail.append(linkedDetail("Compétences", pokemon.skillIds, state.maps.skills, "skills"), linkedDetail("Talents", pokemon.passiveIds, state.maps.passives, "passives"), linkedDetail("Capacités", pokemon.moveIds, state.maps.moves, "moves"));
     ui.modal.classList.add("is-open"); ui.modal.setAttribute("aria-hidden", "false"); document.body.classList.add("solstice-pokedex-lock"); ui.close.focus();
   }
 
