@@ -10,6 +10,7 @@ Déposer ce dossier dans un dépôt GitHub public, par exemple sous `data/pokede
 - `skills.json` : compétences avec noms et descriptions bilingues.
 - `passives.json` : passifs avec noms et descriptions bilingues.
 - `pokedex.js` : recherche, filtres, cartes et fiches détaillées de la page Forumactif.
+- `pokedex.css` : mise en forme de la page Pokédex.
 
 `conversion-report.json` sert uniquement à contrôler la conversion et n'a pas besoin d'être chargé par la page.
 
