@@ -1,7 +1,8 @@
 (function () {
   "use strict";
 
-  const DATA_URL = "https://cdn.jsdelivr.net/gh/webcerise/pokemon-solstice-data@main/data/pokedex";
+  const scriptVersion = document.currentScript?.src.match(/pokemon-solstice-data@([^/]+)/)?.[1] || "main";
+  const DATA_URL = `https://cdn.jsdelivr.net/gh/webcerise/pokemon-solstice-data@${scriptVersion}/data/pokedex`;
   const $ = (selector, root) => (root || document).querySelector(selector);
   const $$ = (selector, root) => Array.from((root || document).querySelectorAll(selector));
   const el = (tag, className, text) => {
