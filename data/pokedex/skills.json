@@ -394,16 +394,5 @@
       "en": "can produce electricity",
       "fr": "Peut produire de l'électricité."
     }
-  },
-  {
-    "id": "genetic-relation",
-    "name": {
-      "en": "Genetic Relation",
-      "fr": "Lien génétique"
-    },
-    "description": {
-      "en": "Can instinctively recognize Pokémon with which it shares a close genetic relationship.",
-      "fr": "Peut reconnaître instinctivement les Pokémon avec lesquels il partage un lien génétique étroit."
-    }
   }
 ]

@@ -734,21 +734,21 @@
     },
     "range": {
       "en": "Melee",
-      "fr": "Distance"
+      "fr": "Mélée"
     },
     "frequency": {
       "en": "At-Will",
-      "perCombat": 3
+      "perCombat": 99
     },
     "damage": {
-      "formula": "2d8",
-      "diceCount": 2,
-      "die": "d8"
+      "formula": "1d4",
+      "diceCount": 1,
+      "die": "d4"
     },
     "accuracyModifier": -2,
     "effect": {
       "en": "Bone Rush has -2 during Accuracy Check. Bone Rush is a Scatter attack. Up to 5 attacks.",
-      "fr": "Charge Os subit un malus de -2 au test de Précision. C'est une attaque multiple pouvant effectuer jusqu'à 5 attaques."
+      "fr": "Charge Os subit un malus de -2 au jet de Précision. Charge Os est une attaque multiple. Jusqu'à 5 attaques."
     },
     "grantedSkills": [],
     "contest": {
@@ -790,7 +790,7 @@
     "accuracyModifier": null,
     "effect": {
       "en": "Bonemerang is a Scatter attack. It has two attacks.",
-      "fr": "Osmerang est une attaque multiple qui effectue 2 attaques."
+      "fr": "Osmerang est une attaque multiple. Elle effectue 2 attaques."
     },
     "grantedSkills": [],
     "contest": {
@@ -9583,44 +9583,43 @@
   {
     "id": "solar-beam",
     "pokeapiId": 76,
-    "incomplete": true,
     "name": {
       "en": "Solar Beam",
       "fr": "Lance-Soleil"
     },
     "type": {
-      "en": null,
-      "fr": null
+      "en": "Grass",
+      "fr": "Plante"
     },
     "category": {
-      "en": null,
-      "fr": null
+      "en": "Special",
+      "fr": "Spécial"
     },
     "range": {
-      "en": null,
-      "fr": null
+      "en": "Ranged",
+      "fr": "Distance"
     },
     "frequency": {
-      "en": null,
-      "perCombat": null
+      "en": "1/day",
+      "perCombat": 1
     },
     "damage": {
-      "formula": null,
-      "diceCount": null,
-      "die": null
+      "formula": "5d12",
+      "diceCount": 5,
+      "die": "d12"
     },
     "accuracyModifier": null,
     "effect": {
-      "en": "After Solar Beam is declared, the user's turn ends. On its next turn, the user may move before resolving Solar Beam's damage. In Sunny weather, the attack resolves immediately.",
-      "fr": "Après avoir déclaré Lance-Soleil, le tour de l'utilisateur prend fin. À son prochain tour, il peut se déplacer avant de résoudre les dégâts de Lance-Soleil. Par temps Ensoleillé, l'attaque est résolue immédiatement."
+      "en": "Solar Beam is a two-turn move unless it is Sunny. On the first turn, do nothing. On the second turn or if it is Sunny, roll Solar Beam’s Accuracy Check and damage.",
+      "fr": "Lance-Soleil s'utilise en deux tours, sauf par temps Ensoleillé. Au premier tour, l'utilisateur ne fait rien. Au second tour, ou immédiatement s'il fait Ensoleillé, effectuez le jet de Précision et les dégâts de Lance-Soleil."
     },
     "grantedSkills": [],
     "contest": {
       "stat": {
-        "en": null,
-        "fr": null
+        "en": "Cool",
+        "fr": "Sang-froid"
       },
-      "keyword": null
+      "keyword": "Special Attention"
     }
   }
 ]
