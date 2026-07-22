@@ -152,7 +152,7 @@
     if (description) body.appendChild(el("p", "solstice-pokedex-reference-description", description));
     if (kind === "moves") {
       const tags = el("div", "solstice-pokedex-reference-tags");
-      [entry.type.fr, entry.category.fr, entry.damage.formula, entry.range.fr, entry.frequency.perCombat ? `${entry.frequency.perCombat} / combat` : null].filter(Boolean).forEach((value) => tags.appendChild(el("span", "", value)));
+      [entry.type.fr, entry.category.fr, entry.damage.formula, entry.range.fr, entry.frequency.perCombat ? `${entry.frequency.perCombat} / combat` : null, entry.contest?.stat?.fr, entry.contest?.keyword].filter(Boolean).forEach((value) => tags.appendChild(el("span", "", value)));
       body.appendChild(tags);
     }
     if (entry.incomplete) body.appendChild(el("div", "solstice-pokedex-incomplete", "Certaines informations restent à compléter dans la base de données."));
@@ -194,7 +194,7 @@
       card.appendChild(el("p", "", description || "Description à compléter."));
       if (kind === "moves") {
         const tags = el("div", "solstice-pokedex-detail-tags");
-        [entry.type.fr, entry.category.fr, entry.damage.formula, entry.frequency.perCombat ? `${entry.frequency.perCombat} / combat` : null].filter(Boolean).forEach((value) => tags.appendChild(el("span", "", value)));
+        [entry.type.fr, entry.category.fr, entry.damage.formula, entry.frequency.perCombat ? `${entry.frequency.perCombat} / combat` : null, entry.contest?.stat?.fr, entry.contest?.keyword].filter(Boolean).forEach((value) => tags.appendChild(el("span", "", value)));
         card.appendChild(tags);
       }
       list.appendChild(card);
