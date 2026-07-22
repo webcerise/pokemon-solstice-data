@@ -156,7 +156,7 @@
     "accuracyModifier": -1,
     "effect": {
       "en": "Air Slash has -1 during Accuracy Check. On hit, if you got 14 or higher on Accuracy Check, the target is Stunned.",
-      "fr": "Lame d'Air subit un malus de -1 au jet de Précision. En cas de réussite, si votre jet de Précision est de 14 ou plus, la cible est Étourdie."
+      "fr": "Lame d'Air subit un malus de -1 au jet de Précision. En cas de réussite, si votre jet de Précision est de 14 ou plus, la cible est Confuse."
     },
     "grantedSkills": [],
     "contest": {
@@ -578,7 +578,7 @@
     "accuracyModifier": null,
     "effect": {
       "en": "On hit, if you got 18 or higher on Accuracy Check, the target is Stunned.",
-      "fr": "En cas de réussite, si votre jet de Précision est de 18 ou plus, la cible est Étourdie."
+      "fr": "En cas de réussite, si votre jet de Précision est de 18 ou plus, la cible est Confuse."
     },
     "grantedSkills": [],
     "contest": {
@@ -706,7 +706,7 @@
     "accuracyModifier": null,
     "effect": {
       "en": "On hit, if you got 18 or higher on Accuracy Check, the target is Stunned.",
-      "fr": "En cas de réussite, si votre jet de Précision est de 18 ou plus, la cible est Étourdie."
+      "fr": "En cas de réussite, si votre jet de Précision est de 18 ou plus, la cible est Confuse."
     },
     "grantedSkills": [],
     "contest": {
@@ -1676,7 +1676,7 @@
     "accuracyModifier": null,
     "effect": {
       "en": "On hit, if you got 16 or higher on Accuracy Check, the target is Stunned.",
-      "fr": "En cas de réussite, si votre jet de Précision est de 16 ou plus, la cible est Étourdie."
+      "fr": "En cas de réussite, si votre jet de Précision est de 16 ou plus, la cible est Confuse."
     },
     "grantedSkills": [],
     "contest": {
@@ -2014,7 +2014,7 @@
     "accuracyModifier": -2,
     "effect": {
       "en": "Dragon Rush has -2 during Accuracy Check. On hit, if you got 16 or higher on Accuracy Check, the target is Stunned.",
-      "fr": "Draco-Charge subit un malus de -2 au jet de Précision. En cas de réussite, si votre jet de Précision est de 16 ou plus, la cible est Étourdie."
+      "fr": "Draco-Charge subit un malus de -2 au jet de Précision. En cas de réussite, si votre jet de Précision est de 16 ou plus, la cible est Confuse."
     },
     "grantedSkills": [],
     "contest": {
@@ -2526,7 +2526,7 @@
     "accuracyModifier": null,
     "effect": {
       "en": "Fake Out has Priority. Fake Out can only be used as your first action during an encounter. On hit, the target is Stunned.",
-      "fr": "Bluff possède la Priorité. Bluff ne peut être utilisée que comme première action d'une rencontre. En cas de réussite, la cible est Étourdie."
+      "fr": "Bluff possède la Priorité. Bluff ne peut être utilisée que comme première action d'une rencontre. En cas de réussite, la cible est Confuse."
     },
     "grantedSkills": [],
     "contest": {
@@ -2652,7 +2652,7 @@
     "accuracyModifier": null,
     "effect": {
       "en": "On hit, if you got 18 or higher on Accuracy Check, the target is randomly either Stunned or Burned.",
-      "fr": "En cas de réussite, si votre jet de Précision est de 18 ou plus, la cible est aléatoirement soit Étourdie, soit Brûlée."
+      "fr": "En cas de réussite, si votre jet de Précision est de 18 ou plus, la cible est aléatoirement soit Confuse, soit Brûlée."
     },
     "grantedSkills": [
       "Firestarter"
@@ -3504,7 +3504,7 @@
     "accuracyModifier": null,
     "effect": {
       "en": "On hit, if you got 18 or higher on Accuracy Check, the target is Stunned.",
-      "fr": "En cas de réussite, si votre jet de Précision est de 18 ou plus, la cible est Étourdie."
+      "fr": "En cas de réussite, si votre jet de Précision est de 18 ou plus, la cible est Confuse."
     },
     "grantedSkills": [],
     "contest": {
@@ -3588,7 +3588,7 @@
     "accuracyModifier": null,
     "effect": {
       "en": "On hit, if you got 18 or higher on Accuracy Check, the target is Stunned.",
-      "fr": "En cas de réussite, si votre jet de Précision est de 18 ou plus, la cible est Étourdie."
+      "fr": "En cas de réussite, si votre jet de Précision est de 18 ou plus, la cible est Confuse."
     },
     "grantedSkills": [],
     "contest": {
@@ -3928,7 +3928,7 @@
     "accuracyModifier": null,
     "effect": {
       "en": "On hit, if you got 18 or higher on Accuracy Check, the target is Stunned.",
-      "fr": "En cas de réussite, si votre jet de Précision est de 18 ou plus, la cible est Étourdie."
+      "fr": "En cas de réussite, si votre jet de Précision est de 18 ou plus, la cible est Confuse."
     },
     "grantedSkills": [],
     "contest": {
@@ -4098,7 +4098,7 @@
     "accuracyModifier": null,
     "effect": {
       "en": "On hit, if you got 18 or higher on Accuracy Check, the target is randomly either Stunned or Frozen.",
-      "fr": "En cas de réussite, si votre jet de Précision est de 18 ou plus, la cible est aléatoirement soit Étourdie, soit Gelée."
+      "fr": "En cas de réussite, si votre jet de Précision est de 18 ou plus, la cible est aléatoirement soit Confuse, soit Gelée."
     },
     "grantedSkills": [
       "Freezer"
@@ -7527,7 +7527,7 @@
     "accuracyModifier": null,
     "effect": {
       "en": "Snore can only be used while you’re Asleep. You may move at half of your normal Speed if you use Snore during your action. On hit, if you got 16 or higher on Accuracy Check, the target is Stunned.",
-      "fr": "Ronflement ne peut être utilisé que lorsque vous êtes Endormi. Si vous utilisez Ronflement pendant votre action, vous pouvez vous déplacer jusqu'à la moitié de votre vitesse de déplacement. En cas de réussite, si votre jet de Précision est de 16 ou plus, la cible est Étourdie."
+      "fr": "Ronflement ne peut être utilisé que lorsque vous êtes Endormi. Si vous utilisez Ronflement pendant votre action, vous pouvez vous déplacer jusqu'à la moitié de votre vitesse de déplacement. En cas de réussite, si votre jet de Précision est de 16 ou plus, la cible est Confuse."
     },
     "grantedSkills": [],
     "contest": {
@@ -7907,7 +7907,7 @@
     "accuracyModifier": null,
     "effect": {
       "en": "On hit, if you got 18 or higher on Accuracy Check, the target is Stunned.",
-      "fr": "En cas de réussite, si votre jet de Précision est de 18 ou plus, la cible est Étourdie."
+      "fr": "En cas de réussite, si votre jet de Précision est de 18 ou plus, la cible est Confuse."
     },
     "grantedSkills": [],
     "contest": {
@@ -8929,7 +8929,7 @@
     "accuracyModifier": null,
     "effect": {
       "en": "On hit, if you got 18 or higher on Accuracy Check, the target is Stunned.",
-      "fr": "En cas de réussite, si votre jet de Précision est de 18 ou plus, la cible est Étourdie."
+      "fr": "En cas de réussite, si votre jet de Précision est de 18 ou plus, la cible est Confuse."
     },
     "grantedSkills": [],
     "contest": {
@@ -9273,7 +9273,7 @@
     "accuracyModifier": null,
     "effect": {
       "en": "On hit, if you got 16 or higher on Accuracy Check, the target is Stunned.",
-      "fr": "En cas de réussite, si votre jet de Précision est de 16 ou plus, la cible est Étourdie."
+      "fr": "En cas de réussite, si votre jet de Précision est de 16 ou plus, la cible est Confuse."
     },
     "grantedSkills": [
       "Fountain"
@@ -9569,7 +9569,7 @@
     "accuracyModifier": null,
     "effect": {
       "en": "On hit, if you got 18 or higher on Accuracy Check, the target is Stunned.",
-      "fr": "En cas de réussite, si votre jet de Précision est de 18 ou plus, la cible est Étourdie."
+      "fr": "En cas de réussite, si votre jet de Précision est de 18 ou plus, la cible est Confuse."
     },
     "grantedSkills": [],
     "contest": {

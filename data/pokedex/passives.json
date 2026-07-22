@@ -428,7 +428,7 @@
     },
     "description": {
       "en": "You are immune to being Stunned.",
-      "fr": "Vous êtes immunisé contre l'état Étourdi."
+      "fr": "Vous êtes immunisé contre l'état Confus."
     }
   },
   {
@@ -920,7 +920,7 @@
     },
     "description": {
       "en": "When you are Stunned, your Speed is +1 for 10 mins.",
-      "fr": "Lorsque vous êtes Étourdi, votre Vitesse augmente de +1 pendant 10 minutes."
+      "fr": "Lorsque vous êtes Confus, votre Vitesse augmente de +1 pendant 10 minutes."
     }
   },
   {
@@ -932,7 +932,7 @@
     },
     "description": {
       "en": "Whenever you are hit with a melee attack, roll 1d4. On 4, Stun the attacker",
-      "fr": "Chaque fois que vous êtes touché par une attaque de mêlée, lancez 1d4. Sur un 4, étourdissez l'attaquant."
+      "fr": "Chaque fois que vous êtes touché par une attaque de mêlée, lancez 1d4. Sur un 4, rendez l'attaquant Confus."
     }
   },
   {
