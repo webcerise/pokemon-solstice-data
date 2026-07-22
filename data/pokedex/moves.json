@@ -619,8 +619,8 @@
     },
     "accuracyModifier": -2,
     "effect": {
-      "en": "Blizzard has -2 during Accuracy Check unless it’s Hailing. On hit, if you got 18 or higher on Accuracy Check, the targets are Frozen.",
-      "fr": "Blizzard subit un malus de -2 au jet de Précision, sauf s'il grêle. En cas de réussite, si votre jet de Précision est de 18 ou plus, les cibles sont Gelées."
+      "en": "Blizzard has -2 during Accuracy Check. It cannot miss while it is Snowing or Hailing. On hit, if you got 18 or higher on Accuracy Check, the targets are Frozen.",
+      "fr": "Blizzard subit un malus de -2 au jet de Précision. Il ne peut pas échouer s'il neige ou s'il grêle. En cas de réussite, si votre jet de Précision est de 18 ou plus, les cibles sont Gelées."
     },
     "grantedSkills": [
       "Freezer"
@@ -748,7 +748,7 @@
     "accuracyModifier": -2,
     "effect": {
       "en": "Bone Rush has -2 during Accuracy Check. Bone Rush is a Scatter attack. Up to 5 attacks.",
-      "fr": "Charge Os est une attaque multiple. Elle effectue 2 attaques."
+      "fr": "Charge Os subit un malus de -2 au test de Précision. C'est une attaque multiple pouvant effectuer jusqu'à 5 attaques."
     },
     "grantedSkills": [],
     "contest": {
@@ -764,7 +764,7 @@
     "pokeapiId": 155,
     "name": {
       "en": "Bonemerang",
-      "fr": "Charge Os"
+      "fr": "Osmerang"
     },
     "type": {
       "en": "Ground",
@@ -790,7 +790,7 @@
     "accuracyModifier": null,
     "effect": {
       "en": "Bonemerang is a Scatter attack. It has two attacks.",
-      "fr": "Charge Os est une attaque multiple. Elle effectue 2 attaques."
+      "fr": "Osmerang est une attaque multiple qui effectue 2 attaques."
     },
     "grantedSkills": [],
     "contest": {
@@ -8542,8 +8542,8 @@
     },
     "accuracyModifier": -2,
     "effect": {
-      "en": "Thunder has -2 during Accuracy Check unless it’s Raining. On hit, if you got 14 or higher on Accuracy Check, the targets are Paralyzed.",
-      "fr": "Fatal-Foudre subit un malus de -2 au jet de Précision, sauf s'il pleut. En cas de réussite, si votre jet de Précision est de 14 ou plus, les cibles sont Paralysées."
+      "en": "Thunder has -2 during Accuracy Check. It cannot miss while it is Raining. On hit, if you got 14 or higher on Accuracy Check, the targets are Paralyzed.",
+      "fr": "Fatal-Foudre subit un malus de -2 au jet de Précision. Il ne peut pas échouer s'il pleut. En cas de réussite, si votre jet de Précision est de 14 ou plus, les cibles sont Paralysées."
     },
     "grantedSkills": [
       "Zapper"
@@ -9611,8 +9611,8 @@
     },
     "accuracyModifier": null,
     "effect": {
-      "en": null,
-      "fr": null
+      "en": "After Solar Beam is declared, the user's turn ends. On its next turn, the user may move before resolving Solar Beam's damage. In Sunny weather, the attack resolves immediately.",
+      "fr": "Après avoir déclaré Lance-Soleil, le tour de l'utilisateur prend fin. À son prochain tour, il peut se déplacer avant de résoudre les dégâts de Lance-Soleil. Par temps Ensoleillé, l'attaque est résolue immédiatement."
     },
     "grantedSkills": [],
     "contest": {

@@ -199,8 +199,8 @@
       "fr": "Télécharge"
     },
     "description": {
-      "en": "Your Attack is +1 against targets with lower Special Defense than Defense. Your Special Attack is +1 against targets with lower Defense than Special Defense.",
-      "fr": "Votre Attaque est de +1 contre les cibles dont la Défense Spéciale est inférieure à leur Défense. Votre Attaque Spéciale est de +1 contre les cibles dont la Défense est inférieure à leur Défense Spéciale."
+      "en": "Your Attack is +1 if the target's Defense is lower than its Special Defense. Your Special Attack is +1 if the target's Special Defense is lower than its Defense.",
+      "fr": "Votre Attaque augmente de +1 si la Défense de la cible est inférieure à sa Défense Spéciale. Votre Attaque Spéciale augmente de +1 si la Défense Spéciale de la cible est inférieure à sa Défense."
     }
   },
   {
@@ -768,6 +768,18 @@
     }
   },
   {
+    "id": "run-away",
+    "rank": 1,
+    "name": {
+      "en": "Run Away",
+      "fr": "Fuite"
+    },
+    "description": {
+      "en": "Your Speed is +1.",
+      "fr": "Votre Vitesse augmente de +1."
+    }
+  },
+  {
     "id": "sand-force",
     "rank": 1,
     "name": {
@@ -1117,28 +1129,26 @@
   },
   {
     "id": "vital-spirit",
-    "incomplete": true,
-    "rank": null,
+    "rank": 1,
     "name": {
       "en": "Vital Spirit",
       "fr": "Esprit Vital"
     },
     "description": {
-      "en": null,
-      "fr": null
+      "en": "You are immune to being put to Sleep.",
+      "fr": "Vous êtes immunisé contre le Sommeil."
     }
   },
   {
     "id": "water-veil",
-    "incomplete": true,
-    "rank": null,
+    "rank": 1,
     "name": {
       "en": "Water Veil",
       "fr": "Ignifu-Voile"
     },
     "description": {
-      "en": null,
-      "fr": null
+      "en": "You are immune to being Burned.",
+      "fr": "Vous êtes immunisé contre la Brûlure."
     }
   }
 ]
